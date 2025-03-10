@@ -7,10 +7,18 @@
 extern uint64_t rdtsc ();
 
 // TODO: adjust for each kernel
-extern void kernel (unsigned n, float a[n][n], float b[n][n], float c[n][n]);
+extern float kernel (unsigned n, const double a[n][n], const float b[n]);
 
 // TODO: adjust for each kernel
-static void init_array (int n, float a[n][n]) {
+static void init_array (int n, double a[n][n]) {
+   int i, j;
+
+   for (i=0; i<n; i++)
+      for (j=0; j<n; j++)
+         a[i][j] = (double) rand() / RAND_MAX;
+}
+
+static void init_array_float (int n, float a[n][n]) {
    int i, j;
 
    for (i=0; i<n; i++)
@@ -49,27 +57,27 @@ int main (int argc, char *argv[]) {
       unsigned i;
 
       /* allocate arrays. TODO: adjust for each kernel */
-      float (*a)[size] = malloc (size * size * sizeof a[0][0]);
+      double (*a)[size] = malloc (size * size * sizeof a[0][0]);
       float (*b)[size] = malloc (size * size * sizeof b[0][0]);
-      float (*c)[size] = malloc (size * size * sizeof c[0][0]);
+      //float (*c)[size] = malloc (size * size * sizeof c[0][0]);
 
       /* init arrays */
       srand(0);
       init_array (size, a);
-      init_array (size, b);
+      init_array_float (size, b);
 
       /* warmup (repw repetitions in first meta, 1 repet in next metas) */
       if (m == 0) {
          for (i=0; i<repw; i++)
-            kernel (size, a, b, c);
+            kernel (size, a, b);
       } else {
-         kernel (size, a, b, c);
+         kernel (size, a, b);
       }
 
       /* measure repm repetitions */
       const uint64_t t1 = rdtsc();
       for (i=0; i<repm; i++) {
-         kernel (size, a, b, c);
+         kernel (size, a, b);
       }
       const uint64_t t2 = rdtsc();
       tdiff[m] = t2 - t1;
@@ -77,10 +85,10 @@ int main (int argc, char *argv[]) {
       /* free arrays. TODO: adjust for each kernel */
       free (a);
       free (b);
-      free (c);
+      //free (c);
    }
 
-   const uint64_t nb_inner_iters = size * size * size * repm; // TODO adjust for each kernel
+   const uint64_t nb_inner_iters = size * size * repm; // TODO adjust for each kernel
    qsort (tdiff, NB_METAS, sizeof tdiff[0], cmp_uint64);
    printf ("MIN %lu RDTSC-cycles (%.2f per inner-iter)\n",
            tdiff[0], (float) tdiff[0] / nb_inner_iters);

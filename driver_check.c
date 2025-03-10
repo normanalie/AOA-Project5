@@ -5,10 +5,18 @@
 extern uint64_t rdtsc ();
 
 // TODO: adjust for each kernel
-extern void kernel (unsigned n, float a[n][n], float b[n][n], float c[n][n]);
+extern float kernel(unsigned n, const double a[n][n], const float b[n][n]);
 
 // TODO: adjust for each kernel
-static void init_array (int n, float a[n][n]) {
+static void init_array (int n, double a[n][n]) {
+   int i, j;
+
+   for (i=0; i<n; i++)
+      for (j=0; j<n; j++)
+         a[i][j] = (double) rand() / RAND_MAX;
+}
+
+static void init_array_float (int n, float a[n][n]) {
    int i, j;
 
    for (i=0; i<n; i++)
@@ -17,7 +25,7 @@ static void init_array (int n, float a[n][n]) {
 }
 
 // TODO: adjust for each kernel
-static void print_array (int n, float a[n][n], const char *output_file_name) {
+static void print_array (int n, double a[n][n], const char *output_file_name) {
    int i, j;
 
    FILE *fp = fopen (output_file_name, "w");
@@ -45,23 +53,20 @@ int main (int argc, char *argv[]) {
    const char *output_file_name = argv[2];
 
    /* allocate arrays. TODO: adjust for each kernel */
-   float (*a)[size] = malloc (size * size * sizeof a[0][0]);
+   double (*a)[size] = malloc (size * size * sizeof a[0][0]);
    float (*b)[size] = malloc (size * size * sizeof b[0][0]);
-   float (*c)[size] = malloc (size * size * sizeof c[0][0]);
-
    /* init arrays */
    srand(0);
    init_array (size, a);
-   init_array (size, b);
+   init_array_float (size, b);
 
    /* print output */
-   kernel (size, a, b, c);
-   print_array (size, c, output_file_name);
+   kernel (size, a, b);
+   //print_array (size, c, output_file_name);
 
    /* free arrays. TODO: adjust for each kernel */
    free (a);
    free (b);
-   free (c);
 
    return EXIT_SUCCESS;
 }

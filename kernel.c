@@ -1,3 +1,4 @@
+
 #ifdef OPT1
 
 /* Removing of store to load dependency (array ref replaced by scalar) */
@@ -34,9 +35,10 @@ void kernel (unsigned n, float a[n][n], float b[n][n], float c[n][n]) {
 #else
 
 /* original */
+
 #include <math.h> // sqrt
 
-float baseline (unsigned n, const double a[n][n], const float b[n]) {
+float kernel (unsigned n, const double a[n][n], const float b[n]) {
     unsigned i, j;
     float s = 0.0;
 
