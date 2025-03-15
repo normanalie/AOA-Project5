@@ -1,27 +1,46 @@
-CC=gcc
-CFLAGS=-O2 -g -Wall
-OPTFLAGS=-O3 -g -Wall
-OBJFLAGS=-lm
-OBJS_COMMON=kernel.o rdtsc.o
+# Répertoires de sortie
+BINDIR = bin
+OBJDIR = obj
 
-all:	check calibrate measure
+# Compilateur et options
+CC = gcc
+CFLAGS = -O2 -g -Wall
+OPTFLAGS = -O3 -g -Wall
+LDFLAGS = -lm
 
-check:	$(OBJS_COMMON) driver_check.o
-	$(CC) -o $@ $^ $(OBJFLAGS)
-calibrate: $(OBJS_COMMON) driver_calib.o
-	$(CC) -o $@ $^ $(OBJFLAGS)
-measure: $(OBJS_COMMON) driver.o
-	$(CC) -o $@ $^ $(OBJFLAGS)
+# Fichiers objets communs
+OBJS_COMMON = $(OBJDIR)/kernel.o $(OBJDIR)/rdtsc.o
 
-driver_check.o: driver_check.c
+.PHONY: all clean directories
+
+all: directories $(BINDIR)/check $(BINDIR)/calibrate $(BINDIR)/measure
+
+directories:
+	mkdir -p $(BINDIR) $(OBJDIR)
+
+$(BINDIR)/check: $(OBJS_COMMON) $(OBJDIR)/driver_check.o
+	$(CC) -o $@ $^ $(LDFLAGS)
+
+$(BINDIR)/calibrate: $(OBJS_COMMON) $(OBJDIR)/driver_calib.o
+	$(CC) -o $@ $^ $(LDFLAGS)
+
+$(BINDIR)/measure: $(OBJS_COMMON) $(OBJDIR)/driver.o
+	$(CC) -o $@ $^ $(LDFLAGS)
+
+$(OBJDIR)/driver_check.o: driver_check.c
 	$(CC) $(CFLAGS) -D CHECK -c $< -o $@
-driver_calib.o: driver_calib.c
-	$(CC) $(CFLAGS) -D CALIB -c $< -o $@
-driver.o: driver.c
-	$(CC) $(CFLAGS) -c $<
 
-kernel.o: kernel.c
-	$(CC) $(OPTFLAGS) -D $(OPT) -c $< -o $@ $(OBJFLAGS)
+$(OBJDIR)/driver_calib.o: driver_calib.c
+	$(CC) $(CFLAGS) -D CALIB -c $< -o $@
+
+$(OBJDIR)/driver.o: driver.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+$(OBJDIR)/kernel.o: kernel.c
+	$(CC) $(OPTFLAGS) -D $(OPT) -c $< -o $@
+
+$(OBJDIR)/rdtsc.o: rdtsc.c
+	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -rf $(OBJS_COMMON) driver_check.o driver_calib.o driver.o check calibrate measure
+	rm -rf $(OBJDIR) $(BINDIR)
