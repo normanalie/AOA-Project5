@@ -63,7 +63,18 @@ int main (int argc, char *argv[]) {
 
    /* allocate arrays. TODO: adjust for each kernel */
    double (*a)[size] = malloc (size * size * sizeof a[0][0]);
+   if (a == NULL) {
+      fprintf(stderr, "Error: Unable to allocate memory for array a\n");
+      return 1;
+   }
+
    float (*b) = malloc (size * sizeof(float));
+   if (b == NULL) {
+      fprintf(stderr, "Error: Unable to allocate memory for array b\n");
+      free(a);
+      return 1;
+      }
+
    /* init arrays */
    srand(0);
    init_array (size, a);
