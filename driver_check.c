@@ -5,7 +5,7 @@
 extern uint64_t rdtsc ();
 
 // TODO: adjust for each kernel
-extern float kernel(unsigned n, const double a[n][n], const float b[n][n]);
+extern float kernel(unsigned n, const double a[n][n], const float b[n]);
 
 // TODO: adjust for each kernel
 static void init_array (int n, double a[n][n]) {
@@ -16,12 +16,10 @@ static void init_array (int n, double a[n][n]) {
          a[i][j] = (double) rand() / RAND_MAX;
 }
 
-static void init_array_float (int n, float a[n][n]) {
-   int i, j;
-
-   for (i=0; i<n; i++)
-      for (j=0; j<n; j++)
-         a[i][j] = (float) rand() / RAND_MAX;
+static void init_array_float (int n, float *a) {  // Modified for unidimensionnal array
+   int i;
+   for (i = 0; i < n; i++)
+       a[i] = (float) rand() / RAND_MAX;
 }
 
 // TODO: adjust for each kernel
@@ -41,6 +39,17 @@ static void print_array (int n, double a[n][n], const char *output_file_name) {
    fclose (fp);
 }
 
+
+static void print_float(float result, const char *output_file_name) {
+   FILE *fp = fopen(output_file_name, "w");
+   if (fp == NULL) {
+       fprintf(stderr, "Erreur : impossible d'ouvrir %s pour écriture\n", output_file_name);
+       return;
+   }
+   fprintf(fp, "%f\n", result);
+   fclose(fp);
+}
+
 int main (int argc, char *argv[]) {
    /* check command line arguments */
    if (argc != 3) {
@@ -54,15 +63,15 @@ int main (int argc, char *argv[]) {
 
    /* allocate arrays. TODO: adjust for each kernel */
    double (*a)[size] = malloc (size * size * sizeof a[0][0]);
-   float (*b)[size] = malloc (size * size * sizeof b[0][0]);
+   float (*b) = malloc (size * sizeof(float));
    /* init arrays */
    srand(0);
    init_array (size, a);
    init_array_float (size, b);
 
    /* print output */
-   kernel (size, a, b);
-   //print_array (size, c, output_file_name);
+   float result = kernel (size, a, b);
+   print_float(result, output_file_name);
 
    /* free arrays. TODO: adjust for each kernel */
    free (a);

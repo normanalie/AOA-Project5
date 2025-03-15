@@ -18,14 +18,11 @@ static void init_array (int n, double a[n][n]) {
          a[i][j] = (double) rand() / RAND_MAX;
 }
 
-static void init_array_float (int n, float a[n][n]) {
-   int i, j;
-
-   for (i=0; i<n; i++)
-      for (j=0; j<n; j++)
-         a[i][j] = (float) rand() / RAND_MAX;
+static void init_array_float (int n, float *a) {
+   int i;
+   for (i = 0; i < n; i++)
+       a[i] = (float) rand() / RAND_MAX;
 }
-
 static int cmp_uint64 (const void *a, const void *b) {
    const uint64_t va = *((uint64_t *) a);
    const uint64_t vb = *((uint64_t *) b);
@@ -58,7 +55,7 @@ int main (int argc, char *argv[]) {
 
       /* allocate arrays. TODO: adjust for each kernel */
       double (*a)[size] = malloc (size * size * sizeof a[0][0]);
-      float (*b)[size] = malloc (size * size * sizeof b[0][0]);
+      float (*b) = malloc (size * sizeof(float));
       //float (*c)[size] = malloc (size * size * sizeof c[0][0]);
 
       /* init arrays */
