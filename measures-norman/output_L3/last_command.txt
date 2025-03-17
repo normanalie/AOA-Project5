@@ -1,0 +1,1 @@
+./../maqao oneview -R1 -xp=output_L3 -- ./../bin/measure 512 100 30 

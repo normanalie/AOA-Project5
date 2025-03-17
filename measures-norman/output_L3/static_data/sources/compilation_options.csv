@@ -1,0 +1,6 @@
+module;src_file;score;issue;opts;
+measure;driver.c;0.375;"-O3 or -Ofast is missing. ";"GNU C17 13.3.0 -mtune=generic -march=x86-64 -g -O2 -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection ";
+measure;driver.c;;"-march=x86-64 is used but it should be replaced by a more architecture specific option or -march=native.";"";
+measure;driver.c;;"-funroll-loops is missing. ";"";
+measure;kernel.c;0.5;"-march=x86-64 is used but it should be replaced by a more architecture specific option or -march=native.";"GNU C17 13.3.0 -mtune=generic -march=x86-64 -g -O3 -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection ";
+measure;kernel.c;;"-funroll-loops is missing. ";"";

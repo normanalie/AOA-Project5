@@ -1,0 +1,190 @@
+Mesure pour taille = 64
+Metarepetition 1/31: running 5 warmup instances and 5 measure instances
+Metarepetition 2/31: running 1 warmup instances and 5 measure instances
+Metarepetition 3/31: running 1 warmup instances and 5 measure instances
+Metarepetition 4/31: running 1 warmup instances and 5 measure instances
+Metarepetition 5/31: running 1 warmup instances and 5 measure instances
+Metarepetition 6/31: running 1 warmup instances and 5 measure instances
+Metarepetition 7/31: running 1 warmup instances and 5 measure instances
+Metarepetition 8/31: running 1 warmup instances and 5 measure instances
+Metarepetition 9/31: running 1 warmup instances and 5 measure instances
+Metarepetition 10/31: running 1 warmup instances and 5 measure instances
+Metarepetition 11/31: running 1 warmup instances and 5 measure instances
+Metarepetition 12/31: running 1 warmup instances and 5 measure instances
+Metarepetition 13/31: running 1 warmup instances and 5 measure instances
+Metarepetition 14/31: running 1 warmup instances and 5 measure instances
+Metarepetition 15/31: running 1 warmup instances and 5 measure instances
+Metarepetition 16/31: running 1 warmup instances and 5 measure instances
+Metarepetition 17/31: running 1 warmup instances and 5 measure instances
+Metarepetition 18/31: running 1 warmup instances and 5 measure instances
+Metarepetition 19/31: running 1 warmup instances and 5 measure instances
+Metarepetition 20/31: running 1 warmup instances and 5 measure instances
+Metarepetition 21/31: running 1 warmup instances and 5 measure instances
+Metarepetition 22/31: running 1 warmup instances and 5 measure instances
+Metarepetition 23/31: running 1 warmup instances and 5 measure instances
+Metarepetition 24/31: running 1 warmup instances and 5 measure instances
+Metarepetition 25/31: running 1 warmup instances and 5 measure instances
+Metarepetition 26/31: running 1 warmup instances and 5 measure instances
+Metarepetition 27/31: running 1 warmup instances and 5 measure instances
+Metarepetition 28/31: running 1 warmup instances and 5 measure instances
+Metarepetition 29/31: running 1 warmup instances and 5 measure instances
+Metarepetition 30/31: running 1 warmup instances and 5 measure instances
+Metarepetition 31/31: running 1 warmup instances and 5 measure instances
+MIN 585208 RDTSC-cycles (28.57 per inner-iter)
+MED 585284 RDTSC-cycles (28.58 per inner-iter)
+GOOD STABILITY: 0.01 %
+
+==================================================
+
+Mesure pour taille = 128
+Metarepetition 1/31: running 5 warmup instances and 5 measure instances
+Metarepetition 2/31: running 1 warmup instances and 5 measure instances
+Metarepetition 3/31: running 1 warmup instances and 5 measure instances
+Metarepetition 4/31: running 1 warmup instances and 5 measure instances
+Metarepetition 5/31: running 1 warmup instances and 5 measure instances
+Metarepetition 6/31: running 1 warmup instances and 5 measure instances
+Metarepetition 7/31: running 1 warmup instances and 5 measure instances
+Metarepetition 8/31: running 1 warmup instances and 5 measure instances
+Metarepetition 9/31: running 1 warmup instances and 5 measure instances
+Metarepetition 10/31: running 1 warmup instances and 5 measure instances
+Metarepetition 11/31: running 1 warmup instances and 5 measure instances
+Metarepetition 12/31: running 1 warmup instances and 5 measure instances
+Metarepetition 13/31: running 1 warmup instances and 5 measure instances
+Metarepetition 14/31: running 1 warmup instances and 5 measure instances
+Metarepetition 15/31: running 1 warmup instances and 5 measure instances
+Metarepetition 16/31: running 1 warmup instances and 5 measure instances
+Metarepetition 17/31: running 1 warmup instances and 5 measure instances
+Metarepetition 18/31: running 1 warmup instances and 5 measure instances
+Metarepetition 19/31: running 1 warmup instances and 5 measure instances
+Metarepetition 20/31: running 1 warmup instances and 5 measure instances
+Metarepetition 21/31: running 1 warmup instances and 5 measure instances
+Metarepetition 22/31: running 1 warmup instances and 5 measure instances
+Metarepetition 23/31: running 1 warmup instances and 5 measure instances
+Metarepetition 24/31: running 1 warmup instances and 5 measure instances
+Metarepetition 25/31: running 1 warmup instances and 5 measure instances
+Metarepetition 26/31: running 1 warmup instances and 5 measure instances
+Metarepetition 27/31: running 1 warmup instances and 5 measure instances
+Metarepetition 28/31: running 1 warmup instances and 5 measure instances
+Metarepetition 29/31: running 1 warmup instances and 5 measure instances
+Metarepetition 30/31: running 1 warmup instances and 5 measure instances
+Metarepetition 31/31: running 1 warmup instances and 5 measure instances
+MIN 2340884 RDTSC-cycles (28.58 per inner-iter)
+MED 2350812 RDTSC-cycles (28.70 per inner-iter)
+GOOD STABILITY: 0.42 %
+
+==================================================
+
+Mesure pour taille = 256
+Metarepetition 1/31: running 5 warmup instances and 5 measure instances
+Metarepetition 2/31: running 1 warmup instances and 5 measure instances
+Metarepetition 3/31: running 1 warmup instances and 5 measure instances
+Metarepetition 4/31: running 1 warmup instances and 5 measure instances
+Metarepetition 5/31: running 1 warmup instances and 5 measure instances
+Metarepetition 6/31: running 1 warmup instances and 5 measure instances
+Metarepetition 7/31: running 1 warmup instances and 5 measure instances
+Metarepetition 8/31: running 1 warmup instances and 5 measure instances
+Metarepetition 9/31: running 1 warmup instances and 5 measure instances
+Metarepetition 10/31: running 1 warmup instances and 5 measure instances
+Metarepetition 11/31: running 1 warmup instances and 5 measure instances
+Metarepetition 12/31: running 1 warmup instances and 5 measure instances
+Metarepetition 13/31: running 1 warmup instances and 5 measure instances
+Metarepetition 14/31: running 1 warmup instances and 5 measure instances
+Metarepetition 15/31: running 1 warmup instances and 5 measure instances
+Metarepetition 16/31: running 1 warmup instances and 5 measure instances
+Metarepetition 17/31: running 1 warmup instances and 5 measure instances
+Metarepetition 18/31: running 1 warmup instances and 5 measure instances
+Metarepetition 19/31: running 1 warmup instances and 5 measure instances
+Metarepetition 20/31: running 1 warmup instances and 5 measure instances
+Metarepetition 21/31: running 1 warmup instances and 5 measure instances
+Metarepetition 22/31: running 1 warmup instances and 5 measure instances
+Metarepetition 23/31: running 1 warmup instances and 5 measure instances
+Metarepetition 24/31: running 1 warmup instances and 5 measure instances
+Metarepetition 25/31: running 1 warmup instances and 5 measure instances
+Metarepetition 26/31: running 1 warmup instances and 5 measure instances
+Metarepetition 27/31: running 1 warmup instances and 5 measure instances
+Metarepetition 28/31: running 1 warmup instances and 5 measure instances
+Metarepetition 29/31: running 1 warmup instances and 5 measure instances
+Metarepetition 30/31: running 1 warmup instances and 5 measure instances
+Metarepetition 31/31: running 1 warmup instances and 5 measure instances
+MIN 9387688 RDTSC-cycles (28.65 per inner-iter)
+MED 9389308 RDTSC-cycles (28.65 per inner-iter)
+GOOD STABILITY: 0.02 %
+
+==================================================
+
+Mesure pour taille = 512
+Metarepetition 1/31: running 5 warmup instances and 5 measure instances
+Metarepetition 2/31: running 1 warmup instances and 5 measure instances
+Metarepetition 3/31: running 1 warmup instances and 5 measure instances
+Metarepetition 4/31: running 1 warmup instances and 5 measure instances
+Metarepetition 5/31: running 1 warmup instances and 5 measure instances
+Metarepetition 6/31: running 1 warmup instances and 5 measure instances
+Metarepetition 7/31: running 1 warmup instances and 5 measure instances
+Metarepetition 8/31: running 1 warmup instances and 5 measure instances
+Metarepetition 9/31: running 1 warmup instances and 5 measure instances
+Metarepetition 10/31: running 1 warmup instances and 5 measure instances
+Metarepetition 11/31: running 1 warmup instances and 5 measure instances
+Metarepetition 12/31: running 1 warmup instances and 5 measure instances
+Metarepetition 13/31: running 1 warmup instances and 5 measure instances
+Metarepetition 14/31: running 1 warmup instances and 5 measure instances
+Metarepetition 15/31: running 1 warmup instances and 5 measure instances
+Metarepetition 16/31: running 1 warmup instances and 5 measure instances
+Metarepetition 17/31: running 1 warmup instances and 5 measure instances
+Metarepetition 18/31: running 1 warmup instances and 5 measure instances
+Metarepetition 19/31: running 1 warmup instances and 5 measure instances
+Metarepetition 20/31: running 1 warmup instances and 5 measure instances
+Metarepetition 21/31: running 1 warmup instances and 5 measure instances
+Metarepetition 22/31: running 1 warmup instances and 5 measure instances
+Metarepetition 23/31: running 1 warmup instances and 5 measure instances
+Metarepetition 24/31: running 1 warmup instances and 5 measure instances
+Metarepetition 25/31: running 1 warmup instances and 5 measure instances
+Metarepetition 26/31: running 1 warmup instances and 5 measure instances
+Metarepetition 27/31: running 1 warmup instances and 5 measure instances
+Metarepetition 28/31: running 1 warmup instances and 5 measure instances
+Metarepetition 29/31: running 1 warmup instances and 5 measure instances
+Metarepetition 30/31: running 1 warmup instances and 5 measure instances
+Metarepetition 31/31: running 1 warmup instances and 5 measure instances
+MIN 37899068 RDTSC-cycles (28.91 per inner-iter)
+MED 38050300 RDTSC-cycles (29.03 per inner-iter)
+GOOD STABILITY: 0.40 %
+
+==================================================
+
+Mesure pour taille = 1024
+Metarepetition 1/31: running 5 warmup instances and 5 measure instances
+Metarepetition 2/31: running 1 warmup instances and 5 measure instances
+Metarepetition 3/31: running 1 warmup instances and 5 measure instances
+Metarepetition 4/31: running 1 warmup instances and 5 measure instances
+Metarepetition 5/31: running 1 warmup instances and 5 measure instances
+Metarepetition 6/31: running 1 warmup instances and 5 measure instances
+Metarepetition 7/31: running 1 warmup instances and 5 measure instances
+Metarepetition 8/31: running 1 warmup instances and 5 measure instances
+Metarepetition 9/31: running 1 warmup instances and 5 measure instances
+Metarepetition 10/31: running 1 warmup instances and 5 measure instances
+Metarepetition 11/31: running 1 warmup instances and 5 measure instances
+Metarepetition 12/31: running 1 warmup instances and 5 measure instances
+Metarepetition 13/31: running 1 warmup instances and 5 measure instances
+Metarepetition 14/31: running 1 warmup instances and 5 measure instances
+Metarepetition 15/31: running 1 warmup instances and 5 measure instances
+Metarepetition 16/31: running 1 warmup instances and 5 measure instances
+Metarepetition 17/31: running 1 warmup instances and 5 measure instances
+Metarepetition 18/31: running 1 warmup instances and 5 measure instances
+Metarepetition 19/31: running 1 warmup instances and 5 measure instances
+Metarepetition 20/31: running 1 warmup instances and 5 measure instances
+Metarepetition 21/31: running 1 warmup instances and 5 measure instances
+Metarepetition 22/31: running 1 warmup instances and 5 measure instances
+Metarepetition 23/31: running 1 warmup instances and 5 measure instances
+Metarepetition 24/31: running 1 warmup instances and 5 measure instances
+Metarepetition 25/31: running 1 warmup instances and 5 measure instances
+Metarepetition 26/31: running 1 warmup instances and 5 measure instances
+Metarepetition 27/31: running 1 warmup instances and 5 measure instances
+Metarepetition 28/31: running 1 warmup instances and 5 measure instances
+Metarepetition 29/31: running 1 warmup instances and 5 measure instances
+Metarepetition 30/31: running 1 warmup instances and 5 measure instances
+Metarepetition 31/31: running 1 warmup instances and 5 measure instances
+MIN 185665800 RDTSC-cycles (35.41 per inner-iter)
+MED 186896968 RDTSC-cycles (35.65 per inner-iter)
+GOOD STABILITY: 0.66 %
+
+==================================================
+
