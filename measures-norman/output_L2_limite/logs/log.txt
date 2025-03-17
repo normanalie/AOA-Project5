@@ -1,6 +1,0 @@
-********************************************************************************
-MAQAO 2.21.1 - a9bb74606c7e260f7f87782e64f16b00a6f20c1b::20250121-112452 || 2025/01/21
-./../maqao oneview -R1 -xp=output_L2_limite -- ./../bin/measure 256 100 30 
-CPY:  [true] ./../bin/measure --> /home/linuxbox/AOA-Project5/measures-norman/output_L2_limite/binaries/measure
-CMD:   /home/linuxbox/AOA-Project5/measures-norman/./../maqao lprof _caller=oneview  --xp="/home/linuxbox/AOA-Project5/measures-norman/output_L2_limite/tools/lprof_npsu_run_0" --mpi-command="" --collect-CPU-time-intervals --collect-topology   -- /home/linuxbox/AOA-Project5/measures-norman/output_L2_limite/binaries/measure  256 100 30
-CMD:  /home/linuxbox/AOA-Project5/measures-norman/./../maqao otter  -input=/home/linuxbox/AOA-Project5/measures-norman/output_L2_limite/OTTER/input_manifest.csv -output=/home/linuxbox/AOA-Project5/measures-norman/output_L2_limite/OTTER/output_manifest.csv

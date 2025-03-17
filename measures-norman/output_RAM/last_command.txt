@@ -1,1 +1,0 @@
-./../maqao oneview -R1 -xp=output_RAM -- ./../bin/measure 1024 100 30 
