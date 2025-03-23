@@ -1,0 +1,8 @@
+/home/mathieu/Downloads/AOA-Project5/mathieu/../kernel.c: 51 - 55
+--------------------------------------------------------------------------------
+
+51:     for (j=0; j<n; j++)
+52:         for (i=0; i<n; i++)
+53:             s += a[i][j] / sqrt(b[i]);
+54: 
+55:     return s;

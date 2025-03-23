@@ -1,0 +1,19 @@
+
+sizeof(double) = 8 octets
+Pour une matrice:
+Taille (en Ko)=(n²×sizeof(type))/1024
+
+
+Caches (sum of all): 
+  L1d:                    192 KiB (4 instances)
+  L1i:                    128 KiB (4 instances)
+  L2:                     5 MiB (4 instances)
+  L3:                     8 MiB (1 instance)
+
+
+n = 136 => 145ko
+n = 1536 => 18Mo
+
+On va de l'intérieur de L1 jusqu'au delà de L3 (dans la RAM). Le prof a indiqué de ne pas aller trop loin dans la RAM (runs trop longues). Donc je vais jusqu'au double de L3 (18Mo).
+
+donc pour 100 mesures => incrément d'environ 14 (n allant de 136 jusqu'à 1536).

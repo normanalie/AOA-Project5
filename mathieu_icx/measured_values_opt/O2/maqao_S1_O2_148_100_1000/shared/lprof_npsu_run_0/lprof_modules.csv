@@ -1,0 +1,4 @@
+name;time_p;time_s;cpi_ratio;
+/home/mathieu/Downloads/AOA-Project5/mathieu/measured_values_opt/O2/maqao_2025-03-23_10-58-31/binaries/measure;99.892509460449;13.884329795837;;
+/usr/lib/x86_64-linux-gnu/libc.so.6;0.07165889441967;0.0099600628018379;;
+kernel;0.035829447209835;0.004980031400919;;
