@@ -1,0 +1,4 @@
+loop_id;module;function_name;function_id;source_info;level;inc_time_p;inc_time_s;inc_time_s_min;inc_time_s_avg;inc_time_s_max;inc_cov_deviation;inc_time_deviation;exc_time_p;exc_time_s;exc_time_s_min;exc_time_s_avg;exc_time_s_max;exc_cov_deviation;exc_time_deviation;nb_threads;flops;
+2;measure;kernel;6;kernel.c:52-53;Innermost;97.546905517578;13.471569061279;;;;;;97.546905517578;13.471569061279;;;;;;;;
+1;measure;kernel;6;kernel.c:52-53;Innermost;2.3088023662567;0.31885367631912;;;;;;2.3088023662567;0.31885367631912;;;;;;;;
+0;measure;kernel;6;kernel.c:51-52;Outermost;99.963928222656;13.805368423462;;;;;;0.10822510719299;0.014946267008781;;;;;;;;

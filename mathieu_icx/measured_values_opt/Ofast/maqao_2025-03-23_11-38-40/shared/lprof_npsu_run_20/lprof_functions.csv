@@ -1,0 +1,4 @@
+function_id;module;function_name;source_info;inc_time_p;inc_time_s;inc_time_s_min;inc_time_s_avg;inc_time_s_max;inc_cov_deviation;inc_time_deviation;exc_time_p;exc_time_s;exc_time_s_min;exc_time_s_avg;exc_time_s_max;exc_cov_deviation;exc_time_deviation;nb_threads;cats;label_name;flops;
+6;measure;kernel;kernel.c:51-55;99.927825927734;13.79444694519;13.79444694519;13.79444694519;13.79444694519;0;0;9.1655365395127e-06;1.2652482155318e-06;1.2652482155318e-06;1.2652482155318e-06;1.2652482155318e-06;0;0;1;"100,0,0,0,0,0,0,0,0,0";kernel;;
+8;measure;main;driver.c:16-24,driver.c:35-95,driver.c:103-103,stdlib.h:483-483;0.036088049411774;0.0049817422404885;0.0049817422404885;0.0049817422404885;0.0049817422404885;0;0;0;0;0;0;0;0;0;1;"100,0,0,0,0,0,0,0,0,0";main;;
+-1;kernel;unknown_kernel_region;;0.036088049411774;0.0049817422404885;0.0049817422404885;0.0049817422404885;0.0049817422404885;0;0;0;0;0;0;0;0;0;1;"0,0,0,0,100,0,0,0,0,0";unknown kernel region;;

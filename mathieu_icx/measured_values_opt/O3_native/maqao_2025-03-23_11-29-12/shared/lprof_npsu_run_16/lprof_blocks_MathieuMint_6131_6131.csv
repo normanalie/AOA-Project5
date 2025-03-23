@@ -1,0 +1,4 @@
+block_id;module;source_info;time_p;time_s;time_s_min;time_s_avg;time_s_max;cov_deviation;time_deviation;nb_threads;flops;
+37;measure;kernel.c:52-53;97.581230163574;13.474034309387;;;;;;;;
+39;measure;kernel.c:52-53;2.346569776535;0.3240148127079;;;;;;;;
+33;measure;kernel.c:51-51;0.072202153503895;0.009969687089324;;;;;;;;
