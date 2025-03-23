@@ -1,0 +1,334 @@
+address;source_location;insn;indent
+0x1180;/home/linuxbox/AOA-Project5/driver.c:35;ENDBR64;
+0x1184;/home/linuxbox/AOA-Project5/driver.c:35;PUSH	%R15;
+0x1186;/home/linuxbox/AOA-Project5/driver.c:35;PUSH	%R14;
+0x1188;/home/linuxbox/AOA-Project5/driver.c:35;PUSH	%R13;
+0x118a;/home/linuxbox/AOA-Project5/driver.c:35;PUSH	%R12;
+0x118c;/home/linuxbox/AOA-Project5/driver.c:35;PUSH	%RBP;
+0x118d;/home/linuxbox/AOA-Project5/driver.c:35;MOV	%RSI,%RBP;
+0x1190;/home/linuxbox/AOA-Project5/driver.c:35;PUSH	%RBX;
+0x1191;/home/linuxbox/AOA-Project5/driver.c:35;SUB	$0x178,%RSP;
+0x1198;/home/linuxbox/AOA-Project5/driver.c:35;MOV	%FS:0x28,%RAX;
+0x11a1;/home/linuxbox/AOA-Project5/driver.c:35;MOV	%RAX,0x168(%RSP);
+0x11a9;/home/linuxbox/AOA-Project5/driver.c:35;XOR	%EAX,%EAX;
+0x11ab;/home/linuxbox/AOA-Project5/driver.c:37;CMP	$0x4,%EDI;
+0x11ae;/home/linuxbox/AOA-Project5/driver.c:37;JE	11f9 <main+0x79>;
+0x11b0;/usr/include/x86_64-linux-gnu/bits/stdio2.h:79;MOV	(%RSI),%RCX;
+0x11b3;/usr/include/x86_64-linux-gnu/bits/stdio2.h:79;MOV	0x2e66(%RIP),%RDI;
+0x11ba;/usr/include/x86_64-linux-gnu/bits/stdio2.h:79;LEA	0xe57(%RIP),%RDX;
+0x11c1;/usr/include/x86_64-linux-gnu/bits/stdio2.h:79;MOV	$0x2,%ESI;
+0x11c6;/usr/include/x86_64-linux-gnu/bits/stdio2.h:79;CALL	1150 <.plt.sec@start+0x70>;
+0x11cb;/home/linuxbox/AOA-Project5/driver.c:39;MOV	$0x1,%EAX;
+0x11d0;/home/linuxbox/AOA-Project5/driver.c:103;MOV	0x168(%RSP),%RDX;
+0x11d8;/home/linuxbox/AOA-Project5/driver.c:103;SUB	%FS:0x28,%RDX;
+0x11e1;/home/linuxbox/AOA-Project5/driver.c:103;JNE	16fd <main+0x57d>;
+0x11e7;/home/linuxbox/AOA-Project5/driver.c:103;ADD	$0x178,%RSP;
+0x11ee;/home/linuxbox/AOA-Project5/driver.c:103;POP	%RBX;
+0x11ef;/home/linuxbox/AOA-Project5/driver.c:103;POP	%RBP;
+0x11f0;/home/linuxbox/AOA-Project5/driver.c:103;POP	%R12;
+0x11f2;/home/linuxbox/AOA-Project5/driver.c:103;POP	%R13;
+0x11f4;/home/linuxbox/AOA-Project5/driver.c:103;POP	%R14;
+0x11f6;/home/linuxbox/AOA-Project5/driver.c:103;POP	%R15;
+0x11f8;/home/linuxbox/AOA-Project5/driver.c:103;RET;
+0x11f9;/usr/include/stdlib.h:483;MOV	0x8(%RSI),%RDI;
+0x11fd;/usr/include/stdlib.h:483;MOV	$0xa,%EDX;
+0x1202;/usr/include/stdlib.h:483;XOR	%ESI,%ESI;
+0x1204;/usr/include/stdlib.h:483;MOV	$-0x8,%R14;
+0x120b;/usr/include/stdlib.h:483;CALL	1120 <.plt.sec@start+0x40>;
+0x1210;/usr/include/stdlib.h:483;MOV	0x10(%RBP),%RDI;
+0x1214;/usr/include/stdlib.h:483;MOV	$0xa,%EDX;
+0x1219;/usr/include/stdlib.h:483;XOR	%ESI,%ESI;
+0x121b;/usr/include/stdlib.h:483;MOV	%RAX,%RBX;
+0x121e;/usr/include/stdlib.h:483;MOV	%EAX,0x18(%RSP);
+0x1222;/home/linuxbox/AOA-Project5/driver.c:43;MOV	%EAX,%R12D;
+0x1225;/usr/include/stdlib.h:483;CALL	1120 <.plt.sec@start+0x40>;
+0x122a;/home/linuxbox/AOA-Project5/driver.c:57;MOV	%EBX,%R13D;
+0x122d;/usr/include/stdlib.h:483;MOV	0x18(%RBP),%RDI;
+0x1231;/usr/include/stdlib.h:483;XOR	%ESI,%ESI;
+0x1233;/home/linuxbox/AOA-Project5/driver.c:57;IMUL	%EBX,%R13D;
+0x1237;/usr/include/stdlib.h:483;MOV	$0xa,%EDX;
+0x123c;/home/linuxbox/AOA-Project5/driver.c:44;MOV	%EAX,0x68(%RSP);
+0x1240;/usr/include/stdlib.h:483;CALL	1120 <.plt.sec@start+0x40>;
+0x1245;/usr/include/stdlib.h:483;LEA	-0x1(%RBX),%ESI;
+0x1248;/home/linuxbox/AOA-Project5/driver.c:13;XOR	%R8D,%R8D;
+0x124b;/home/linuxbox/AOA-Project5/driver.c:13;LEA	0x70(%RSP),%RDI;
+0x1250;/usr/include/stdlib.h:483;MOV	%RAX,%RBP;
+0x1253;/home/linuxbox/AOA-Project5/driver.c:45;MOV	%EAX,0xc(%RSP);
+0x1257;/home/linuxbox/AOA-Project5/driver.c:57;MOV	%R13D,%ECX;
+0x125a;/home/linuxbox/AOA-Project5/driver.c:13;MOV	%R8,(%RSP);
+0x125e;/home/linuxbox/AOA-Project5/driver.c:57;LEA	(,%RCX,8),%RAX;
+0x1266;/home/linuxbox/AOA-Project5/driver.c:57;MOV	%EBX,%ECX;
+0x1268;/home/linuxbox/AOA-Project5/driver.c:57;MOV	%RBP,0x60(%RSP);
+0x126d;/home/linuxbox/AOA-Project5/driver.c:57;MOV	%RAX,0x30(%RSP);
+0x1272;/home/linuxbox/AOA-Project5/driver.c:58;LEA	(,%RCX,4),%RAX;
+0x127a;/home/linuxbox/AOA-Project5/driver.c:13;MOVSXD	%EBX,%RCX;
+0x127d;/home/linuxbox/AOA-Project5/driver.c:58;MOV	%RAX,0x38(%RSP);
+0x1282;/home/linuxbox/AOA-Project5/driver.c:58;LEA	(,%RCX,8),%RAX;
+0x128a;/home/linuxbox/AOA-Project5/driver.c:58;LEA	(,%RSI,8),%RCX;
+0x1292;/home/linuxbox/AOA-Project5/driver.c:58;SUB	%RCX,%R14;
+0x1295;/home/linuxbox/AOA-Project5/driver.c:58;MOV	%RAX,0x40(%RSP);
+0x129a;/home/linuxbox/AOA-Project5/driver.c:58;MOV	%R14,0x48(%RSP);
+0x129f;/home/linuxbox/AOA-Project5/driver.c:58;MOV	%R13D,0x6c(%RSP);
+0x12a4;/home/linuxbox/AOA-Project5/driver.c:58;MOV	%RSI,0x58(%RSP);
+0x12a9;/home/linuxbox/AOA-Project5/driver.c:58;MOV	%RCX,0x50(%RSP);
+0x12ae;/home/linuxbox/AOA-Project5/driver.c:58;MOV	%RDI,0x10(%RSP);
+0x12b3;/home/linuxbox/AOA-Project5/driver.c:58;NOPL	(%RAX,%RAX,1);
+0x12b8;/home/linuxbox/AOA-Project5/driver.c:51;CMPQ	$0,(%RSP);(4) 
+0x12bd;/home/linuxbox/AOA-Project5/driver.c:51;JE	1580 <main+0x400>;(4) 
+0x12c3;/home/linuxbox/AOA-Project5/driver.c:51;MOV	(%RSP),%EAX;  (5) 
+0x12c6;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	0xc(%RSP),%R9D;  (5) 
+0x12cb;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	$0x1,%R8D;  (5) 
+0x12d1;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	$0x1f,%ECX;  (5) 
+0x12d6;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;LEA	0xddb(%RIP),%RSI;  (5) 
+0x12dd;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	$0x2,%EDI;  (5) 
+0x12e2;/home/linuxbox/AOA-Project5/driver.c:51;LEA	0x1(%RAX),%EDX;  (5) 
+0x12e5;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;XOR	%EAX,%EAX;  (5) 
+0x12e7;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;CALL	1140 <.plt.sec@start+0x60>;  (5) 
+0x12ec;/home/linuxbox/AOA-Project5/driver.c:57;MOV	0x30(%RSP),%RDI;  (5) 
+0x12f1;/home/linuxbox/AOA-Project5/driver.c:57;CALL	1130 <.plt.sec@start+0x50>;  (5) 
+0x12f6;/home/linuxbox/AOA-Project5/driver.c:58;MOV	0x38(%RSP),%RDI;  (5) 
+0x12fb;/home/linuxbox/AOA-Project5/driver.c:57;MOV	%RAX,%RBX;  (5) 
+0x12fe;/home/linuxbox/AOA-Project5/driver.c:58;CALL	1130 <.plt.sec@start+0x50>;  (5) 
+0x1303;/home/linuxbox/AOA-Project5/driver.c:62;XOR	%EDI,%EDI;  (5) 
+0x1305;/home/linuxbox/AOA-Project5/driver.c:58;MOV	%RAX,%RBP;  (5) 
+0x1308;/home/linuxbox/AOA-Project5/driver.c:62;CALL	1110 <.plt.sec@start+0x30>;  (5) 
+0x130d;/home/linuxbox/AOA-Project5/driver.c:16;MOV	0x18(%RSP),%EAX;  (5) 
+0x1311;/home/linuxbox/AOA-Project5/driver.c:16;TEST	%EAX,%EAX;  (5) 
+0x1313;/home/linuxbox/AOA-Project5/driver.c:16;JLE	13d7 <main+0x257>;  (5) 
+0x1319;/home/linuxbox/AOA-Project5/driver.c:16;MOV	0x50(%RSP),%RAX;  (5) 
+0x131e;/home/linuxbox/AOA-Project5/driver.c:16;XOR	%R15D,%R15D;  (5) 
+0x1321;/home/linuxbox/AOA-Project5/driver.c:16;MOV	%R12D,0x1c(%RSP);  (5) 
+0x1326;/home/linuxbox/AOA-Project5/driver.c:16;MOV	%RBX,0x20(%RSP);  (5) 
+0x132b;/home/linuxbox/AOA-Project5/driver.c:16;MOV	0x48(%RSP),%R14;  (5) 
+0x1330;/home/linuxbox/AOA-Project5/driver.c:16;LEA	0x8(%RBX,%RAX,1),%R13;  (5) 
+0x1335;/home/linuxbox/AOA-Project5/driver.c:16;MOV	%RBP,0x28(%RSP);  (5) 
+0x133a;/home/linuxbox/AOA-Project5/driver.c:16;MOV	%R15D,%EBX;  (5) 
+0x133d;/home/linuxbox/AOA-Project5/driver.c:16;MOV	0x40(%RSP),%R15;  (5) 
+0x1342;/home/linuxbox/AOA-Project5/driver.c:16;MOV	%R13,%RBP;  (5) 
+0x1345;/home/linuxbox/AOA-Project5/driver.c:16;MOV	0x18(%RSP),%R13D;  (5) 
+0x134a;/home/linuxbox/AOA-Project5/driver.c:16;NOPW	(%RAX,%RAX,1);  (5) 
+0x1350;/home/linuxbox/AOA-Project5/driver.c:17;LEA	(%R14,%RBP,1),%R12;    (1) 
+0x1354;/home/linuxbox/AOA-Project5/driver.c:17;NOPL	(%RAX);    (1) 
+0x1358;/home/linuxbox/AOA-Project5/driver.c:18;CALL	1170 <.plt.sec@start+0x90>;      (0) 
+0x135d;/home/linuxbox/AOA-Project5/driver.c:18;PXOR	%XMM0,%XMM0;      (0) 
+0x1361;/home/linuxbox/AOA-Project5/driver.c:17;ADD	$0x8,%R12;      (0) 
+0x1365;/home/linuxbox/AOA-Project5/driver.c:18;CVTSI2SD	%EAX,%XMM0;      (0) 
+0x1369;/home/linuxbox/AOA-Project5/driver.c:18;DIVSD	0xde7(%RIP),%XMM0;      (0) 
+0x1371;/home/linuxbox/AOA-Project5/driver.c:18;MOVSD	%XMM0,-0x8(%R12);      (0) 
+0x1378;/home/linuxbox/AOA-Project5/driver.c:17;CMP	%RBP,%R12;      (0) 
+0x137b;/home/linuxbox/AOA-Project5/driver.c:17;JNE	1358 <main+0x1d8>;      (0) 
+0x137d;/home/linuxbox/AOA-Project5/driver.c:16;ADD	$0x1,%EBX;    (1) 
+0x1380;/home/linuxbox/AOA-Project5/driver.c:16;LEA	(%R12,%R15,1),%RBP;    (1) 
+0x1384;/home/linuxbox/AOA-Project5/driver.c:16;CMP	%EBX,%R13D;    (1) 
+0x1387;/home/linuxbox/AOA-Project5/driver.c:16;JNE	1350 <main+0x1d0>;    (1) 
+0x1389;/home/linuxbox/AOA-Project5/driver.c:16;MOV	0x28(%RSP),%RBP;  (5) 
+0x138e;/home/linuxbox/AOA-Project5/driver.c:16;MOV	0x58(%RSP),%RAX;  (5) 
+0x1393;/home/linuxbox/AOA-Project5/driver.c:16;MOV	0x1c(%RSP),%R12D;  (5) 
+0x1398;/home/linuxbox/AOA-Project5/driver.c:16;MOV	0x20(%RSP),%RBX;  (5) 
+0x139d;/home/linuxbox/AOA-Project5/driver.c:16;MOV	%RBP,%R15;  (5) 
+0x13a0;/home/linuxbox/AOA-Project5/driver.c:16;LEA	0x4(%RBP,%RAX,4),%R14;  (5) 
+0x13a5;/home/linuxbox/AOA-Project5/driver.c:16;NOPL	(%RAX);  (5) 
+0x13a8;/home/linuxbox/AOA-Project5/driver.c:24;CALL	1170 <.plt.sec@start+0x90>;    (2) 
+0x13ad;/home/linuxbox/AOA-Project5/driver.c:24;PXOR	%XMM0,%XMM0;    (2) 
+0x13b1;/home/linuxbox/AOA-Project5/driver.c:23;ADD	$0x4,%R15;    (2) 
+0x13b5;/home/linuxbox/AOA-Project5/driver.c:24;CVTSI2SS	%EAX,%XMM0;    (2) 
+0x13b9;/home/linuxbox/AOA-Project5/driver.c:24;MULSS	0xc43(%RIP),%XMM0;    (2) 
+0x13c1;/home/linuxbox/AOA-Project5/driver.c:24;MOVSS	%XMM0,-0x4(%R15);    (2) 
+0x13c7;/home/linuxbox/AOA-Project5/driver.c:23;CMP	%R14,%R15;    (2) 
+0x13ca;/home/linuxbox/AOA-Project5/driver.c:23;JNE	13a8 <main+0x228>;    (2) 
+0x13cc;/home/linuxbox/AOA-Project5/driver.c:67;CMPQ	$0,(%RSP);  (5) 
+0x13d1;/home/linuxbox/AOA-Project5/driver.c:67;JE	15d4 <main+0x454>;  (5) 
+0x13d7;/home/linuxbox/AOA-Project5/driver.c:71;MOV	%RBP,%RDX;(4) 
+0x13da;/home/linuxbox/AOA-Project5/driver.c:71;MOV	%RBX,%RSI;(4) 
+0x13dd;/home/linuxbox/AOA-Project5/driver.c:71;MOV	%R12D,%EDI;(4) 
+0x13e0;/home/linuxbox/AOA-Project5/driver.c:71;CALL	1800 <kernel>;(4) 
+0x13e5;/home/linuxbox/AOA-Project5/driver.c:75;XOR	%EAX,%EAX;(4) 
+0x13e7;/home/linuxbox/AOA-Project5/driver.c:75;CALL	18d0 <rdtsc>;(4) 
+0x13ec;/home/linuxbox/AOA-Project5/driver.c:76;MOV	0xc(%RSP),%ECX;(4) 
+0x13f0;/home/linuxbox/AOA-Project5/driver.c:75;MOV	%RAX,%R13;(4) 
+0x13f3;/home/linuxbox/AOA-Project5/driver.c:76;TEST	%ECX,%ECX;(4) 
+0x13f5;/home/linuxbox/AOA-Project5/driver.c:76;JE	1417 <main+0x297>;(4) 
+0x13f7;/home/linuxbox/AOA-Project5/driver.c:76;MOV	0xc(%RSP),%R15D;(4) 
+0x13fc;/home/linuxbox/AOA-Project5/driver.c:76;XOR	%R14D,%R14D;(4) 
+0x13ff;/home/linuxbox/AOA-Project5/driver.c:76;NOP;(4) 
+0x1400;/home/linuxbox/AOA-Project5/driver.c:77;MOV	%RBP,%RDX;  (3) 
+0x1403;/home/linuxbox/AOA-Project5/driver.c:77;MOV	%RBX,%RSI;  (3) 
+0x1406;/home/linuxbox/AOA-Project5/driver.c:77;MOV	%R12D,%EDI;  (3) 
+0x1409;/home/linuxbox/AOA-Project5/driver.c:76;ADD	$0x1,%R14D;  (3) 
+0x140d;/home/linuxbox/AOA-Project5/driver.c:77;CALL	1800 <kernel>;  (3) 
+0x1412;/home/linuxbox/AOA-Project5/driver.c:76;CMP	%R14D,%R15D;  (3) 
+0x1415;/home/linuxbox/AOA-Project5/driver.c:76;JNE	1400 <main+0x280>;  (3) 
+0x1417;/home/linuxbox/AOA-Project5/driver.c:79;XOR	%EAX,%EAX;(4) 
+0x1419;/home/linuxbox/AOA-Project5/driver.c:79;CALL	18d0 <rdtsc>;(4) 
+0x141e;/home/linuxbox/AOA-Project5/driver.c:80;MOV	0x10(%RSP),%RSI;(4) 
+0x1423;/home/linuxbox/AOA-Project5/driver.c:80;MOV	(%RSP),%R14;(4) 
+0x1427;/home/linuxbox/AOA-Project5/driver.c:83;MOV	%RBX,%RDI;(4) 
+0x142a;/home/linuxbox/AOA-Project5/driver.c:80;SUB	%R13,%RAX;(4) 
+0x142d;/home/linuxbox/AOA-Project5/driver.c:80;MOV	%RAX,(%RSI,%R14,8);(4) 
+0x1431;/home/linuxbox/AOA-Project5/driver.c:83;CALL	10e0 <.plt.sec@start>;(4) 
+0x1436;/home/linuxbox/AOA-Project5/driver.c:84;MOV	%RBP,%RDI;(4) 
+0x1439;/home/linuxbox/AOA-Project5/driver.c:84;CALL	10e0 <.plt.sec@start>;(4) 
+0x143e;/home/linuxbox/AOA-Project5/driver.c:50;MOV	%R14,%RCX;(4) 
+0x1441;/home/linuxbox/AOA-Project5/driver.c:50;ADD	$0x1,%RCX;(4) 
+0x1445;/home/linuxbox/AOA-Project5/driver.c:50;MOV	%RCX,(%RSP);(4) 
+0x1449;/home/linuxbox/AOA-Project5/driver.c:50;CMP	$0x1f,%RCX;(4) 
+0x144d;/home/linuxbox/AOA-Project5/driver.c:50;JNE	12b8 <main+0x138>;(4) 
+0x1453;/home/linuxbox/AOA-Project5/driver.c:50;MOV	0x6c(%RSP),%R13D;
+0x1458;/home/linuxbox/AOA-Project5/driver.c:50;MOV	0x60(%RSP),%RBP;
+0x145d;/home/linuxbox/AOA-Project5/driver.c:89;MOV	$0x8,%EDX;
+0x1462;/home/linuxbox/AOA-Project5/driver.c:89;LEA	0x477(%RIP),%RCX;
+0x1469;/home/linuxbox/AOA-Project5/driver.c:89;MOV	0x10(%RSP),%RDI;
+0x146e;/home/linuxbox/AOA-Project5/driver.c:89;MOV	$0x1f,%ESI;
+0x1473;/home/linuxbox/AOA-Project5/driver.c:88;MOV	%R13D,%EBX;
+0x1476;/home/linuxbox/AOA-Project5/driver.c:89;CALL	10f0 <.plt.sec@start+0x10>;
+0x147b;/home/linuxbox/AOA-Project5/driver.c:88;IMUL	%EBP,%EBX;
+0x147e;/home/linuxbox/AOA-Project5/driver.c:91;MOV	0x70(%RSP),%RDX;
+0x1483;/home/linuxbox/AOA-Project5/driver.c:91;PXOR	%XMM1,%XMM1;
+0x1487;/home/linuxbox/AOA-Project5/driver.c:91;MOV	%EBX,%EAX;
+0x1489;/home/linuxbox/AOA-Project5/driver.c:91;CVTSI2SS	%RAX,%XMM1;
+0x148e;/home/linuxbox/AOA-Project5/driver.c:91;TEST	%RDX,%RDX;
+0x1491;/home/linuxbox/AOA-Project5/driver.c:91;JS	1641 <main+0x4c1>;
+0x1497;/home/linuxbox/AOA-Project5/driver.c:91;PXOR	%XMM0,%XMM0;
+0x149b;/home/linuxbox/AOA-Project5/driver.c:91;CVTSI2SS	%RDX,%XMM0;
+0x14a0;/home/linuxbox/AOA-Project5/driver.c:91;DIVSS	%XMM1,%XMM0;
+0x14a4;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	$0x2,%EDI;
+0x14a9;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	$0x1,%EAX;
+0x14ae;/home/linuxbox/AOA-Project5/driver.c:91;MOVSS	%XMM1,(%RSP);
+0x14b3;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;LEA	0xb9e(%RIP),%RSI;
+0x14ba;/home/linuxbox/AOA-Project5/driver.c:90;CVTSS2SD	%XMM0,%XMM0;
+0x14be;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;CALL	1140 <.plt.sec@start+0x60>;
+0x14c3;/home/linuxbox/AOA-Project5/driver.c:93;MOVSS	(%RSP),%XMM1;
+0x14c8;/home/linuxbox/AOA-Project5/driver.c:93;MOV	0xe8(%RSP),%RDX;
+0x14d0;/home/linuxbox/AOA-Project5/driver.c:93;TEST	%RDX,%RDX;
+0x14d3;/home/linuxbox/AOA-Project5/driver.c:93;JS	169e <main+0x51e>;
+0x14d9;/home/linuxbox/AOA-Project5/driver.c:93;PXOR	%XMM0,%XMM0;
+0x14dd;/home/linuxbox/AOA-Project5/driver.c:93;CVTSI2SS	%RDX,%XMM0;
+0x14e2;/home/linuxbox/AOA-Project5/driver.c:93;DIVSS	%XMM1,%XMM0;
+0x14e6;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	$0x2,%EDI;
+0x14eb;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	$0x1,%EAX;
+0x14f0;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;LEA	0xb91(%RIP),%RSI;
+0x14f7;/home/linuxbox/AOA-Project5/driver.c:92;CVTSS2SD	%XMM0,%XMM0;
+0x14fb;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;CALL	1140 <.plt.sec@start+0x60>;
+0x1500;/home/linuxbox/AOA-Project5/driver.c:94;MOV	0x70(%RSP),%RAX;
+0x1505;/home/linuxbox/AOA-Project5/driver.c:94;MOV	0xe8(%RSP),%RDX;
+0x150d;/home/linuxbox/AOA-Project5/driver.c:94;SUB	%RAX,%RDX;
+0x1510;/home/linuxbox/AOA-Project5/driver.c:94;JS	1680 <main+0x500>;
+0x1516;/home/linuxbox/AOA-Project5/driver.c:94;PXOR	%XMM0,%XMM0;
+0x151a;/home/linuxbox/AOA-Project5/driver.c:94;CVTSI2SS	%RDX,%XMM0;
+0x151f;/home/linuxbox/AOA-Project5/driver.c:94;MULSS	0xae1(%RIP),%XMM0;
+0x1527;/home/linuxbox/AOA-Project5/driver.c:94;TEST	%RAX,%RAX;
+0x152a;/home/linuxbox/AOA-Project5/driver.c:94;JS	1662 <main+0x4e2>;
+0x1530;/home/linuxbox/AOA-Project5/driver.c:94;PXOR	%XMM1,%XMM1;
+0x1534;/home/linuxbox/AOA-Project5/driver.c:94;CVTSI2SS	%RAX,%XMM1;
+0x1539;/home/linuxbox/AOA-Project5/driver.c:94;DIVSS	%XMM1,%XMM0;
+0x153d;/home/linuxbox/AOA-Project5/driver.c:95;COMISS	0xac8(%RIP),%XMM0;
+0x1544;/home/linuxbox/AOA-Project5/driver.c:95;JAE	16dc <main+0x55c>;
+0x154a;/home/linuxbox/AOA-Project5/driver.c:97;COMISS	0xabf(%RIP),%XMM0;
+0x1551;/home/linuxbox/AOA-Project5/driver.c:96;PXOR	%XMM1,%XMM1;
+0x1555;/home/linuxbox/AOA-Project5/driver.c:96;CVTSS2SD	%XMM0,%XMM1;
+0x1559;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOVAPD	%XMM1,%XMM0;
+0x155d;/home/linuxbox/AOA-Project5/driver.c:97;JB	16bf <main+0x53f>;
+0x1563;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;LEA	0xbb2(%RIP),%RSI;
+0x156a;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	$0x2,%EDI;
+0x156f;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	$0x1,%EAX;
+0x1574;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;CALL	1140 <.plt.sec@start+0x60>;
+0x1579;/home/linuxbox/AOA-Project5/driver.c:102;XOR	%EAX,%EAX;
+0x157b;/home/linuxbox/AOA-Project5/driver.c:102;JMP	11d0 <main+0x50>;
+0x1580;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	0xc(%RSP),%R9D;(4) 
+0x1585;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	0x68(%RSP),%R8D;(4) 
+0x158a;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;XOR	%EAX,%EAX;(4) 
+0x158c;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	$0x1,%EDX;(4) 
+0x1591;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	$0x1f,%ECX;(4) 
+0x1596;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;LEA	0xb1b(%RIP),%RSI;(4) 
+0x159d;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	$0x2,%EDI;(4) 
+0x15a2;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;CALL	1140 <.plt.sec@start+0x60>;(4) 
+0x15a7;/home/linuxbox/AOA-Project5/driver.c:57;MOV	0x30(%RSP),%RDI;(4) 
+0x15ac;/home/linuxbox/AOA-Project5/driver.c:57;CALL	1130 <.plt.sec@start+0x50>;(4) 
+0x15b1;/home/linuxbox/AOA-Project5/driver.c:58;MOV	0x38(%RSP),%RDI;(4) 
+0x15b6;/home/linuxbox/AOA-Project5/driver.c:57;MOV	%RAX,%RBX;(4) 
+0x15b9;/home/linuxbox/AOA-Project5/driver.c:58;CALL	1130 <.plt.sec@start+0x50>;(4) 
+0x15be;/home/linuxbox/AOA-Project5/driver.c:62;XOR	%EDI,%EDI;(4) 
+0x15c0;/home/linuxbox/AOA-Project5/driver.c:58;MOV	%RAX,%RBP;(4) 
+0x15c3;/home/linuxbox/AOA-Project5/driver.c:62;CALL	1110 <.plt.sec@start+0x30>;(4) 
+0x15c8;/home/linuxbox/AOA-Project5/driver.c:16;MOV	0x18(%RSP),%EDX;(4) 
+0x15cc;/home/linuxbox/AOA-Project5/driver.c:16;TEST	%EDX,%EDX;(4) 
+0x15ce;/home/linuxbox/AOA-Project5/driver.c:16;JG	1319 <main+0x199>;(4) 
+0x15d4;/home/linuxbox/AOA-Project5/driver.c:68;MOV	0x68(%RSP),%EDI;  (5) 
+0x15d8;/home/linuxbox/AOA-Project5/driver.c:68;MOV	0x68(%RSP),%R13D;  (5) 
+0x15dd;/home/linuxbox/AOA-Project5/driver.c:68;XOR	%R14D,%R14D;  (5) 
+0x15e0;/home/linuxbox/AOA-Project5/driver.c:68;TEST	%EDI,%EDI;  (5) 
+0x15e2;/home/linuxbox/AOA-Project5/driver.c:68;JE	15ff <main+0x47f>;  (5) 
+0x15e4;/home/linuxbox/AOA-Project5/driver.c:68;NOPL	(%RAX);  (5) 
+0x15e8;/home/linuxbox/AOA-Project5/driver.c:69;MOV	%RBP,%RDX;    (6) 
+0x15eb;/home/linuxbox/AOA-Project5/driver.c:69;MOV	%RBX,%RSI;    (6) 
+0x15ee;/home/linuxbox/AOA-Project5/driver.c:69;MOV	%R12D,%EDI;    (6) 
+0x15f1;/home/linuxbox/AOA-Project5/driver.c:68;ADD	$0x1,%R14D;    (6) 
+0x15f5;/home/linuxbox/AOA-Project5/driver.c:69;CALL	1800 <kernel>;    (6) 
+0x15fa;/home/linuxbox/AOA-Project5/driver.c:68;CMP	%R14D,%R13D;    (6) 
+0x15fd;/home/linuxbox/AOA-Project5/driver.c:68;JNE	15e8 <main+0x468>;    (6) 
+0x15ff;/home/linuxbox/AOA-Project5/driver.c:75;XOR	%EAX,%EAX;  (5) 
+0x1601;/home/linuxbox/AOA-Project5/driver.c:75;CALL	18d0 <rdtsc>;  (5) 
+0x1606;/home/linuxbox/AOA-Project5/driver.c:76;MOV	0xc(%RSP),%ESI;  (5) 
+0x160a;/home/linuxbox/AOA-Project5/driver.c:75;MOV	%RAX,%R13;  (5) 
+0x160d;/home/linuxbox/AOA-Project5/driver.c:76;TEST	%ESI,%ESI;  (5) 
+0x160f;/home/linuxbox/AOA-Project5/driver.c:76;JNE	13f7 <main+0x277>;  (5) 
+0x1615;/home/linuxbox/AOA-Project5/driver.c:79;XOR	%EAX,%EAX;  (5) 
+0x1617;/home/linuxbox/AOA-Project5/driver.c:79;CALL	18d0 <rdtsc>;  (5) 
+0x161c;/home/linuxbox/AOA-Project5/driver.c:83;MOV	%RBX,%RDI;  (5) 
+0x161f;/home/linuxbox/AOA-Project5/driver.c:80;SUB	%R13,%RAX;  (5) 
+0x1622;/home/linuxbox/AOA-Project5/driver.c:80;MOV	%RAX,0x70(%RSP);  (5) 
+0x1627;/home/linuxbox/AOA-Project5/driver.c:83;CALL	10e0 <.plt.sec@start>;  (5) 
+0x162c;/home/linuxbox/AOA-Project5/driver.c:84;MOV	%RBP,%RDI;  (5) 
+0x162f;/home/linuxbox/AOA-Project5/driver.c:84;CALL	10e0 <.plt.sec@start>;  (5) 
+0x1634;/home/linuxbox/AOA-Project5/driver.c:50;MOVQ	$0x1,(%RSP);  (5) 
+0x163c;/home/linuxbox/AOA-Project5/driver.c:50;JMP	12c3 <main+0x143>;  (5) 
+0x1641;/home/linuxbox/AOA-Project5/driver.c:91;MOV	%RDX,%RAX;
+0x1644;/home/linuxbox/AOA-Project5/driver.c:91;MOV	%RDX,%RCX;
+0x1647;/home/linuxbox/AOA-Project5/driver.c:91;PXOR	%XMM0,%XMM0;
+0x164b;/home/linuxbox/AOA-Project5/driver.c:91;SHR	$0x1,%RAX;
+0x164e;/home/linuxbox/AOA-Project5/driver.c:91;AND	$0x1,%ECX;
+0x1651;/home/linuxbox/AOA-Project5/driver.c:91;OR	%RCX,%RAX;
+0x1654;/home/linuxbox/AOA-Project5/driver.c:91;CVTSI2SS	%RAX,%XMM0;
+0x1659;/home/linuxbox/AOA-Project5/driver.c:91;ADDSS	%XMM0,%XMM0;
+0x165d;/home/linuxbox/AOA-Project5/driver.c:91;JMP	14a0 <main+0x320>;
+0x1662;/home/linuxbox/AOA-Project5/driver.c:94;MOV	%RAX,%RDX;
+0x1665;/home/linuxbox/AOA-Project5/driver.c:94;AND	$0x1,%EAX;
+0x1668;/home/linuxbox/AOA-Project5/driver.c:94;PXOR	%XMM1,%XMM1;
+0x166c;/home/linuxbox/AOA-Project5/driver.c:94;SHR	$0x1,%RDX;
+0x166f;/home/linuxbox/AOA-Project5/driver.c:94;OR	%RAX,%RDX;
+0x1672;/home/linuxbox/AOA-Project5/driver.c:94;CVTSI2SS	%RDX,%XMM1;
+0x1677;/home/linuxbox/AOA-Project5/driver.c:94;ADDSS	%XMM1,%XMM1;
+0x167b;/home/linuxbox/AOA-Project5/driver.c:94;JMP	1539 <main+0x3b9>;
+0x1680;/home/linuxbox/AOA-Project5/driver.c:94;MOV	%RDX,%RCX;
+0x1683;/home/linuxbox/AOA-Project5/driver.c:94;AND	$0x1,%EDX;
+0x1686;/home/linuxbox/AOA-Project5/driver.c:94;PXOR	%XMM0,%XMM0;
+0x168a;/home/linuxbox/AOA-Project5/driver.c:94;SHR	$0x1,%RCX;
+0x168d;/home/linuxbox/AOA-Project5/driver.c:94;OR	%RDX,%RCX;
+0x1690;/home/linuxbox/AOA-Project5/driver.c:94;CVTSI2SS	%RCX,%XMM0;
+0x1695;/home/linuxbox/AOA-Project5/driver.c:94;ADDSS	%XMM0,%XMM0;
+0x1699;/home/linuxbox/AOA-Project5/driver.c:94;JMP	151f <main+0x39f>;
+0x169e;/home/linuxbox/AOA-Project5/driver.c:93;MOV	%RDX,%RAX;
+0x16a1;/home/linuxbox/AOA-Project5/driver.c:93;MOV	%RDX,%RCX;
+0x16a4;/home/linuxbox/AOA-Project5/driver.c:93;PXOR	%XMM0,%XMM0;
+0x16a8;/home/linuxbox/AOA-Project5/driver.c:93;SHR	$0x1,%RAX;
+0x16ab;/home/linuxbox/AOA-Project5/driver.c:93;AND	$0x1,%ECX;
+0x16ae;/home/linuxbox/AOA-Project5/driver.c:93;OR	%RCX,%RAX;
+0x16b1;/home/linuxbox/AOA-Project5/driver.c:93;CVTSI2SS	%RAX,%XMM0;
+0x16b6;/home/linuxbox/AOA-Project5/driver.c:93;ADDSS	%XMM0,%XMM0;
+0x16ba;/home/linuxbox/AOA-Project5/driver.c:93;JMP	14e2 <main+0x362>;
+0x16bf;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;LEA	0xa72(%RIP),%RSI;
+0x16c6;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	$0x2,%EDI;
+0x16cb;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	$0x1,%EAX;
+0x16d0;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;CALL	1140 <.plt.sec@start+0x60>;
+0x16d5;/home/linuxbox/AOA-Project5/driver.c:102;XOR	%EAX,%EAX;
+0x16d7;/home/linuxbox/AOA-Project5/driver.c:102;JMP	11d0 <main+0x50>;
+0x16dc;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;LEA	0xa21(%RIP),%RSI;
+0x16e3;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	$0x2,%EDI;
+0x16e8;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;MOV	$0x1,%EAX;
+0x16ed;/home/linuxbox/AOA-Project5/driver.c:96;CVTSS2SD	%XMM0,%XMM0;
+0x16f1;/usr/include/x86_64-linux-gnu/bits/stdio2.h:86;CALL	1140 <.plt.sec@start+0x60>;
+0x16f6;/home/linuxbox/AOA-Project5/driver.c:102;XOR	%EAX,%EAX;
+0x16f8;/home/linuxbox/AOA-Project5/driver.c:102;JMP	11d0 <main+0x50>;
+0x16fd;/home/linuxbox/AOA-Project5/driver.c:103;CALL	1100 <.plt.sec@start+0x20>;
+0x1702;:0;NOPW	%CS:(%RAX,%RAX,1);
+0x170c;:0;NOPL	(%RAX);

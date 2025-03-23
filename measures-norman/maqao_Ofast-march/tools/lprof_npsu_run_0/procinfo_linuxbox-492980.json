@@ -1,0 +1,20 @@
+{
+  "content": {
+    "proc_name"          : "Core_4x_Xeon_E3_v3_other",
+    "hostname"           : "linuxbox",
+    "architecture_code"  : "2",
+    "uarchitecture_code" : "13",
+    "architecture"       : "x86_64",
+    "uarchitecture"      : "HASWELL",
+    "cpui_model_name"    : "Intel(R) Core(TM) i3-4160T CPU @ 3.10GHz",
+    "cpui_cache_size"    : "3072 KB",
+    "cpui_cpu_cores"     : "2",
+    "max_frequency"          : "3100000",
+    "cur_frequency"      : "3093920",
+    "driver_frequency"   : "intel_cpufreq",
+    "scaling_governor"   : "performance",
+    "huge_pages"         : "madvise",
+    "os_version"         : "Linux 6.8.0-51-generic #52-Ubuntu SMP PREEMPT_DYNAMIC Thu Dec  5 13:09:44 UTC 2024",
+    "is_lstopo"          : true,
+  }
+}

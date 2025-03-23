@@ -1,0 +1,13 @@
+/home/linuxbox/AOA-Project5/kernel.c: 47 - 56
+--------------------------------------------------------------------------------
+
+47: float kernel (unsigned n, const double a[n][n], const float b[n]) {
+48:     unsigned i, j;
+49:     float s = 0.0;
+50: 
+51:     for (j=0; j<n; j++)
+52:         for (i=0; i<n; i++)
+53:             s += a[i][j] / sqrt(b[i]);
+54: 
+55:     return s;
+56: }

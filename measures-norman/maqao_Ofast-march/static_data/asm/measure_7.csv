@@ -1,0 +1,12 @@
+address;source_location;insn;indent
+0x17f0;/home/linuxbox/AOA-Project5/kernel.c:53;VCVTSS2SD	(%RAX),%XMM3,%XMM0;
+0x17f4;/home/linuxbox/AOA-Project5/kernel.c:53;VSQRTSD	%XMM0,%XMM0,%XMM0;
+0x17f8;/home/linuxbox/AOA-Project5/kernel.c:53;VMOVSD	(%RCX),%XMM1;
+0x17fc;/home/linuxbox/AOA-Project5/kernel.c:53;VCVTSS2SD	%XMM2,%XMM2,%XMM2;
+0x1800;/home/linuxbox/AOA-Project5/kernel.c:52;ADD	$0x4,%RAX;
+0x1804;/home/linuxbox/AOA-Project5/kernel.c:52;ADD	%RDI,%RCX;
+0x1807;/home/linuxbox/AOA-Project5/kernel.c:53;VDIVSD	%XMM0,%XMM1,%XMM1;
+0x180b;/home/linuxbox/AOA-Project5/kernel.c:53;VADDSD	%XMM2,%XMM1,%XMM2;
+0x180f;/home/linuxbox/AOA-Project5/kernel.c:53;VCVTSD2SS	%XMM2,%XMM2,%XMM2;
+0x1813;/home/linuxbox/AOA-Project5/kernel.c:52;CMP	%RAX,%R8;
+0x1816;/home/linuxbox/AOA-Project5/kernel.c:52;JNE	17f0 <kernel+0x30>;

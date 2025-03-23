@@ -1,0 +1,73 @@
+
+00000000000017c0 <kernel>:
+kernel():
+/home/linuxbox/AOA-Project5/kernel.c:47
+
+/* original */
+
+#include <math.h> // sqrt
+
+float kernel (unsigned n, const double a[n][n], const float b[n]) {
+    17c0:	f3 0f 1e fa          	endbr64
+    17c4:	89 f8                	mov    %edi,%eax
+/home/linuxbox/AOA-Project5/kernel.c:51 (discriminator 1)
+    unsigned i, j;
+    float s = 0.0;
+
+    for (j=0; j<n; j++)
+    17c6:	85 ff                	test   %edi,%edi
+    17c8:	74 5c                	je     1826 <kernel+0x66>
+    17ca:	48 8d 3c c5 00 00 00 	lea    0x0(,%rax,8),%rdi
+    17d1:	00 
+    17d2:	c5 e0 57 db          	vxorps %xmm3,%xmm3,%xmm3
+    17d6:	4c 8d 04 82          	lea    (%rdx,%rax,4),%r8
+    17da:	4c 8d 0c 3e          	lea    (%rsi,%rdi,1),%r9
+/home/linuxbox/AOA-Project5/kernel.c:49
+    float s = 0.0;
+    17de:	c5 e8 57 d2          	vxorps %xmm2,%xmm2,%xmm2
+    17e2:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+/home/linuxbox/AOA-Project5/kernel.c:47
+float kernel (unsigned n, const double a[n][n], const float b[n]) {
+    17e8:	48 89 d0             	mov    %rdx,%rax
+    17eb:	48 89 f1             	mov    %rsi,%rcx
+    17ee:	66 90                	xchg   %ax,%ax
+/home/linuxbox/AOA-Project5/kernel.c:53
+        for (i=0; i<n; i++)
+            s += a[i][j] / sqrt(b[i]);
+    17f0:	c5 e2 5a 00          	vcvtss2sd (%rax),%xmm3,%xmm0
+    17f4:	c5 fb 51 c0          	vsqrtsd %xmm0,%xmm0,%xmm0
+/home/linuxbox/AOA-Project5/kernel.c:53 (discriminator 1)
+    17f8:	c5 fb 10 09          	vmovsd (%rcx),%xmm1
+    17fc:	c5 ea 5a d2          	vcvtss2sd %xmm2,%xmm2,%xmm2
+/home/linuxbox/AOA-Project5/kernel.c:52 (discriminator 1)
+        for (i=0; i<n; i++)
+    1800:	48 83 c0 04          	add    $0x4,%rax
+    1804:	48 01 f9             	add    %rdi,%rcx
+/home/linuxbox/AOA-Project5/kernel.c:53 (discriminator 1)
+            s += a[i][j] / sqrt(b[i]);
+    1807:	c5 f3 5e c8          	vdivsd %xmm0,%xmm1,%xmm1
+    180b:	c5 f3 58 d2          	vaddsd %xmm2,%xmm1,%xmm2
+    180f:	c5 eb 5a d2          	vcvtsd2ss %xmm2,%xmm2,%xmm2
+/home/linuxbox/AOA-Project5/kernel.c:52 (discriminator 1)
+        for (i=0; i<n; i++)
+    1813:	49 39 c0             	cmp    %rax,%r8
+    1816:	75 d8                	jne    17f0 <kernel+0x30>
+/home/linuxbox/AOA-Project5/kernel.c:51 (discriminator 1)
+    for (j=0; j<n; j++)
+    1818:	48 83 c6 08          	add    $0x8,%rsi
+    181c:	49 39 f1             	cmp    %rsi,%r9
+    181f:	75 c7                	jne    17e8 <kernel+0x28>
+/home/linuxbox/AOA-Project5/kernel.c:56
+
+    return s;
+}
+    1821:	c5 f8 28 c2          	vmovaps %xmm2,%xmm0
+    1825:	c3                   	ret
+/home/linuxbox/AOA-Project5/kernel.c:49
+    float s = 0.0;
+    1826:	c5 e8 57 d2          	vxorps %xmm2,%xmm2,%xmm2
+/home/linuxbox/AOA-Project5/kernel.c:56
+}
+    182a:	c5 f8 28 c2          	vmovaps %xmm2,%xmm0
+    182e:	c3                   	ret
+    182f:	90                   	nop

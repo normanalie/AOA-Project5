@@ -1,0 +1,69 @@
+address;source_location;insn;indent
+0x1800;/home/linuxbox/AOA-Project5/kernel.c:47;ENDBR64;
+0x1804;/home/linuxbox/AOA-Project5/kernel.c:51;TEST	%EDI,%EDI;
+0x1806;/home/linuxbox/AOA-Project5/kernel.c:51;JE	1899 <kernel+0x99>;
+0x180c;/home/linuxbox/AOA-Project5/kernel.c:47;PUSH	%R14;
+0x180e;/home/linuxbox/AOA-Project5/kernel.c:47;MOV	%EDI,%EAX;
+0x1810;/home/linuxbox/AOA-Project5/kernel.c:47;VXORPS	%XMM4,%XMM4,%XMM4;
+0x1814;/home/linuxbox/AOA-Project5/kernel.c:49;VXORPS	%XMM2,%XMM2,%XMM2;
+0x1818;/home/linuxbox/AOA-Project5/kernel.c:47;PUSH	%R13;
+0x181a;/home/linuxbox/AOA-Project5/kernel.c:47;VXORPD	%XMM3,%XMM3,%XMM3;
+0x181e;/home/linuxbox/AOA-Project5/kernel.c:47;LEA	(%RDX,%RAX,4),%R13;
+0x1822;/home/linuxbox/AOA-Project5/kernel.c:47;PUSH	%R12;
+0x1824;/home/linuxbox/AOA-Project5/kernel.c:47;LEA	(,%RAX,8),%R12;
+0x182c;/home/linuxbox/AOA-Project5/kernel.c:47;PUSH	%RBP;
+0x182d;/home/linuxbox/AOA-Project5/kernel.c:47;LEA	(%RSI,%R12,1),%R14;
+0x1831;/home/linuxbox/AOA-Project5/kernel.c:47;PUSH	%RBX;
+0x1832;/home/linuxbox/AOA-Project5/kernel.c:47;SUB	$0x20,%RSP;
+0x1836;/home/linuxbox/AOA-Project5/kernel.c:47;NOPW	%CS:(%RAX,%RAX,1);
+0x1840;/home/linuxbox/AOA-Project5/kernel.c:47;MOV	%RDX,%RBX;(8) 
+0x1843;/home/linuxbox/AOA-Project5/kernel.c:47;MOV	%RSI,%RBP;(8) 
+0x1846;/home/linuxbox/AOA-Project5/kernel.c:47;NOPW	%CS:(%RAX,%RAX,1);(8) 
+0x1850;/home/linuxbox/AOA-Project5/kernel.c:53;VCVTSS2SD	(%RBX),%XMM4,%XMM0;  (7) 
+0x1854;/home/linuxbox/AOA-Project5/kernel.c:53;VUCOMISD	%XMM0,%XMM3;  (7) 
+0x1858;/home/linuxbox/AOA-Project5/kernel.c:53;VMOVSD	(%RBP),%XMM1;  (7) 
+0x185d;/home/linuxbox/AOA-Project5/kernel.c:53;JA	18a2 <kernel+0xa2>;  (7) 
+0x185f;/home/linuxbox/AOA-Project5/kernel.c:53;VSQRTSD	%XMM0,%XMM0,%XMM0;  (7) 
+0x1863;/home/linuxbox/AOA-Project5/kernel.c:53;VCVTSS2SD	%XMM2,%XMM2,%XMM2;  (7) 
+0x1867;/home/linuxbox/AOA-Project5/kernel.c:52;ADD	$0x4,%RBX;  (7) 
+0x186b;/home/linuxbox/AOA-Project5/kernel.c:52;ADD	%R12,%RBP;  (7) 
+0x186e;/home/linuxbox/AOA-Project5/kernel.c:53;VDIVSD	%XMM0,%XMM1,%XMM1;  (7) 
+0x1872;/home/linuxbox/AOA-Project5/kernel.c:53;VADDSD	%XMM2,%XMM1,%XMM2;  (7) 
+0x1876;/home/linuxbox/AOA-Project5/kernel.c:53;VCVTSD2SS	%XMM2,%XMM2,%XMM2;  (7) 
+0x187a;/home/linuxbox/AOA-Project5/kernel.c:52;CMP	%RBX,%R13;  (7) 
+0x187d;/home/linuxbox/AOA-Project5/kernel.c:52;JNE	1850 <kernel+0x50>;  (7) 
+0x187f;/home/linuxbox/AOA-Project5/kernel.c:51;ADD	$0x8,%RSI;(8) 
+0x1883;/home/linuxbox/AOA-Project5/kernel.c:51;CMP	%R14,%RSI;(8) 
+0x1886;/home/linuxbox/AOA-Project5/kernel.c:51;JNE	1840 <kernel+0x40>;(8) 
+0x1888;/home/linuxbox/AOA-Project5/kernel.c:56;ADD	$0x20,%RSP;
+0x188c;/home/linuxbox/AOA-Project5/kernel.c:56;VMOVAPS	%XMM2,%XMM0;
+0x1890;/home/linuxbox/AOA-Project5/kernel.c:56;POP	%RBX;
+0x1891;/home/linuxbox/AOA-Project5/kernel.c:56;POP	%RBP;
+0x1892;/home/linuxbox/AOA-Project5/kernel.c:56;POP	%R12;
+0x1894;/home/linuxbox/AOA-Project5/kernel.c:56;POP	%R13;
+0x1896;/home/linuxbox/AOA-Project5/kernel.c:56;POP	%R14;
+0x1898;/home/linuxbox/AOA-Project5/kernel.c:56;RET;
+0x1899;/home/linuxbox/AOA-Project5/kernel.c:49;VXORPS	%XMM2,%XMM2,%XMM2;
+0x189d;/home/linuxbox/AOA-Project5/kernel.c:56;VMOVAPS	%XMM2,%XMM0;
+0x18a1;/home/linuxbox/AOA-Project5/kernel.c:56;RET;
+0x18a2;/home/linuxbox/AOA-Project5/kernel.c:56;MOV	%RDX,0x18(%RSP);  (7) 
+0x18a7;/home/linuxbox/AOA-Project5/kernel.c:52;ADD	$0x4,%RBX;  (7) 
+0x18ab;/home/linuxbox/AOA-Project5/kernel.c:52;ADD	%R12,%RBP;  (7) 
+0x18ae;/home/linuxbox/AOA-Project5/kernel.c:52;MOV	%RSI,(%RSP);  (7) 
+0x18b2;/home/linuxbox/AOA-Project5/kernel.c:52;VMOVSS	%XMM2,0x14(%RSP);  (7) 
+0x18b8;/home/linuxbox/AOA-Project5/kernel.c:52;VMOVSD	%XMM1,0x8(%RSP);  (7) 
+0x18be;/home/linuxbox/AOA-Project5/kernel.c:53;CALL	1160 <.plt.sec@start+0x80>;  (7) 
+0x18c3;/home/linuxbox/AOA-Project5/kernel.c:52;CMP	%RBX,%R13;  (7) 
+0x18c6;/home/linuxbox/AOA-Project5/kernel.c:52;MOV	(%RSP),%RSI;  (7) 
+0x18ca;/home/linuxbox/AOA-Project5/kernel.c:52;VXORPD	%XMM3,%XMM3,%XMM3;  (7) 
+0x18ce;/home/linuxbox/AOA-Project5/kernel.c:53;VMOVSD	0x8(%RSP),%XMM1;  (7) 
+0x18d4;/home/linuxbox/AOA-Project5/kernel.c:53;VMOVSS	0x14(%RSP),%XMM2;  (7) 
+0x18da;/home/linuxbox/AOA-Project5/kernel.c:52;VXORPS	%XMM4,%XMM4,%XMM4;  (7) 
+0x18de;/home/linuxbox/AOA-Project5/kernel.c:52;MOV	0x18(%RSP),%RDX;  (7) 
+0x18e3;/home/linuxbox/AOA-Project5/kernel.c:53;VDIVSD	%XMM0,%XMM1,%XMM1;  (7) 
+0x18e7;/home/linuxbox/AOA-Project5/kernel.c:53;VCVTSS2SD	%XMM2,%XMM2,%XMM2;  (7) 
+0x18eb;/home/linuxbox/AOA-Project5/kernel.c:53;VADDSD	%XMM2,%XMM1,%XMM2;  (7) 
+0x18ef;/home/linuxbox/AOA-Project5/kernel.c:53;VCVTSD2SS	%XMM2,%XMM2,%XMM2;  (7) 
+0x18f3;/home/linuxbox/AOA-Project5/kernel.c:52;JNE	1850 <kernel+0x50>;  (7) 
+0x18f9;/home/linuxbox/AOA-Project5/kernel.c:52;JMP	187f <kernel+0x7f>;(8) 
+0x18fb;:0;NOPL	(%RAX,%RAX,1);

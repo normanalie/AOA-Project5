@@ -8,7 +8,7 @@ def run_command(cmd):
     return result.stdout
 
 def main():
-    tailles = ["64", "128", "256", "512", "1024"]
+    tailles = ["32", "64", "128", "256", "512", "1024", "2048"]
     output_filename = "mesures.txt"
     
     with open(output_filename, "w") as f:

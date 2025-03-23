@@ -1,0 +1,56 @@
+Metarepetition 1/31: running 500 warmup instances and 500 measure instances
+Metarepetition 2/31: running 1 warmup instances and 500 measure instances
+Metarepetition 3/31: running 1 warmup instances and 500 measure instances
+Metarepetition 4/31: running 1 warmup instances and 500 measure instances
+Metarepetition 5/31: running 1 warmup instances and 500 measure instances
+Metarepetition 6/31: running 1 warmup instances and 500 measure instances
+Metarepetition 7/31: running 1 warmup instances and 500 measure instances
+Metarepetition 8/31: running 1 warmup instances and 500 measure instances
+Metarepetition 9/31: running 1 warmup instances and 500 measure instances
+Metarepetition 10/31: running 1 warmup instances and 500 measure instances
+Metarepetition 11/31: running 1 warmup instances and 500 measure instances
+Metarepetition 12/31: running 1 warmup instances and 500 measure instances
+Metarepetition 13/31: running 1 warmup instances and 500 measure instances
+Metarepetition 14/31: running 1 warmup instances and 500 measure instances
+Metarepetition 15/31: running 1 warmup instances and 500 measure instances
+Metarepetition 16/31: running 1 warmup instances and 500 measure instances
+Metarepetition 17/31: running 1 warmup instances and 500 measure instances
+Metarepetition 18/31: running 1 warmup instances and 500 measure instances
+Metarepetition 19/31: running 1 warmup instances and 500 measure instances
+Metarepetition 20/31: running 1 warmup instances and 500 measure instances
+Metarepetition 21/31: running 1 warmup instances and 500 measure instances
+Metarepetition 22/31: running 1 warmup instances and 500 measure instances
+Metarepetition 23/31: running 1 warmup instances and 500 measure instances
+Metarepetition 24/31: running 1 warmup instances and 500 measure instances
+Metarepetition 25/31: running 1 warmup instances and 500 measure instances
+Metarepetition 26/31: running 1 warmup instances and 500 measure instances
+Metarepetition 27/31: running 1 warmup instances and 500 measure instances
+Metarepetition 28/31: running 1 warmup instances and 500 measure instances
+Metarepetition 29/31: running 1 warmup instances and 500 measure instances
+Metarepetition 30/31: running 1 warmup instances and 500 measure instances
+Metarepetition 31/31: running 1 warmup instances and 500 measure instances
+MIN 1289975748 RDTSC-cycles (28.67 per inner-iter)
+MED 1290233948 RDTSC-cycles (28.67 per inner-iter)
+GOOD STABILITY: 0.02 %
+
+* Info: Dumping samples (host linuxbox, process 492980)
+* Info: Dumping source info for callchain nodes (host linuxbox, process 492980)
+* Info: Building/writing metadata (host linuxbox)
+* Info: Finished collect step (host linuxbox, process 492980)
+
+Your experiment path is /home/linuxbox/AOA-Project5/maqao_2025-03-23_23-10-43/tools/lprof_npsu_run_0
+
+To display your profiling results:
+########################################################################################################################################
+#    LEVEL    |     REPORT     |                                                COMMAND                                                #
+########################################################################################################################################
+#  Functions  |  Cluster-wide  |  maqao lprof -df xp=/home/linuxbox/AOA-Project5/maqao_2025-03-23_23-10-43/tools/lprof_npsu_run_0      #
+#  Functions  |  Per-node      |  maqao lprof -df -dn xp=/home/linuxbox/AOA-Project5/maqao_2025-03-23_23-10-43/tools/lprof_npsu_run_0  #
+#  Functions  |  Per-process   |  maqao lprof -df -dp xp=/home/linuxbox/AOA-Project5/maqao_2025-03-23_23-10-43/tools/lprof_npsu_run_0  #
+#  Functions  |  Per-thread    |  maqao lprof -df -dt xp=/home/linuxbox/AOA-Project5/maqao_2025-03-23_23-10-43/tools/lprof_npsu_run_0  #
+#  Loops      |  Cluster-wide  |  maqao lprof -dl xp=/home/linuxbox/AOA-Project5/maqao_2025-03-23_23-10-43/tools/lprof_npsu_run_0      #
+#  Loops      |  Per-node      |  maqao lprof -dl -dn xp=/home/linuxbox/AOA-Project5/maqao_2025-03-23_23-10-43/tools/lprof_npsu_run_0  #
+#  Loops      |  Per-process   |  maqao lprof -dl -dp xp=/home/linuxbox/AOA-Project5/maqao_2025-03-23_23-10-43/tools/lprof_npsu_run_0  #
+#  Loops      |  Per-thread    |  maqao lprof -dl -dt xp=/home/linuxbox/AOA-Project5/maqao_2025-03-23_23-10-43/tools/lprof_npsu_run_0  #
+########################################################################################################################################
+

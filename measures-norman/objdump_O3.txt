@@ -1,0 +1,123 @@
+
+0000000000001800 <kernel>:
+kernel():
+/home/linuxbox/AOA-Project5/kernel.c:47
+
+/* original */
+
+#include <math.h> // sqrt
+
+float kernel (unsigned n, const double a[n][n], const float b[n]) {
+    1800:	f3 0f 1e fa          	endbr64
+/home/linuxbox/AOA-Project5/kernel.c:51 (discriminator 1)
+    unsigned i, j;
+    float s = 0.0;
+
+    for (j=0; j<n; j++)
+    1804:	85 ff                	test   %edi,%edi
+    1806:	0f 84 80 00 00 00    	je     188c <kernel+0x8c>
+/home/linuxbox/AOA-Project5/kernel.c:47
+float kernel (unsigned n, const double a[n][n], const float b[n]) {
+    180c:	41 56                	push   %r14
+    180e:	89 f8                	mov    %edi,%eax
+/home/linuxbox/AOA-Project5/kernel.c:49
+    float s = 0.0;
+    1810:	66 0f ef d2          	pxor   %xmm2,%xmm2
+    1814:	66 0f ef db          	pxor   %xmm3,%xmm3
+/home/linuxbox/AOA-Project5/kernel.c:47
+float kernel (unsigned n, const double a[n][n], const float b[n]) {
+    1818:	41 55                	push   %r13
+    181a:	4c 8d 2c 82          	lea    (%rdx,%rax,4),%r13
+    181e:	41 54                	push   %r12
+    1820:	4c 8d 24 c5 00 00 00 	lea    0x0(,%rax,8),%r12
+    1827:	00 
+    1828:	55                   	push   %rbp
+    1829:	4e 8d 34 26          	lea    (%rsi,%r12,1),%r14
+    182d:	53                   	push   %rbx
+    182e:	48 83 ec 20          	sub    $0x20,%rsp
+    1832:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+    1838:	48 89 d3             	mov    %rdx,%rbx
+    183b:	48 89 f5             	mov    %rsi,%rbp
+    183e:	66 90                	xchg   %ax,%ax
+/home/linuxbox/AOA-Project5/kernel.c:53
+        for (i=0; i<n; i++)
+            s += a[i][j] / sqrt(b[i]);
+    1840:	66 0f ef c0          	pxor   %xmm0,%xmm0
+    1844:	f2 0f 10 4d 00       	movsd  0x0(%rbp),%xmm1
+    1849:	f3 0f 5a 03          	cvtss2sd (%rbx),%xmm0
+    184d:	66 0f 2e d8          	ucomisd %xmm0,%xmm3
+    1851:	77 41                	ja     1894 <kernel+0x94>
+    1853:	f2 0f 51 c0          	sqrtsd %xmm0,%xmm0
+/home/linuxbox/AOA-Project5/kernel.c:53 (discriminator 1)
+    1857:	f3 0f 5a d2          	cvtss2sd %xmm2,%xmm2
+/home/linuxbox/AOA-Project5/kernel.c:52 (discriminator 1)
+        for (i=0; i<n; i++)
+    185b:	48 83 c3 04          	add    $0x4,%rbx
+    185f:	4c 01 e5             	add    %r12,%rbp
+/home/linuxbox/AOA-Project5/kernel.c:53 (discriminator 1)
+            s += a[i][j] / sqrt(b[i]);
+    1862:	f2 0f 5e c8          	divsd  %xmm0,%xmm1
+    1866:	f2 0f 58 d1          	addsd  %xmm1,%xmm2
+    186a:	f2 0f 5a d2          	cvtsd2ss %xmm2,%xmm2
+/home/linuxbox/AOA-Project5/kernel.c:52 (discriminator 1)
+        for (i=0; i<n; i++)
+    186e:	49 39 dd             	cmp    %rbx,%r13
+    1871:	75 cd                	jne    1840 <kernel+0x40>
+/home/linuxbox/AOA-Project5/kernel.c:51 (discriminator 1)
+    for (j=0; j<n; j++)
+    1873:	48 83 c6 08          	add    $0x8,%rsi
+    1877:	4c 39 f6             	cmp    %r14,%rsi
+    187a:	75 bc                	jne    1838 <kernel+0x38>
+/home/linuxbox/AOA-Project5/kernel.c:56
+
+    return s;
+}
+    187c:	48 83 c4 20          	add    $0x20,%rsp
+    1880:	0f 28 c2             	movaps %xmm2,%xmm0
+    1883:	5b                   	pop    %rbx
+    1884:	5d                   	pop    %rbp
+    1885:	41 5c                	pop    %r12
+    1887:	41 5d                	pop    %r13
+    1889:	41 5e                	pop    %r14
+    188b:	c3                   	ret
+/home/linuxbox/AOA-Project5/kernel.c:49
+    float s = 0.0;
+    188c:	66 0f ef d2          	pxor   %xmm2,%xmm2
+/home/linuxbox/AOA-Project5/kernel.c:56
+}
+    1890:	0f 28 c2             	movaps %xmm2,%xmm0
+    1893:	c3                   	ret
+    1894:	48 89 54 24 18       	mov    %rdx,0x18(%rsp)
+/home/linuxbox/AOA-Project5/kernel.c:52 (discriminator 1)
+        for (i=0; i<n; i++)
+    1899:	48 83 c3 04          	add    $0x4,%rbx
+    189d:	4c 01 e5             	add    %r12,%rbp
+    18a0:	48 89 34 24          	mov    %rsi,(%rsp)
+    18a4:	f3 0f 11 54 24 14    	movss  %xmm2,0x14(%rsp)
+    18aa:	f2 0f 11 4c 24 08    	movsd  %xmm1,0x8(%rsp)
+/home/linuxbox/AOA-Project5/kernel.c:53
+            s += a[i][j] / sqrt(b[i]);
+    18b0:	e8 ab f8 ff ff       	call   1160 <sqrt@plt>
+/home/linuxbox/AOA-Project5/kernel.c:52 (discriminator 1)
+        for (i=0; i<n; i++)
+    18b5:	49 39 dd             	cmp    %rbx,%r13
+    18b8:	48 8b 34 24          	mov    (%rsp),%rsi
+    18bc:	66 0f ef db          	pxor   %xmm3,%xmm3
+/home/linuxbox/AOA-Project5/kernel.c:53 (discriminator 1)
+            s += a[i][j] / sqrt(b[i]);
+    18c0:	f2 0f 10 4c 24 08    	movsd  0x8(%rsp),%xmm1
+    18c6:	f3 0f 10 54 24 14    	movss  0x14(%rsp),%xmm2
+/home/linuxbox/AOA-Project5/kernel.c:52 (discriminator 1)
+        for (i=0; i<n; i++)
+    18cc:	48 8b 54 24 18       	mov    0x18(%rsp),%rdx
+/home/linuxbox/AOA-Project5/kernel.c:53 (discriminator 1)
+            s += a[i][j] / sqrt(b[i]);
+    18d1:	f2 0f 5e c8          	divsd  %xmm0,%xmm1
+    18d5:	f3 0f 5a d2          	cvtss2sd %xmm2,%xmm2
+    18d9:	f2 0f 58 d1          	addsd  %xmm1,%xmm2
+    18dd:	f2 0f 5a d2          	cvtsd2ss %xmm2,%xmm2
+/home/linuxbox/AOA-Project5/kernel.c:52 (discriminator 1)
+        for (i=0; i<n; i++)
+    18e1:	0f 85 59 ff ff ff    	jne    1840 <kernel+0x40>
+    18e7:	eb 8a                	jmp    1873 <kernel+0x73>
+    18e9:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)

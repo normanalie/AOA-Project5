@@ -4,8 +4,8 @@ OBJDIR = obj
 
 # Compilateur et options
 CC = gcc
-CFLAGS = -O2 -g -Wall
-OPTFLAGS = -O3 -g -Wall
+CFLAGS = -O3 -march=native -g -Wall
+OPTFLAGS = -O3 -march=native -g -Wall
 LDFLAGS = -lm
 
 # Fichiers objets communs

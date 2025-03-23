@@ -1,0 +1,75 @@
+00000000000017c0 <kernel>:
+kernel():
+/home/linuxbox/AOA-Project5/kernel.c:47
+
+/* original */
+
+#include <math.h> // sqrt
+
+float kernel (unsigned n, const double a[n][n], const float b[n]) {
+    17c0:	f3 0f 1e fa          	endbr64
+    17c4:	89 f8                	mov    %edi,%eax
+/home/linuxbox/AOA-Project5/kernel.c:51 (discriminator 1)
+    unsigned i, j;
+    float s = 0.0;
+
+    for (j=0; j<n; j++)
+    17c6:	85 ff                	test   %edi,%edi
+    17c8:	74 5d                	je     1827 <kernel+0x67>
+    17ca:	48 8d 3c c5 00 00 00 	lea    0x0(,%rax,8),%rdi
+    17d1:	00 
+    17d2:	4c 8d 04 82          	lea    (%rdx,%rax,4),%r8
+/home/linuxbox/AOA-Project5/kernel.c:49
+    float s = 0.0;
+    17d6:	66 0f ef c0          	pxor   %xmm0,%xmm0
+    17da:	4c 8d 0c 3e          	lea    (%rsi,%rdi,1),%r9
+    17de:	66 90                	xchg   %ax,%ax
+/home/linuxbox/AOA-Project5/kernel.c:47
+float kernel (unsigned n, const double a[n][n], const float b[n]) {
+    17e0:	48 89 d0             	mov    %rdx,%rax
+    17e3:	48 89 f1             	mov    %rsi,%rcx
+    17e6:	66 2e 0f 1f 84 00 00 	cs nopw 0x0(%rax,%rax,1)
+    17ed:	00 00 00 
+/home/linuxbox/AOA-Project5/kernel.c:53
+        for (i=0; i<n; i++)
+            s += a[i][j] / sqrt(b[i]);
+    17f0:	66 0f ef d2          	pxor   %xmm2,%xmm2
+/home/linuxbox/AOA-Project5/kernel.c:53 (discriminator 1)
+    17f4:	f2 0f 10 09          	movsd  (%rcx),%xmm1
+    17f8:	f3 0f 5a c0          	cvtss2sd %xmm0,%xmm0
+/home/linuxbox/AOA-Project5/kernel.c:52 (discriminator 1)
+        for (i=0; i<n; i++)
+    17fc:	48 83 c0 04          	add    $0x4,%rax
+/home/linuxbox/AOA-Project5/kernel.c:53
+            s += a[i][j] / sqrt(b[i]);
+    1800:	f3 0f 5a 50 fc       	cvtss2sd -0x4(%rax),%xmm2
+    1805:	f2 0f 51 d2          	sqrtsd %xmm2,%xmm2
+/home/linuxbox/AOA-Project5/kernel.c:52 (discriminator 1)
+        for (i=0; i<n; i++)
+    1809:	48 01 f9             	add    %rdi,%rcx
+/home/linuxbox/AOA-Project5/kernel.c:53 (discriminator 1)
+            s += a[i][j] / sqrt(b[i]);
+    180c:	f2 0f 5e ca          	divsd  %xmm2,%xmm1
+    1810:	f2 0f 58 c1          	addsd  %xmm1,%xmm0
+    1814:	f2 0f 5a c0          	cvtsd2ss %xmm0,%xmm0
+/home/linuxbox/AOA-Project5/kernel.c:52 (discriminator 1)
+        for (i=0; i<n; i++)
+    1818:	49 39 c0             	cmp    %rax,%r8
+    181b:	75 d3                	jne    17f0 <kernel+0x30>
+/home/linuxbox/AOA-Project5/kernel.c:51 (discriminator 1)
+    for (j=0; j<n; j++)
+    181d:	48 83 c6 08          	add    $0x8,%rsi
+    1821:	49 39 f1             	cmp    %rsi,%r9
+    1824:	75 ba                	jne    17e0 <kernel+0x20>
+/home/linuxbox/AOA-Project5/kernel.c:56
+
+    return s;
+}
+    1826:	c3                   	ret
+/home/linuxbox/AOA-Project5/kernel.c:49
+    float s = 0.0;
+    1827:	66 0f ef c0          	pxor   %xmm0,%xmm0
+/home/linuxbox/AOA-Project5/kernel.c:56
+}
+    182b:	c3                   	ret
+    182c:	0f 1f 40 00          	nopl   0x0(%rax)

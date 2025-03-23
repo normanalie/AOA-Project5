@@ -1,0 +1,26 @@
+address;source_location;insn;indent
+0x1840;/home/linuxbox/AOA-Project5/kernel.c:53;PXOR	%XMM0,%XMM0;
+0x1844;/home/linuxbox/AOA-Project5/kernel.c:53;MOVSD	(%RBP),%XMM1;
+0x1849;/home/linuxbox/AOA-Project5/kernel.c:53;CVTSS2SD	(%RBX),%XMM0;
+0x184d;/home/linuxbox/AOA-Project5/kernel.c:53;UCOMISD	%XMM0,%XMM3;
+0x1851;/home/linuxbox/AOA-Project5/kernel.c:53;JA	1894 <kernel+0x94>;
+0x1853;/home/linuxbox/AOA-Project5/kernel.c:53;SQRTSD	%XMM0,%XMM0;
+0x1857;/home/linuxbox/AOA-Project5/kernel.c:53;DIVSD	%XMM0,%XMM1;
+0x185b;/home/linuxbox/AOA-Project5/kernel.c:53;CVTSS2SD	%XMM2,%XMM2;
+0x185f;/home/linuxbox/AOA-Project5/kernel.c:52;ADD	$0x4,%RBX;
+0x1863;/home/linuxbox/AOA-Project5/kernel.c:52;ADD	%R12,%RBP;
+0x1866;/home/linuxbox/AOA-Project5/kernel.c:53;ADDSD	%XMM1,%XMM2;
+0x186a;/home/linuxbox/AOA-Project5/kernel.c:53;CVTSD2SS	%XMM2,%XMM2;
+0x186e;/home/linuxbox/AOA-Project5/kernel.c:52;CMP	%R13,%RBX;
+0x1871;/home/linuxbox/AOA-Project5/kernel.c:52;JNE	1840 <kernel+0x40>;
+0x1894;/home/linuxbox/AOA-Project5/kernel.c:56;MOV	%RDX,0x18(%RSP);
+0x1899;/home/linuxbox/AOA-Project5/kernel.c:56;MOV	%RSI,0x8(%RSP);
+0x189e;/home/linuxbox/AOA-Project5/kernel.c:56;MOVSS	%XMM2,0x14(%RSP);
+0x18a4;/home/linuxbox/AOA-Project5/kernel.c:56;MOVSD	%XMM1,(%RSP);
+0x18a9;/home/linuxbox/AOA-Project5/kernel.c:53;CALL	1160 <.plt.sec@start+0x80>;
+0x18ae;/home/linuxbox/AOA-Project5/kernel.c:53;MOV	0x18(%RSP),%RDX;
+0x18b3;/home/linuxbox/AOA-Project5/kernel.c:53;MOVSS	0x14(%RSP),%XMM2;
+0x18b9;/home/linuxbox/AOA-Project5/kernel.c:53;PXOR	%XMM3,%XMM3;
+0x18bd;/home/linuxbox/AOA-Project5/kernel.c:53;MOV	0x8(%RSP),%RSI;
+0x18c2;/home/linuxbox/AOA-Project5/kernel.c:53;MOVSD	(%RSP),%XMM1;
+0x18c7;/home/linuxbox/AOA-Project5/kernel.c:53;JMP	1857 <kernel+0x57>;

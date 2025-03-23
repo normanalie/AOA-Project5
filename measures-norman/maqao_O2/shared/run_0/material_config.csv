@@ -1,0 +1,2 @@
+node;proc_name;architecture_code;uarchitecture_code;architecture;uarchitecture;cpui_model_name;cpui_cache_size;cpui_cpu_cores;max_frequency;cur_frequency;driver_frequency;scaling_governor;huge_pages;os_version;pids;
+linuxbox;Core_4x_Xeon_E3_v3_other;2;13;x86_64;HASWELL;Intel(R) Core(TM) i3-4160T CPU @ 3.10GHz;3072 KB;2;3100000;3093137;intel_cpufreq;performance;madvise;Linux 6.8.0-51-generic #52-Ubuntu SMP PREEMPT_DYNAMIC Thu Dec  5 13:09:44 UTC 2024;492450;

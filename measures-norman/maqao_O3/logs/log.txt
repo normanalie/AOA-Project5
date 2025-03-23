@@ -1,0 +1,6 @@
+********************************************************************************
+MAQAO 2.21.1 - a9bb74606c7e260f7f87782e64f16b00a6f20c1b::20250121-112452 || 2025/01/21
+./maqao oneview -R1 -- ./bin/measure 300 3 10 
+CPY:  [true] ./bin/measure --> /home/linuxbox/AOA-Project5/maqao_2025-03-23_23-01-56/binaries/measure
+CMD:   /home/linuxbox/AOA-Project5/./maqao lprof _caller=oneview  --xp="/home/linuxbox/AOA-Project5/maqao_2025-03-23_23-01-56/tools/lprof_npsu_run_0" --mpi-command="" --collect-CPU-time-intervals --collect-topology   -- /home/linuxbox/AOA-Project5/maqao_2025-03-23_23-01-56/binaries/measure  300 3 10
+CMD:  /home/linuxbox/AOA-Project5/./maqao otter  -input=/home/linuxbox/AOA-Project5/maqao_2025-03-23_23-01-56/OTTER/input_manifest.csv -output=/home/linuxbox/AOA-Project5/maqao_2025-03-23_23-01-56/OTTER/output_manifest.csv
