@@ -3,7 +3,7 @@ BINDIR = bin
 OBJDIR = obj
 
 # Compilateur et options
-CC = gcc
+CC = clang
 CFLAGS = -O2 -g -Wall
 OPTFLAGS = -O3 -g -Wall
 LDFLAGS = -lm
