@@ -1,0 +1,2 @@
+ID;Module;Source Location;Source Function;Level;Max Time Over Threads (s);Time w.r.t. Wall Time (s);Coverage (% app. time);Speedup if no scalar integer;Speedup if FP arith vectorized;Speedup if fully vectorized;Speedup if FP only;Number of paths;Vectorization Ratio (%);Vectorization Efficiency (%);CQA cycles;CQA cycles if no scalar integer;CQA cycles if FP arith vectorized;CQA cycles if fully vectorized;CQA cycles if FP only
+Loop 1;measure;kernel.c:69-70;kernel;Innermost;0.125;0.125;96.153846740723;1.00;3.38;4.00;1.00;4;14.76;24.97;18.00;18.00;5.32;4.50;18.00

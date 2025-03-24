@@ -1,0 +1,182 @@
+{
+  "report": [
+    {
+      "id_str": "Loop 4 - measure",
+      "module": "measure",
+      "id": 4,
+      "analysis": "Execution Time: 57 % - Vectorization Ratio: 11.86 % - Vector Length Use: 25.21 %",
+      "coverage": 57.692306518555,
+      "issues": [
+        {
+          "id_str": "Loop Computation Issues",
+          "score": 68,
+          "issues": [
+            {
+              "code": "L2_LC_2",
+              "analysis": "[SA] Presence of expensive FP instructions - Perform hoisting, change algorithm, use SVML or proper numerical library or perform value profiling (count the number of distinct input values). There are 16 issues (= instructions) costing 4 points each.",
+              "score": 64,
+            },
+            {
+              "code": "L2_LC_4",
+              "analysis": "[SA] Less than 10% of the FP ADD/SUB/MUL arithmetic operations are performed using FMA - Reorganize arithmetic expressions to exhibit potential for FMA. This issue costs 4 points.",
+              "score": 4,
+            }
+          ]
+        },
+        {
+          "id_str": "Control Flow Issues",
+          "score": 261,
+          "issues": [
+            {
+              "code": "L2_CF_1",
+              "analysis": "[SA] Presence of calls - Inline either by compiler or by hand and use SVML for libm calls. There are 1 issues (= calls) costing 1 point each.",
+              "score": 1,
+            },
+            {
+              "code": "L2_CF_3",
+              "analysis": "[SA] Too many paths (256 paths) - Simplify control structure. There are 256 issues ( = paths) costing 1 point each with a malus of 4 points.",
+              "score": 260,
+            }
+          ]
+        },
+        {
+          "id_str": "Data Access Issues",
+          "score": 2,
+          "issues": [
+            {
+              "code": "L2_DA_6",
+              "analysis": "[SA] More than 20% of the loads are accessing the stack - Perform loop splitting to decrease pressure on registers. This issue costs 2 points.",
+              "score": 2,
+            }
+          ]
+        },
+        {
+          "id_str": "Vectorization Roadblocks",
+          "score": 261,
+          "issues": [
+            {
+              "code": "L2_CF_1",
+              "analysis": "[SA] Presence of calls - Inline either by compiler or by hand and use SVML for libm calls. There are 1 issues (= calls) costing 1 point each.",
+              "score": 1,
+            },
+            {
+              "code": "L2_CF_3",
+              "analysis": "[SA] Too many paths (256 paths) - Simplify control structure. There are 256 issues ( = paths) costing 1 point each with a malus of 4 points.",
+              "score": 260,
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_str": "Loop 6 - measure",
+      "module": "measure",
+      "id": 6,
+      "analysis": "Execution Time: 38 % - Vectorization Ratio: 11.86 % - Vector Length Use: 25.21 %",
+      "coverage": 38.461540222168,
+      "issues": [
+        {
+          "id_str": "Loop Computation Issues",
+          "score": 68,
+          "issues": [
+            {
+              "code": "L2_LC_2",
+              "analysis": "[SA] Presence of expensive FP instructions - Perform hoisting, change algorithm, use SVML or proper numerical library or perform value profiling (count the number of distinct input values). There are 16 issues (= instructions) costing 4 points each.",
+              "score": 64,
+            },
+            {
+              "code": "L2_LC_4",
+              "analysis": "[SA] Less than 10% of the FP ADD/SUB/MUL arithmetic operations are performed using FMA - Reorganize arithmetic expressions to exhibit potential for FMA. This issue costs 4 points.",
+              "score": 4,
+            }
+          ]
+        },
+        {
+          "id_str": "Control Flow Issues",
+          "score": 261,
+          "issues": [
+            {
+              "code": "L2_CF_1",
+              "analysis": "[SA] Presence of calls - Inline either by compiler or by hand and use SVML for libm calls. There are 1 issues (= calls) costing 1 point each.",
+              "score": 1,
+            },
+            {
+              "code": "L2_CF_3",
+              "analysis": "[SA] Too many paths (256 paths) - Simplify control structure. There are 256 issues ( = paths) costing 1 point each with a malus of 4 points.",
+              "score": 260,
+            }
+          ]
+        },
+        {
+          "id_str": "Data Access Issues",
+          "score": 2,
+          "issues": [
+            {
+              "code": "L2_DA_6",
+              "analysis": "[SA] More than 20% of the loads are accessing the stack - Perform loop splitting to decrease pressure on registers. This issue costs 2 points.",
+              "score": 2,
+            }
+          ]
+        },
+        {
+          "id_str": "Vectorization Roadblocks",
+          "score": 261,
+          "issues": [
+            {
+              "code": "L2_CF_1",
+              "analysis": "[SA] Presence of calls - Inline either by compiler or by hand and use SVML for libm calls. There are 1 issues (= calls) costing 1 point each.",
+              "score": 1,
+            },
+            {
+              "code": "L2_CF_3",
+              "analysis": "[SA] Too many paths (256 paths) - Simplify control structure. There are 256 issues ( = paths) costing 1 point each with a malus of 4 points.",
+              "score": 260,
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_str": "Loop 10 - measure",
+      "module": "measure",
+      "id": 10,
+      "analysis": "Execution Time: 3 % - Vectorization Ratio: 0.00 % - Vector Length Use: 20.83 %",
+      "coverage": 3.8461537361145,
+      "issues": [
+        {
+          "id_str": "Loop Computation Issues",
+          "score": 4,
+          "issues": [
+            {
+              "code": "L2_LC_2",
+              "analysis": "[SA] Presence of expensive FP instructions - Perform hoisting, change algorithm, use SVML or proper numerical library or perform value profiling (count the number of distinct input values). There are 1 issues (= instructions) costing 4 points each.",
+              "score": 4,
+            }
+          ]
+        },
+        {
+          "id_str": "Control Flow Issues",
+          "score": 1,
+          "issues": [
+            {
+              "code": "L2_CF_1",
+              "analysis": "[SA] Presence of calls - Inline either by compiler or by hand and use SVML for libm calls. There are 1 issues (= calls) costing 1 point each.",
+              "score": 1,
+            }
+          ]
+        },
+        {
+          "id_str": "Vectorization Roadblocks",
+          "score": 1,
+          "issues": [
+            {
+              "code": "L2_CF_1",
+              "analysis": "[SA] Presence of calls - Inline either by compiler or by hand and use SVML for libm calls. There are 1 issues (= calls) costing 1 point each.",
+              "score": 1,
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

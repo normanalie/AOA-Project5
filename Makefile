@@ -3,9 +3,9 @@ BINDIR = bin
 OBJDIR = obj
 
 # Compilateur et options
-CC = gcc
-CFLAGS = -O2 -g -Wall
-OPTFLAGS = -O3 -march=native -g -Wall
+CC = clang
+CFLAGS = -O3 -g -Wall
+OPTFLAGS = -O3 -g -Wall
 LDFLAGS = -lm
 
 # Fichiers objets communs

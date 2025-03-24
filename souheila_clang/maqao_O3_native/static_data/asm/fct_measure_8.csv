@@ -1,0 +1,237 @@
+address;source_location;insn;indent
+0x1e40;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:35;PUSH	%RBP;
+0x1e41;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:35;PUSH	%R15;
+0x1e43;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:35;PUSH	%R14;
+0x1e45;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:35;PUSH	%R13;
+0x1e47;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:35;PUSH	%R12;
+0x1e49;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:35;PUSH	%RBX;
+0x1e4a;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:35;SUB	$0x148,%RSP;
+0x1e51;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:35;MOV	%RSI,%RBX;
+0x1e54;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:37;CMP	$0x4,%EDI;
+0x1e57;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:37;JNE	21d8 <main+0x398>;
+0x1e5d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:43;MOV	0x8(%RBX),%RDI;
+0x1e61;/usr/include/stdlib.h:364;MOV	$0xa,%EDX;
+0x1e66;/usr/include/stdlib.h:364;XOR	%ESI,%ESI;
+0x1e68;/usr/include/stdlib.h:364;CALL	1080 <strtol@plt>;
+0x1e6d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:44;MOV	0x10(%RBX),%RDI;
+0x1e71;/usr/include/stdlib.h:364;MOV	$0xa,%EDX;
+0x1e76;/usr/include/stdlib.h:364;XOR	%ESI,%ESI;
+0x1e78;/usr/include/stdlib.h:364;MOV	%RAX,%RBP;
+0x1e7b;/usr/include/stdlib.h:364;CALL	1080 <strtol@plt>;
+0x1e80;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:45;MOV	0x18(%RBX),%RDI;
+0x1e84;/usr/include/stdlib.h:364;MOV	$0xa,%EDX;
+0x1e89;/usr/include/stdlib.h:364;XOR	%ESI,%ESI;
+0x1e8b;/usr/include/stdlib.h:364;MOV	%RAX,%R12;
+0x1e8e;/usr/include/stdlib.h:364;CALL	1080 <strtol@plt>;
+0x1e93;/usr/include/stdlib.h:364;MOV	%RAX,(%RSP);
+0x1e97;/usr/include/stdlib.h:364;MOV	%EBP,%EAX;
+0x1e99;/usr/include/stdlib.h:364;IMUL	%EAX,%EAX;
+0x1e9c;/usr/include/stdlib.h:364;MOV	%EBP,%R15D;
+0x1e9f;/usr/include/stdlib.h:364;LEA	(,%R15,4),%RSI;
+0x1ea7;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:50;LEA	(,%R15,8),%RDX;
+0x1eaf;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:50;XOR	%ECX,%ECX;
+0x1eb1;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:50;MOV	%RBP,0x28(%RSP);
+0x1eb6;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:50;MOV	%R12,0x20(%RSP);
+0x1ebb;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:50;MOV	%RSI,0x30(%RSP);
+0x1ec0;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:50;MOV	%RDX,0x8(%RSP);
+0x1ec5;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:50;MOV	%RAX,0x18(%RSP);
+0x1eca;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:50;LEA	(,%RAX,8),%RAX;
+0x1ed2;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:50;MOV	%RAX,0x38(%RSP);
+0x1ed7;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:50;JMP	1f18 <main+0xd8>;
+0x1ed9;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:50;NOPL	(%RAX);
+0x1ee0;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:79;XOR	%EAX,%EAX;(7) 
+0x1ee2;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:79;CALL	1e30 <rdtsc>;(7) 
+0x1ee7;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:80;SUB	0x40(%RSP),%RAX;(7) 
+0x1eec;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:80;MOV	0x10(%RSP),%RCX;(7) 
+0x1ef1;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:83;MOV	%R14,%RDI;(7) 
+0x1ef4;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:80;MOV	%RAX,0x50(%RSP,%RCX,8);(7) 
+0x1ef9;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:83;CALL	1030 <free@plt>;(7) 
+0x1efe;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:84;MOV	%R13,%RDI;(7) 
+0x1f01;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:84;CALL	1030 <free@plt>;(7) 
+0x1f06;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:84;MOV	0x48(%RSP),%RAX;(7) 
+0x1f0b;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:84;MOV	%RAX,%RCX;(7) 
+0x1f0e;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:50;CMP	$0x1f,%RAX;(7) 
+0x1f12;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:50;JE	2066 <main+0x226>;(7) 
+0x1f18;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:51;LEA	0x1(%RCX),%RSI;(7) 
+0x1f1c;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:51;MOV	%RCX,0x10(%RSP);(7) 
+0x1f21;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:52;TEST	%RCX,%RCX;(7) 
+0x1f24;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:52;MOV	$0x1,%ECX;(7) 
+0x1f29;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:51;LEA	0x1129(%RIP),%RDI;(7) 
+0x1f30;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:51;MOV	$0x1f,%EDX;(7) 
+0x1f35;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:51;MOV	(%RSP),%R8;(7) 
+0x1f39;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:52;CMOVE	%R12D,%ECX;(7) 
+0x1f3d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:52;MOV	%RSI,0x48(%RSP);(7) 
+0x1f42;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:51;XOR	%EAX,%EAX;(7) 
+0x1f44;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:51;CALL	1050 <printf@plt>;(7) 
+0x1f49;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:51;MOV	0x38(%RSP),%RDI;(7) 
+0x1f4e;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:57;CALL	1090 <malloc@plt>;(7) 
+0x1f53;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:57;MOV	0x30(%RSP),%RDI;(7) 
+0x1f58;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:57;MOV	%RAX,%R14;(7) 
+0x1f5b;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:58;CALL	1090 <malloc@plt>;(7) 
+0x1f60;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:62;XOR	%EDI,%EDI;(7) 
+0x1f62;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:58;MOV	%RAX,%R13;(7) 
+0x1f65;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:62;CALL	1060 <srand@plt>;(7) 
+0x1f6a;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:62;TEST	%EBP,%EBP;(7) 
+0x1f6c;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:16;JLE	1ff0 <main+0x1b0>;(7) 
+0x1f72;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:16;MOV	%R14,%R12;(7) 
+0x1f75;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:16;XOR	%EBP,%EBP;(7) 
+0x1f77;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:16;NOPW	(%RAX,%RAX,1);(7) 
+0x1f80;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:16;XOR	%EBX,%EBX;  (11) 
+0x1f82;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:16;NOPW	%CS:(%RAX,%RAX,1);  (11) 
+0x1f90;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:18;CALL	10b0 <rand@plt>;    (10) 
+0x1f95;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:18;VCVTSI2SD	%EAX,%XMM1,%XMM0;    (10) 
+0x1f99;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:18;VDIVSD	0x1067(%RIP),%XMM0,%XMM0;    (10) 
+0x1fa1;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:18;VMOVSD	%XMM0,(%R12,%RBX,8);    (10) 
+0x1fa7;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:17;INC	%RBX;    (10) 
+0x1faa;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:17;CMP	%RBX,%R15;    (10) 
+0x1fad;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:17;JNE	1f90 <main+0x150>;    (10) 
+0x1faf;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:16;ADD	0x8(%RSP),%R12;  (11) 
+0x1fb4;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:16;INC	%RBP;  (11) 
+0x1fb7;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:16;CMP	%R15,%RBP;  (11) 
+0x1fba;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:16;JNE	1f80 <main+0x140>;  (11) 
+0x1fbc;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:16;MOV	0x28(%RSP),%RBP;(7) 
+0x1fc1;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:16;MOV	0x20(%RSP),%R12;(7) 
+0x1fc6;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:16;XOR	%EBX,%EBX;(7) 
+0x1fc8;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:16;NOPL	(%RAX,%RAX,1);(7) 
+0x1fd0;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:24;CALL	10b0 <rand@plt>;  (12) 
+0x1fd5;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:24;VCVTSI2SS	%EAX,%XMM1,%XMM0;  (12) 
+0x1fd9;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:24;VMULSS	0x102f(%RIP),%XMM0,%XMM0;  (12) 
+0x1fe1;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:24;VMOVSS	%XMM0,(%R13,%RBX,4);  (12) 
+0x1fe8;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:23;INC	%RBX;  (12) 
+0x1feb;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:23;CMP	%RBX,%R15;  (12) 
+0x1fee;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:23;JNE	1fd0 <main+0x190>;  (12) 
+0x1ff0;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:52;CMPQ	$0,0x10(%RSP);(7) 
+0x1ff6;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:67;JE	2010 <main+0x1d0>;(7) 
+0x1ff8;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:71;MOV	%EBP,%EDI;(7) 
+0x1ffa;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:71;MOV	%R14,%RSI;(7) 
+0x1ffd;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:71;MOV	%R13,%RDX;(7) 
+0x2000;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:71;CALL	11c0 <kernel>;(7) 
+0x2005;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:71;JMP	2031 <main+0x1f1>;(7) 
+0x2007;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:71;NOPW	(%RAX,%RAX,1);
+0x2010;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:71;TEST	%R12D,%R12D;(7) 
+0x2013;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:68;JE	2031 <main+0x1f1>;(7) 
+0x2015;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:68;MOV	%R12D,%EBX;(7) 
+0x2018;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:68;NOPL	(%RAX,%RAX,1);(7) 
+0x2020;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:69;MOV	%EBP,%EDI;  (9) 
+0x2022;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:69;MOV	%R14,%RSI;  (9) 
+0x2025;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:69;MOV	%R13,%RDX;  (9) 
+0x2028;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:69;CALL	11c0 <kernel>;  (9) 
+0x202d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:68;DEC	%EBX;  (9) 
+0x202f;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:68;JNE	2020 <main+0x1e0>;  (9) 
+0x2031;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:75;XOR	%EAX,%EAX;(7) 
+0x2033;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:75;CALL	1e30 <rdtsc>;(7) 
+0x2038;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:75;CMPL	$0,(%RSP);(7) 
+0x203c;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:75;MOV	%RAX,0x40(%RSP);(7) 
+0x2041;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:76;JE	1ee0 <main+0xa0>;(7) 
+0x2047;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:76;MOV	(%RSP),%RAX;(7) 
+0x204b;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:76;MOV	%EAX,%EBX;(7) 
+0x204d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:76;NOPL	(%RAX);(7) 
+0x2050;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:77;MOV	%EBP,%EDI;  (8) 
+0x2052;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:77;MOV	%R14,%RSI;  (8) 
+0x2055;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:77;MOV	%R13,%RDX;  (8) 
+0x2058;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:77;CALL	11c0 <kernel>;  (8) 
+0x205d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:76;DEC	%EBX;  (8) 
+0x205f;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:76;JNE	2050 <main+0x210>;  (8) 
+0x2061;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:76;JMP	1ee0 <main+0xa0>;(7) 
+0x2066;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:76;MOV	0x18(%RSP),%RBX;
+0x206b;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:89;LEA	0x18e(%RIP),%RCX;
+0x2072;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:89;LEA	0x50(%RSP),%RDI;
+0x2077;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:89;MOV	$0x1f,%ESI;
+0x207c;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:89;MOV	$0x8,%EDX;
+0x2081;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:88;IMUL	(%RSP),%EBX;
+0x2085;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:89;CALL	1040 <qsort@plt>;
+0x208a;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:91;MOV	0x50(%RSP),%RSI;
+0x208f;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:91;TEST	%RSI,%RSI;
+0x2092;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:91;JS	209b <main+0x25b>;
+0x2094;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:91;VCVTSI2SS	%RSI,%XMM1,%XMM0;
+0x2099;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:91;JMP	20b2 <main+0x272>;
+0x209b;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:91;MOV	%ESI,%ECX;
+0x209d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:91;MOV	%RSI,%RAX;
+0x20a0;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:91;SHR	$0x1,%RAX;
+0x20a3;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:91;AND	$0x1,%ECX;
+0x20a6;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:91;OR	%RAX,%RCX;
+0x20a9;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:91;VCVTSI2SS	%RCX,%XMM1,%XMM0;
+0x20ae;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:91;VADDSS	%XMM0,%XMM0,%XMM0;
+0x20b2;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:91;VCVTSI2SS	%RBX,%XMM1,%XMM1;
+0x20b7;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:90;LEA	0xfe7(%RIP),%RDI;
+0x20be;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:90;MOV	$0x1,%AL;
+0x20c0;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:91;VDIVSS	%XMM1,%XMM0,%XMM0;
+0x20c4;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:91;VMOVSS	%XMM1,0x8(%RSP);
+0x20ca;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:91;VCVTSS2SD	%XMM0,%XMM0,%XMM0;
+0x20ce;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:90;CALL	1050 <printf@plt>;
+0x20d3;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:93;MOV	0xc8(%RSP),%RSI;
+0x20db;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:93;TEST	%RSI,%RSI;
+0x20de;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:93;JS	20e7 <main+0x2a7>;
+0x20e0;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:93;VCVTSI2SS	%RSI,%XMM2,%XMM0;
+0x20e5;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:93;JMP	20fe <main+0x2be>;
+0x20e7;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:93;MOV	%ESI,%ECX;
+0x20e9;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:93;MOV	%RSI,%RAX;
+0x20ec;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:93;SHR	$0x1,%RAX;
+0x20ef;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:93;AND	$0x1,%ECX;
+0x20f2;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:93;OR	%RAX,%RCX;
+0x20f5;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:93;VCVTSI2SS	%RCX,%XMM2,%XMM0;
+0x20fa;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:93;VADDSS	%XMM0,%XMM0,%XMM0;
+0x20fe;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:93;VDIVSS	0x8(%RSP),%XMM0,%XMM0;
+0x2104;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:92;LEA	0xfc6(%RIP),%RDI;
+0x210b;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:92;MOV	$0x1,%AL;
+0x210d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:93;VCVTSS2SD	%XMM0,%XMM0,%XMM0;
+0x2111;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:92;CALL	1050 <printf@plt>;
+0x2116;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;MOV	0x50(%RSP),%RAX;
+0x211b;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;MOV	0xc8(%RSP),%RCX;
+0x2123;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;SUB	%RAX,%RCX;
+0x2126;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;JS	216a <main+0x32a>;
+0x2128;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;VCVTSI2SS	%RCX,%XMM2,%XMM0;
+0x212d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;VMULSS	0xedf(%RIP),%XMM0,%XMM0;
+0x2135;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;TEST	%RAX,%RAX;
+0x2138;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;JNS	218c <main+0x34c>;
+0x213a;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;MOV	%RAX,%RCX;
+0x213d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;SHR	$0x1,%RCX;
+0x2140;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;AND	$0x1,%EAX;
+0x2143;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;OR	%RCX,%RAX;
+0x2146;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;VCVTSI2SS	%RAX,%XMM2,%XMM1;
+0x214b;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;VADDSS	%XMM1,%XMM1,%XMM1;
+0x214f;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;VDIVSS	%XMM1,%XMM0,%XMM0;
+0x2153;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:95;VUCOMISS	0xebd(%RIP),%XMM0;
+0x215b;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:95;JB	219f <main+0x35f>;
+0x215d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:96;VCVTSS2SD	%XMM0,%XMM0,%XMM0;
+0x2161;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:96;LEA	0xf95(%RIP),%RDI;
+0x2168;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:96;JMP	21bd <main+0x37d>;
+0x216a;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:96;MOV	%RCX,%RDX;
+0x216d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:96;SHR	$0x1,%RDX;
+0x2170;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:96;AND	$0x1,%ECX;
+0x2173;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:96;OR	%RDX,%RCX;
+0x2176;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:96;VCVTSI2SS	%RCX,%XMM2,%XMM0;
+0x217b;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:96;VADDSS	%XMM0,%XMM0,%XMM0;
+0x217f;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;VMULSS	0xe8d(%RIP),%XMM0,%XMM0;
+0x2187;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;TEST	%RAX,%RAX;
+0x218a;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;JS	213a <main+0x2fa>;
+0x218c;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;VCVTSI2SS	%RAX,%XMM2,%XMM1;
+0x2191;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:94;VDIVSS	%XMM1,%XMM0,%XMM0;
+0x2195;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:95;VUCOMISS	0xe7b(%RIP),%XMM0;
+0x219d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:95;JAE	215d <main+0x31d>;
+0x219f;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:97;VUCOMISS	0xe75(%RIP),%XMM0;
+0x21a7;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:97;VCVTSS2SD	%XMM0,%XMM0,%XMM0;
+0x21ab;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:97;JAE	21b6 <main+0x376>;
+0x21ad;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:100;LEA	0xf7d(%RIP),%RDI;
+0x21b4;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:100;JMP	21bd <main+0x37d>;
+0x21b6;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:98;LEA	0xf58(%RIP),%RDI;
+0x21bd;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:98;MOV	$0x1,%AL;
+0x21bf;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:98;CALL	1050 <printf@plt>;
+0x21c4;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:98;XOR	%EAX,%EAX;
+0x21c6;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:103;ADD	$0x148,%RSP;
+0x21cd;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:103;POP	%RBX;
+0x21ce;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:103;POP	%R12;
+0x21d0;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:103;POP	%R13;
+0x21d2;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:103;POP	%R14;
+0x21d4;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:103;POP	%R15;
+0x21d6;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:103;POP	%RBP;
+0x21d7;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:103;RET;
+0x21d8;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:38;MOV	0x2e19(%RIP),%RAX;
+0x21df;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:38;MOV	(%RBX),%RDX;
+0x21e2;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:38;LEA	0xe37(%RIP),%RSI;
+0x21e9;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:38;MOV	(%RAX),%RDI;
+0x21ec;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:38;XOR	%EAX,%EAX;
+0x21ee;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:38;CALL	1070 <fprintf@plt>;
+0x21f3;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:38;MOV	$0x1,%EAX;
+0x21f8;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c:38;JMP	21c6 <main+0x386>;
+0x21fa;:0;NOPW	(%RAX,%RAX,1);

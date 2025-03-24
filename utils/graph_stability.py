@@ -30,7 +30,9 @@ def extract_n_from_filename(filename):
     return None
 
 # Liste des dossiers à traiter
-folders = ["measures_O2", "measures_O3", "measures_Ofast", "measures_Ofast-march"]
+base_path = "/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/souheila_clang/measured_values"
+folders = ["measures_O2", "measures_O3", "measures_O3_native", "measures_Ofast", "measures_Ofast_native"]
+folders = [os.path.join(base_path, folder) for folder in folders]
 
 # Dictionnaire pour stocker les données sous la forme : { dossier: [(n, stability), ...] }
 data = {}

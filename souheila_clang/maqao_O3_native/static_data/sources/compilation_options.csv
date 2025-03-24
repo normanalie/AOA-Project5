@@ -1,0 +1,7 @@
+module;src_file;score;issue;opts;
+measure;kernel.c;0.16666666666667;"-g is missing for some functions (possibly ones added by the compiler), but debug locations are available. Some analysis may be inaccurate.";"Ubuntu clang version 14.0.0-1ubuntu1.1 ";
+measure;kernel.c;;"-O2, -O3 or -Ofast is missing. ";"";
+measure;kernel.c;;"-march=(target) is missing. ";"";
+measure;driver.c;0.16666666666667;"-g is missing for some functions (possibly ones added by the compiler), but debug locations are available. Some analysis may be inaccurate.";"Ubuntu clang version 14.0.0-1ubuntu1.1 ";
+measure;driver.c;;"-O2, -O3 or -Ofast is missing. ";"";
+measure;driver.c;;"-march=(target) is missing. ";"";

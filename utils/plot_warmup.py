@@ -62,7 +62,7 @@ def parse_calibration_file(filename):
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: python plot_calibration.py <calibrate-gcc-10-100.txt>")
+        print("Usage: python plot_warmup.py <calibrate-clang-10-100.txt>")
         sys.exit(1)
     
     filename = sys.argv[1]
@@ -85,6 +85,7 @@ def main():
     ax1.plot(instances, med_vals, marker='o', linestyle='-', color=color_med, label="MED/iter")
     ax1.tick_params(axis='y', labelcolor=color_med)
     ax1.grid(True, linestyle='--', alpha=0.5)
+    ax1.set_ylim(bottom=0)  # Commencer l'axe y à 0
     
     # Axe droit pour (MED-MIN)/MIN en pourcentage
     ax2 = ax1.twinx()
@@ -92,10 +93,11 @@ def main():
     ax2.set_ylabel("(MED - MIN)/MIN (%)", color=color_stab)
     ax2.plot(instances, stability, marker='s', linestyle='--', color=color_stab, label="Stabilité (%)")
     ax2.tick_params(axis='y', labelcolor=color_stab)
+    ax2.set_ylim(bottom=0)  # Commencer l'axe y à 0
     
     plt.title("Mesures : MED/iter et (MED-MIN)/MIN en fonction du rang de la mesure")
     fig.tight_layout()
-    plt.savefig("calibration_plot.png", dpi=150)
+    plt.savefig("/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/souheila_clang/calibration_plot.png", dpi=150)
     plt.show()
 
 if __name__ == "__main__":

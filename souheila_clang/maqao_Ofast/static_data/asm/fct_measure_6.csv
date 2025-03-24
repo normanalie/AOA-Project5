@@ -1,0 +1,33 @@
+address;source_location;insn;indent
+0x11b0;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;TEST	%EDI,%EDI;
+0x11b2;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;JE	121b <kernel+0x6b>;
+0x11b4;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;MOV	%EDI,%EAX;
+0x11b6;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;LEA	(,%RAX,8),%R9;
+0x11be;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;XORPS	%XMM0,%XMM0;
+0x11c1;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;XOR	%R8D,%R8D;
+0x11c4;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;NOPW	%CS:(%RAX,%RAX,1);
+0x11ce;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;XCHG	%AX,%AX;
+0x11d0;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;MOV	%RSI,%RDI;(1) 
+0x11d3;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;XOR	%ECX,%ECX;(1) 
+0x11d5;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;NOPW	%CS:(%RAX,%RAX,1);(1) 
+0x11df;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;NOP;(1) 
+0x11e0;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;MOVSD	(%RDI),%XMM1;  (0) 
+0x11e4;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;MOVSS	(%RDX,%RCX,4),%XMM2;  (0) 
+0x11e9;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;CVTSS2SD	%XMM2,%XMM2;  (0) 
+0x11ed;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;SQRTSD	%XMM2,%XMM2;  (0) 
+0x11f1;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;DIVSD	%XMM2,%XMM1;  (0) 
+0x11f5;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;CVTSS2SD	%XMM0,%XMM0;  (0) 
+0x11f9;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;ADDSD	%XMM1,%XMM0;  (0) 
+0x11fd;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;CVTSD2SS	%XMM0,%XMM0;  (0) 
+0x1201;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;ADD	$0x1,%RCX;  (0) 
+0x1205;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;ADD	%R9,%RDI;  (0) 
+0x1208;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;CMP	%RCX,%RAX;  (0) 
+0x120b;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;JNE	11e0 <kernel+0x30>;  (0) 
+0x120d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;ADD	$0x1,%R8;(1) 
+0x1211;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;ADD	$0x8,%RSI;(1) 
+0x1215;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;CMP	%RAX,%R8;(1) 
+0x1218;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;JNE	11d0 <kernel+0x20>;(1) 
+0x121a;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:72;RET;
+0x121b;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:72;XORPS	%XMM0,%XMM0;
+0x121e;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:72;RET;
+0x121f;:0;NOP;

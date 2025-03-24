@@ -1,0 +1,6 @@
+********************************************************************************
+MAQAO 2.21.1 - a9bb74606c7e260f7f87782e64f16b00a6f20c1b::20250121-112452 || 2025/01/21
+maqao oneview -R1 -- ./bin/measure 120 5 100 
+CPY:  [true] ./bin/measure --> /home/benabid-guendouzi/Documents/GitHub/AOA-Project5/maqao_2025-03-24_22-27-17/binaries/measure
+CMD:   /usr/bin/maqao lprof _caller=oneview  --xp="/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/maqao_2025-03-24_22-27-17/tools/lprof_npsu_run_0" --mpi-command="" --collect-CPU-time-intervals --collect-topology   -- /home/benabid-guendouzi/Documents/GitHub/AOA-Project5/maqao_2025-03-24_22-27-17/binaries/measure  120 5 100
+CMD:  /usr/bin/maqao otter  -input=/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/maqao_2025-03-24_22-27-17/OTTER/input_manifest.csv -output=/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/maqao_2025-03-24_22-27-17/OTTER/output_manifest.csv
