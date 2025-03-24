@@ -38,6 +38,7 @@ def parse_measure_file(file_path):
 folders = {
     "measures_O2":         "gcc O2",
     "measures_O3":         "gcc O3",
+    "measures_O3-march":   "gcc O3 march",
     "measures_Ofast":      "gcc Ofast",
     "measures_Ofast-march":"gcc Ofast march"
 }
@@ -76,12 +77,16 @@ ax1.set_xlabel("Variantes de compilation")
 ax1.set_ylabel("Cycles/itération (médiane)")
 ax1.set_xticks(x)
 ax1.set_xticklabels(variants)
-ax1.set_ylim(0, max(cycles_median) * 1.2 if cycles_median else 1)
+
+# Calcul de la limite supérieure pour l'axe y (cycles/itération)
+max_cycles = max(cycles_median) if cycles_median else 1
+ax1.set_ylim(bottom=0, top=max_cycles * 1.2)
 
 # --- Courbe pour la stabilité (axe de droite) ---
 ax2 = ax1.twinx()
 ax2.set_ylabel("Stabilité (%)")
-ax2.set_ylim(0, max(stability_vals) * 1.2 if stability_vals else 1)
+max_stability = max(stability_vals) if stability_vals else 1
+ax2.set_ylim(bottom=0, top=max_stability * 1.2)
 
 line = ax2.plot(
     x, stability_vals, 

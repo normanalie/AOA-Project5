@@ -38,6 +38,7 @@ def parse_measure_file(file_path):
 folders = {
     "measures_O2":         "gcc O2",
     "measures_O3":         "gcc O3",
+    "measures_O3-march":   "gcc O3 march",
     "measures_Ofast":      "gcc Ofast",
     "measures_Ofast-march":"gcc Ofast march"
 }
@@ -48,7 +49,7 @@ stability_vals = []
 
 # Parcours des dossiers, extraction des données
 for folder, label in folders.items():
-    file_path = os.path.join(folder, "measure_60_3_10.txt")
+    file_path = os.path.join(folder, "measure_30_3_10.txt")
     med_cyc, stab = parse_measure_file(file_path)
     variants.append(label)
     cycles_median.append(med_cyc if med_cyc is not None else 0)

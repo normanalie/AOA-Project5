@@ -12,8 +12,8 @@ Calcul taille data: T(n) = n² × 8  +  n × 4  octets.
 
 Grace à calibrate, size=10, repw=[1, 100]:
 `./calibrate 10 100 > calibrate-gcc-10-100.txt`
- - repw=5
- - 2700 RTDSC -> On prendra alors repm=5
+ - repw>=3
+ - 2700 RTDSC -> On prendra alors repm>=5
 
 
 ## Mesures

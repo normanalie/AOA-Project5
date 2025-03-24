@@ -1,0 +1,2 @@
+module;src_file;score;issue;opts;
+measure;kernel.c;1;"";"clang based Intel(R) oneAPI DPC++/C++ Compiler 2025.0.4 (2025.0.4.20241205)  --intel -O3 -g -Wall -march=native -c ../kernel.c -o obj/kernel.o -fveclib=SVML -fheinous-gnu-extensions";

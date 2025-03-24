@@ -1,0 +1,4 @@
+node;pid;tid;core_id;sample_count;
+MathieuMint;14181;14181;2;697;
+MathieuMint;14181;14181;4;3;
+MathieuMint;14181;14181;8;693;

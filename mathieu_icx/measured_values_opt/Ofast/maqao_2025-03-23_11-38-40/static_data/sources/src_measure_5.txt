@@ -1,5 +1,0 @@
-/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../driver.c: 76 - 77
---------------------------------------------------------------------------------
-
-76:       for (i=0; i<repm; i++) {
-77:          kernel (size, a, b);

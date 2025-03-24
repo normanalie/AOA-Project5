@@ -1,2 +1,0 @@
-node;proc_name;architecture_code;uarchitecture_code;architecture;uarchitecture;cpui_model_name;cpui_cache_size;cpui_cpu_cores;max_frequency;cur_frequency;driver_frequency;scaling_governor;huge_pages;os_version;pids;
-MathieuMint;Tiger_lake_8c;2;18;x86_64;TIGER_LAKE;11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz;8192 KB;4;4200000;478979;intel_pstate;powersave;madvise;Linux 6.8.0-53-generic #55-Ubuntu SMP PREEMPT_DYNAMIC Fri Jan 17 15:37:52 UTC 2025;4291;

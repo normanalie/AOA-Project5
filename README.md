@@ -1,5 +1,11 @@
 # Projet d'études de cas AOA – Optimisation des performances des noyaux
 
+dossier src
+rm readme.txt
+ajouter infos perso readme.md
+nettoyer repertoire measures-norman
+
+
 ## Table des matières
 - [Introduction](#introduction)
 - [Formation des équipes](#formation-des-équipes)

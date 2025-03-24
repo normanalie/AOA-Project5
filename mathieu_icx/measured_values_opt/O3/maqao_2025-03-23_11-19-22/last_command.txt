@@ -1,1 +1,0 @@
-maqao OV -S1 -- ./../../bin/measure 148 100 6000 

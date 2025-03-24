@@ -1,0 +1,8 @@
+/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../kernel.c: 51 - 55
+--------------------------------------------------------------------------------
+
+51:             s += a[i][j] * inv_sqrt_b[i];
+52:         }
+53:     }
+54: 
+55:     return s;
