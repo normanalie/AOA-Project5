@@ -1,0 +1,2 @@
+module;src_file;score;issue;opts;
+measure;kernel.c;0.66666666666667;"-x(target) or -ax(target) is missing. ";"clang based Intel(R) oneAPI DPC++/C++ Compiler 2025.0.4 (2025.0.4.20241205)  --intel -O2 -g -Wall -c ../kernel.c -o obj/kernel.o -fveclib=SVML -fheinous-gnu-extensions";
