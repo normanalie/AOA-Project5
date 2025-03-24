@@ -86,6 +86,9 @@ def main():
     ax1.tick_params(axis='y', labelcolor=color_med)
     ax1.grid(True, linestyle='--', alpha=0.5)
     
+    # Modification pour démarrer l'axe des y à 0
+    ax1.set_ylim(bottom=0)
+    
     # Axe droit pour (MED-MIN)/MIN en pourcentage
     ax2 = ax1.twinx()
     color_stab = 'tab:red'

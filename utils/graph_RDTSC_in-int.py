@@ -32,7 +32,7 @@ def extract_n_from_filename(filename):
     return None
 
 # Liste des dossiers à traiter
-folders = ["measures_O2", "measures_O3", "measures_Ofast", "measures_Ofast-march"]
+folders = ["measures_O2", "measures_O3", "measures_O3-march"]
 
 # Dictionnaire pour stocker les données sous la forme : { dossier: [(n, median_inner_iter), ...] }
 data = {}
