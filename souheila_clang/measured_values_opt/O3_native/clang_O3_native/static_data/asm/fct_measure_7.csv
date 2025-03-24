@@ -1,0 +1,71 @@
+address;source_location;insn;indent
+0x17d0;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:64;ENDBR64;
+0x17d4;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;TEST	%EDI,%EDI;
+0x17d6;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;JE	1869 <kernel+0x99>;
+0x17dc;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:64;PUSH	%R15;
+0x17de;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:64;MOV	%RDX,%R15;
+0x17e1;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:64;PUSH	%R13;
+0x17e3;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:64;LEA	-0x1(%RDI),%EDX;
+0x17e6;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:64;PUSH	%R12;
+0x17e8;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:64;MOV	%EDI,%R12D;
+0x17eb;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:64;PUSH	%RBP;
+0x17ec;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:64;PUSH	%RBX;
+0x17ed;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:64;SUB	$0x20,%RSP;
+0x17f1;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:64;VXORPS	%XMM4,%XMM4,%XMM4;
+0x17f5;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:64;LEA	0x8(%RSI,%RDX,8),%RAX;
+0x17fa;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:64;SAL	$0x3,%R12;
+0x17fe;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:64;LEA	0x4(%R15,%RDX,4),%R13;
+0x1803;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:66;VXORPS	%XMM2,%XMM2,%XMM2;
+0x1807;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:66;VXORPD	%XMM3,%XMM3,%XMM3;
+0x180b;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:66;NOPL	(%RAX,%RAX,1);
+0x1810;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:64;MOV	%R15,%RBX;(10) 
+0x1813;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:64;MOV	%RSI,%RBP;(10) 
+0x1816;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:64;NOPW	%CS:(%RAX,%RAX,1);(10) 
+0x1820;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;VCVTSS2SD	(%RBX),%XMM4,%XMM0;  (9) 
+0x1824;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;VMOVSD	(%RBP),%XMM1;  (9) 
+0x1829;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;VUCOMISD	%XMM0,%XMM3;  (9) 
+0x182d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;JA	1872 <kernel+0xa2>;  (9) 
+0x182f;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;VSQRTSD	%XMM0,%XMM0,%XMM0;  (9) 
+0x1833;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;VDIVSD	%XMM0,%XMM1,%XMM1;  (9) 
+0x1837;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;ADD	$0x4,%RBX;  (9) 
+0x183b;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;ADD	%R12,%RBP;  (9) 
+0x183e;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;VCVTSS2SD	%XMM2,%XMM2,%XMM2;  (9) 
+0x1842;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;VADDSD	%XMM2,%XMM1,%XMM2;  (9) 
+0x1846;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;VCVTSD2SS	%XMM2,%XMM2,%XMM2;  (9) 
+0x184a;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;CMP	%R13,%RBX;  (9) 
+0x184d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;JNE	1820 <kernel+0x50>;  (9) 
+0x184f;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;ADD	$0x8,%RSI;(10) 
+0x1853;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;CMP	%RAX,%RSI;(10) 
+0x1856;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:68;JNE	1810 <kernel+0x40>;(10) 
+0x1858;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:73;ADD	$0x20,%RSP;
+0x185c;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:73;VMOVAPS	%XMM2,%XMM0;
+0x1860;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:73;POP	%RBX;
+0x1861;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:73;POP	%RBP;
+0x1862;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:73;POP	%R12;
+0x1864;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:73;POP	%R13;
+0x1866;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:73;POP	%R15;
+0x1868;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:73;RET;
+0x1869;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:66;VXORPS	%XMM2,%XMM2,%XMM2;
+0x186d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:73;VMOVAPS	%XMM2,%XMM0;
+0x1871;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:73;RET;
+0x1872;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:73;VMOVSS	%XMM2,0x1c(%RSP);  (9) 
+0x1878;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:73;MOV	%RAX,0x10(%RSP);  (9) 
+0x187d;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:73;MOV	%RSI,0x8(%RSP);  (9) 
+0x1882;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;ADD	$0x4,%RBX;  (9) 
+0x1886;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;VMOVSD	%XMM1,(%RSP);  (9) 
+0x188b;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;ADD	%R12,%RBP;  (9) 
+0x188e;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;CALL	1160 <.plt.sec@start+0x80>;  (9) 
+0x1893;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;CMP	%R13,%RBX;  (9) 
+0x1896;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;VXORPD	%XMM3,%XMM3,%XMM3;  (9) 
+0x189a;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;VXORPS	%XMM4,%XMM4,%XMM4;  (9) 
+0x189e;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;VMOVSD	(%RSP),%XMM1;  (9) 
+0x18a3;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;VMOVSS	0x1c(%RSP),%XMM2;  (9) 
+0x18a9;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;MOV	0x8(%RSP),%RSI;  (9) 
+0x18ae;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;MOV	0x10(%RSP),%RAX;  (9) 
+0x18b3;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;VDIVSD	%XMM0,%XMM1,%XMM1;  (9) 
+0x18b7;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;VCVTSS2SD	%XMM2,%XMM2,%XMM2;  (9) 
+0x18bb;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;VADDSD	%XMM2,%XMM1,%XMM2;  (9) 
+0x18bf;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:70;VCVTSD2SS	%XMM2,%XMM2,%XMM2;  (9) 
+0x18c3;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;JNE	1820 <kernel+0x50>;  (9) 
+0x18c9;/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c:69;JMP	184f <kernel+0x7f>;(10) 
+0x18cb;:0;NOPL	(%RAX,%RAX,1);
