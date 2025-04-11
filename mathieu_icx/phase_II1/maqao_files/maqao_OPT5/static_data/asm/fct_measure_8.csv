@@ -1,0 +1,351 @@
+address;source_location;insn;indent
+0x401770;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:35;PUSH	%RBP;
+0x401771;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:35;PUSH	%R15;
+0x401773;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:35;PUSH	%R14;
+0x401775;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:35;PUSH	%R13;
+0x401777;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:35;PUSH	%R12;
+0x401779;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:35;PUSH	%RBX;
+0x40177a;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:35;SUB	$0x178,%RSP;
+0x401781;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:35;STMXCSR	0x80(%RSP);
+0x401789;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:35;ORL	$0x8040,0x80(%RSP);
+0x401794;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:35;LDMXCSR	0x80(%RSP);
+0x40179c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:35;MOV	%RSI,%R15;
+0x40179f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:37;CMP	$0x4,%EDI;
+0x4017a2;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:37;JNE	401d46 <main+0x5d6>;
+0x4017a8;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:43;MOV	0x8(%R15),%RDI;
+0x4017ac;/usr/include/stdlib.h:483;XOR	%ESI,%ESI;
+0x4017ae;/usr/include/stdlib.h:483;MOV	$0xa,%EDX;
+0x4017b3;/usr/include/stdlib.h:483;CALL	401080 <strtol@plt>;
+0x4017b8;/usr/include/stdlib.h:483;MOV	%RAX,%RBX;
+0x4017bb;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:44;MOV	0x10(%R15),%RDI;
+0x4017bf;/usr/include/stdlib.h:483;XOR	%ESI,%ESI;
+0x4017c1;/usr/include/stdlib.h:483;MOV	$0xa,%EDX;
+0x4017c6;/usr/include/stdlib.h:483;CALL	401080 <strtol@plt>;
+0x4017cb;/usr/include/stdlib.h:483;MOV	%RAX,0x18(%RSP);
+0x4017d0;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:45;MOV	0x18(%R15),%RDI;
+0x4017d4;/usr/include/stdlib.h:483;XOR	%ESI,%ESI;
+0x4017d6;/usr/include/stdlib.h:483;MOV	$0xa,%EDX;
+0x4017db;/usr/include/stdlib.h:483;CALL	401080 <strtol@plt>;
+0x4017e0;/usr/include/stdlib.h:483;MOV	%RAX,0x8(%RSP);
+0x4017e5;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:57;MOV	%EBX,%EAX;
+0x4017e7;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:57;IMUL	%EAX,%EAX;
+0x4017ea;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:57;MOV	%RAX,0x40(%RSP);
+0x4017ef;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:57;LEA	(,%RAX,8),%RAX;
+0x4017f7;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:57;MOV	%RAX,0x70(%RSP);
+0x4017fc;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:58;MOV	%EBX,%R15D;
+0x4017ff;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:58;MOV	%R15,0x60(%RSP);
+0x401804;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:58;LEA	(,%R15,4),%RAX;
+0x40180c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:58;MOV	%RAX,0x68(%RSP);
+0x401811;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:58;MOV	%EBX,%EAX;
+0x401813;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:58;AND	$0x7fffffff,%EAX;
+0x401818;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:58;MOV	%RAX,0x38(%RSP);
+0x40181d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:37;IMUL	%RAX,%RAX;
+0x401821;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:37;MOV	%RAX,%RCX;
+0x401824;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:37;SHR	$0x3,%RCX;
+0x401828;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:37;MOV	%RCX,0x48(%RSP);
+0x40182d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:37;MOV	%RAX,0x30(%RSP);
+0x401832;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:37;AND	$-0x8,%RAX;
+0x401836;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:37;MOV	%RAX,0x28(%RSP);
+0x40183b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:37;IMUL	%R15,%R15;
+0x40183f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:37;MOV	%EBX,%EAX;
+0x401841;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:37;AND	$0x7ffffff8,%EAX;
+0x401846;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:37;MOV	%RAX,0x20(%RSP);
+0x40184b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:50;LEA	(,%RAX,4),%RAX;
+0x401853;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:50;MOV	%RAX,0x58(%RSP);
+0x401858;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:50;XOR	%ECX,%ECX;
+0x40185a;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:50;MOV	%R15,0x50(%RSP);
+0x40185f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:50;JMP	4018a9 <main+0x139>;
+0x401861;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:50;NOPW	%CS:(%RAX,%RAX,1);
+0x401870;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:79;XOR	%EAX,%EAX;(8) 
+0x401872;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:79;CALL	401760 <rdtsc>;(8) 
+0x401877;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:80;SUB	%R14,%RAX;(8) 
+0x40187a;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:80;MOV	0x10(%RSP),%RCX;(8) 
+0x40187f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:80;MOV	%RAX,0x80(%RSP,%RCX,8);(8) 
+0x401887;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:83;MOV	%R12,%RDI;(8) 
+0x40188a;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:83;CALL	401030 <free@plt>;(8) 
+0x40188f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:84;MOV	%R13,%RDI;(8) 
+0x401892;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:84;CALL	401030 <free@plt>;(8) 
+0x401897;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:84;MOV	0x78(%RSP),%RAX;(8) 
+0x40189c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:84;MOV	%RAX,%RCX;(8) 
+0x40189f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:50;CMP	$0x1f,%RAX;(8) 
+0x4018a3;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:50;JE	401be6 <main+0x476>;(8) 
+0x4018a9;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:51;LEA	0x1(%RCX),%RSI;(8) 
+0x4018ad;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:51;MOV	%RCX,0x10(%RSP);(8) 
+0x4018b2;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:52;TEST	%RCX,%RCX;(8) 
+0x4018b5;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:52;MOV	$0x1,%ECX;(8) 
+0x4018ba;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:52;CMOVE	0x18(%RSP),%ECX;(8) 
+0x4018bf;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:51;MOV	$0x402081,%EDI;(8) 
+0x4018c4;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:51;MOV	%RSI,0x78(%RSP);(8) 
+0x4018c9;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:51;MOV	$0x1f,%EDX;(8) 
+0x4018ce;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:51;MOV	0x8(%RSP),%R8;(8) 
+0x4018d3;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:51;XOR	%EAX,%EAX;(8) 
+0x4018d5;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:51;CALL	401050 <printf@plt>;(8) 
+0x4018da;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:51;MOV	0x70(%RSP),%RDI;(8) 
+0x4018df;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:57;CALL	401090 <malloc@plt>;(8) 
+0x4018e4;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:57;MOV	%RAX,%R12;(8) 
+0x4018e7;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:57;MOV	0x68(%RSP),%RDI;(8) 
+0x4018ec;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:58;CALL	401090 <malloc@plt>;(8) 
+0x4018f1;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:58;MOV	%RAX,%R13;(8) 
+0x4018f4;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:62;XOR	%EDI,%EDI;(8) 
+0x4018f6;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:62;CALL	401060 <srand@plt>;(8) 
+0x4018fb;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:16;TEST	%EBX,%EBX;(8) 
+0x4018fd;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:16;JLE	401b73 <main+0x403>;(8) 
+0x401903;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:16;CMPQ	$0x8,0x30(%RSP);(8) 
+0x401909;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:16;JB	4019fc <main+0x28c>;(8) 
+0x40190f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;MOV	%R12,%R14;(8) 
+0x401912;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;ADD	$0x38,%R14;(8) 
+0x401916;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;MOV	0x48(%RSP),%RBP;(8) 
+0x40191b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;NOPL	(%RAX,%RAX,1);(8) 
+0x401920;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CALL	4010a0 <rand@plt>;  (14) 
+0x401925;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;XORPS	%XMM0,%XMM0;  (14) 
+0x401928;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CVTSI2SD	%EAX,%XMM0;  (14) 
+0x40192c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MULSD	0x70c(%RIP),%XMM0;  (14) 
+0x401934;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MOVSD	%XMM0,-0x38(%R14);  (14) 
+0x40193a;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CALL	4010a0 <rand@plt>;  (14) 
+0x40193f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;XORPS	%XMM0,%XMM0;  (14) 
+0x401942;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CVTSI2SD	%EAX,%XMM0;  (14) 
+0x401946;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MULSD	0x6f2(%RIP),%XMM0;  (14) 
+0x40194e;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MOVSD	%XMM0,-0x30(%R14);  (14) 
+0x401954;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CALL	4010a0 <rand@plt>;  (14) 
+0x401959;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;XORPS	%XMM0,%XMM0;  (14) 
+0x40195c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CVTSI2SD	%EAX,%XMM0;  (14) 
+0x401960;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MULSD	0x6d8(%RIP),%XMM0;  (14) 
+0x401968;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MOVSD	%XMM0,-0x28(%R14);  (14) 
+0x40196e;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CALL	4010a0 <rand@plt>;  (14) 
+0x401973;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;XORPS	%XMM0,%XMM0;  (14) 
+0x401976;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CVTSI2SD	%EAX,%XMM0;  (14) 
+0x40197a;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MULSD	0x6be(%RIP),%XMM0;  (14) 
+0x401982;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MOVSD	%XMM0,-0x20(%R14);  (14) 
+0x401988;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CALL	4010a0 <rand@plt>;  (14) 
+0x40198d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;XORPS	%XMM0,%XMM0;  (14) 
+0x401990;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CVTSI2SD	%EAX,%XMM0;  (14) 
+0x401994;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MULSD	0x6a4(%RIP),%XMM0;  (14) 
+0x40199c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MOVSD	%XMM0,-0x18(%R14);  (14) 
+0x4019a2;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CALL	4010a0 <rand@plt>;  (14) 
+0x4019a7;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;XORPS	%XMM0,%XMM0;  (14) 
+0x4019aa;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CVTSI2SD	%EAX,%XMM0;  (14) 
+0x4019ae;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MULSD	0x68a(%RIP),%XMM0;  (14) 
+0x4019b6;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MOVSD	%XMM0,-0x10(%R14);  (14) 
+0x4019bc;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CALL	4010a0 <rand@plt>;  (14) 
+0x4019c1;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;XORPS	%XMM0,%XMM0;  (14) 
+0x4019c4;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CVTSI2SD	%EAX,%XMM0;  (14) 
+0x4019c8;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MULSD	0x670(%RIP),%XMM0;  (14) 
+0x4019d0;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MOVSD	%XMM0,-0x8(%R14);  (14) 
+0x4019d6;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CALL	4010a0 <rand@plt>;  (14) 
+0x4019db;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;XORPS	%XMM0,%XMM0;  (14) 
+0x4019de;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CVTSI2SD	%EAX,%XMM0;  (14) 
+0x4019e2;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MULSD	0x656(%RIP),%XMM0;  (14) 
+0x4019ea;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MOVSD	%XMM0,(%R14);  (14) 
+0x4019ef;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;ADD	$0x40,%R14;  (14) 
+0x4019f3;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;DEC	%RBP;  (14) 
+0x4019f6;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;JNE	401920 <main+0x1b0>;  (14) 
+0x4019fc;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;MOV	0x28(%RSP),%RAX;(8) 
+0x401a01;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;CMP	0x30(%RSP),%RAX;(8) 
+0x401a06;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;JE	401a32 <main+0x2c2>;(8) 
+0x401a08;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;MOV	0x28(%RSP),%R14;(8) 
+0x401a0d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;NOPL	(%RAX);(8) 
+0x401a10;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CALL	4010a0 <rand@plt>;  (13) 
+0x401a15;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;XORPS	%XMM0,%XMM0;  (13) 
+0x401a18;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;CVTSI2SD	%EAX,%XMM0;  (13) 
+0x401a1c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MULSD	0x61c(%RIP),%XMM0;  (13) 
+0x401a24;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:18;MOVSD	%XMM0,(%R12,%R14,8);  (13) 
+0x401a2a;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;INC	%R14;  (13) 
+0x401a2d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;CMP	%R14,%R15;  (13) 
+0x401a30;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;JNE	401a10 <main+0x2a0>;  (13) 
+0x401a32;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;CMPL	$0x8,0x38(%RSP);(8) 
+0x401a37;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;MOV	0x58(%RSP),%R15;(8) 
+0x401a3c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;JB	401b29 <main+0x3b9>;(8) 
+0x401a42;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;XOR	%R14D,%R14D;(8) 
+0x401a45;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:17;NOPW	%CS:(%RAX,%RAX,1);(8) 
+0x401a50;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CALL	4010a0 <rand@plt>;  (12) 
+0x401a55;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;XORPS	%XMM0,%XMM0;  (12) 
+0x401a58;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CVTSI2SS	%EAX,%XMM0;  (12) 
+0x401a5c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MULSS	0x5a8(%RIP),%XMM0;  (12) 
+0x401a64;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;LEA	(%R14,%R13,1),%RBP;  (12) 
+0x401a68;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MOVSS	%XMM0,(%RBP);  (12) 
+0x401a6d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CALL	4010a0 <rand@plt>;  (12) 
+0x401a72;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;XORPS	%XMM0,%XMM0;  (12) 
+0x401a75;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CVTSI2SS	%EAX,%XMM0;  (12) 
+0x401a79;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MULSS	0x58b(%RIP),%XMM0;  (12) 
+0x401a81;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MOVSS	%XMM0,0x4(%RBP);  (12) 
+0x401a86;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CALL	4010a0 <rand@plt>;  (12) 
+0x401a8b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;XORPS	%XMM0,%XMM0;  (12) 
+0x401a8e;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CVTSI2SS	%EAX,%XMM0;  (12) 
+0x401a92;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MULSS	0x572(%RIP),%XMM0;  (12) 
+0x401a9a;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MOVSS	%XMM0,0x8(%RBP);  (12) 
+0x401a9f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CALL	4010a0 <rand@plt>;  (12) 
+0x401aa4;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;XORPS	%XMM0,%XMM0;  (12) 
+0x401aa7;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CVTSI2SS	%EAX,%XMM0;  (12) 
+0x401aab;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MULSS	0x559(%RIP),%XMM0;  (12) 
+0x401ab3;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MOVSS	%XMM0,0xc(%RBP);  (12) 
+0x401ab8;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CALL	4010a0 <rand@plt>;  (12) 
+0x401abd;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;XORPS	%XMM0,%XMM0;  (12) 
+0x401ac0;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CVTSI2SS	%EAX,%XMM0;  (12) 
+0x401ac4;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MULSS	0x540(%RIP),%XMM0;  (12) 
+0x401acc;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MOVSS	%XMM0,0x10(%RBP);  (12) 
+0x401ad1;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CALL	4010a0 <rand@plt>;  (12) 
+0x401ad6;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;XORPS	%XMM0,%XMM0;  (12) 
+0x401ad9;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CVTSI2SS	%EAX,%XMM0;  (12) 
+0x401add;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MULSS	0x527(%RIP),%XMM0;  (12) 
+0x401ae5;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MOVSS	%XMM0,0x14(%RBP);  (12) 
+0x401aea;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CALL	4010a0 <rand@plt>;  (12) 
+0x401aef;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;XORPS	%XMM0,%XMM0;  (12) 
+0x401af2;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CVTSI2SS	%EAX,%XMM0;  (12) 
+0x401af6;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MULSS	0x50e(%RIP),%XMM0;  (12) 
+0x401afe;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MOVSS	%XMM0,0x18(%RBP);  (12) 
+0x401b03;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CALL	4010a0 <rand@plt>;  (12) 
+0x401b08;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;XORPS	%XMM0,%XMM0;  (12) 
+0x401b0b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CVTSI2SS	%EAX,%XMM0;  (12) 
+0x401b0f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MULSS	0x4f5(%RIP),%XMM0;  (12) 
+0x401b17;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MOVSS	%XMM0,0x1c(%RBP);  (12) 
+0x401b1c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:23;ADD	$0x20,%R14;  (12) 
+0x401b20;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:23;CMP	%R14,%R15;  (12) 
+0x401b23;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:23;JNE	401a50 <main+0x2e0>;  (12) 
+0x401b29;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:23;MOV	0x20(%RSP),%RAX;(8) 
+0x401b2e;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:23;CMP	0x38(%RSP),%EAX;(8) 
+0x401b32;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:23;MOV	0x60(%RSP),%RBP;(8) 
+0x401b37;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:23;MOV	0x50(%RSP),%R15;(8) 
+0x401b3c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:23;JAE	401b73 <main+0x403>;(8) 
+0x401b3e;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:23;MOV	0x20(%RSP),%R14;(8) 
+0x401b43;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:23;NOPW	%CS:(%RAX,%RAX,1);(8) 
+0x401b50;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CALL	4010a0 <rand@plt>;  (11) 
+0x401b55;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;XORPS	%XMM0,%XMM0;  (11) 
+0x401b58;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;CVTSI2SS	%EAX,%XMM0;  (11) 
+0x401b5c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MULSS	0x4a8(%RIP),%XMM0;  (11) 
+0x401b64;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:24;MOVSS	%XMM0,(%R13,%R14,4);  (11) 
+0x401b6b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:23;INC	%R14;  (11) 
+0x401b6e;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:23;CMP	%R14,%RBP;  (11) 
+0x401b71;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:23;JNE	401b50 <main+0x3e0>;  (11) 
+0x401b73;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:52;CMPQ	$0,0x10(%RSP);(8) 
+0x401b79;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:67;JE	401b90 <main+0x420>;(8) 
+0x401b7b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:71;MOV	%EBX,%EDI;(8) 
+0x401b7d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:71;MOV	%R12,%RSI;(8) 
+0x401b80;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:71;MOV	%R13,%RDX;(8) 
+0x401b83;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:71;CALL	4011b0 <kernel>;(8) 
+0x401b88;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:71;JMP	401bb1 <main+0x441>;(8) 
+0x401b8a;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:71;NOPW	(%RAX,%RAX,1);
+0x401b90;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:68;CMPL	$0,0x18(%RSP);(8) 
+0x401b95;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:68;JE	401bb1 <main+0x441>;(8) 
+0x401b97;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:68;MOV	0x18(%RSP),%RAX;(8) 
+0x401b9c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:68;MOV	%EAX,%EBP;(8) 
+0x401b9e;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:68;XCHG	%AX,%AX;(8) 
+0x401ba0;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:69;MOV	%EBX,%EDI;  (10) 
+0x401ba2;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:69;MOV	%R12,%RSI;  (10) 
+0x401ba5;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:69;MOV	%R13,%RDX;  (10) 
+0x401ba8;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:69;CALL	4011b0 <kernel>;  (10) 
+0x401bad;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:68;DEC	%EBP;  (10) 
+0x401baf;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:68;JNE	401ba0 <main+0x430>;  (10) 
+0x401bb1;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:75;XOR	%EAX,%EAX;(8) 
+0x401bb3;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:75;CALL	401760 <rdtsc>;(8) 
+0x401bb8;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:75;MOV	%RAX,%R14;(8) 
+0x401bbb;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:76;CMPL	$0,0x8(%RSP);(8) 
+0x401bc0;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:76;JE	401870 <main+0x100>;(8) 
+0x401bc6;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:76;MOV	0x8(%RSP),%RAX;(8) 
+0x401bcb;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:76;MOV	%EAX,%EBP;(8) 
+0x401bcd;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:76;NOPL	(%RAX);(8) 
+0x401bd0;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:77;MOV	%EBX,%EDI;  (9) 
+0x401bd2;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:77;MOV	%R12,%RSI;  (9) 
+0x401bd5;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:77;MOV	%R13,%RDX;  (9) 
+0x401bd8;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:77;CALL	4011b0 <kernel>;  (9) 
+0x401bdd;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:76;DEC	%EBP;  (9) 
+0x401bdf;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:76;JNE	401bd0 <main+0x460>;  (9) 
+0x401be1;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:76;JMP	401870 <main+0x100>;(8) 
+0x401be6;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:76;MOV	0x40(%RSP),%R14;
+0x401beb;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:88;IMUL	0x8(%RSP),%R14D;
+0x401bf1;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:88;LEA	0x80(%RSP),%RDI;
+0x401bf9;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:89;MOV	$0x1f,%ESI;
+0x401bfe;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:89;MOV	$0x8,%EDX;
+0x401c03;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:89;MOV	$0x401d70,%ECX;
+0x401c08;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:89;CALL	401040 <qsort@plt>;
+0x401c0d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;MOV	0x80(%RSP),%RBX;
+0x401c15;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;MOV	%RBX,%RAX;
+0x401c18;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;SHR	$0x1,%RAX;
+0x401c1b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;MOV	%EBX,%ECX;
+0x401c1d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;AND	$0x1,%ECX;
+0x401c20;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;OR	%RAX,%RCX;
+0x401c23;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;CVTSI2SS	%RCX,%XMM1;
+0x401c28;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;ADDSS	%XMM1,%XMM1;
+0x401c2c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;XORPS	%XMM0,%XMM0;
+0x401c2f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;CVTSI2SS	%RBX,%XMM0;
+0x401c34;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;TEST	%RBX,%RBX;
+0x401c37;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;JS	401c3c <main+0x4cc>;
+0x401c39;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;MOVAPS	%XMM0,%XMM1;
+0x401c3c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;XORPS	%XMM0,%XMM0;
+0x401c3f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;CVTSI2SS	%R14,%XMM0;
+0x401c44;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;MOVSS	0x3c4(%RIP),%XMM2;
+0x401c4c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;DIVSS	%XMM0,%XMM2;
+0x401c50;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;MOVSS	%XMM1,0x10(%RSP);
+0x401c56;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;MOVAPS	%XMM1,%XMM0;
+0x401c59;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;MOVSS	%XMM2,0x8(%RSP);
+0x401c5f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;MULSS	%XMM2,%XMM0;
+0x401c63;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:91;CVTSS2SD	%XMM0,%XMM0;
+0x401c67;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:90;MOV	$0x4020cd,%EDI;
+0x401c6c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:90;MOV	%RBX,%RSI;
+0x401c6f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:90;MOV	$0x1,%AL;
+0x401c71;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:90;CALL	401050 <printf@plt>;
+0x401c76;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;MOV	0xf8(%RSP),%R14;
+0x401c7e;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;MOV	%R14,%RAX;
+0x401c81;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;SHR	$0x1,%RAX;
+0x401c84;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;MOV	%R14D,%ECX;
+0x401c87;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;AND	$0x1,%ECX;
+0x401c8a;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;OR	%RAX,%RCX;
+0x401c8d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;XORPS	%XMM0,%XMM0;
+0x401c90;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;CVTSI2SS	%RCX,%XMM0;
+0x401c95;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;ADDSS	%XMM0,%XMM0;
+0x401c99;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;XORPS	%XMM1,%XMM1;
+0x401c9c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;CVTSI2SS	%R14,%XMM1;
+0x401ca1;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;TEST	%R14,%R14;
+0x401ca4;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;JS	401ca9 <main+0x539>;
+0x401ca6;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;MOVAPS	%XMM1,%XMM0;
+0x401ca9;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;MULSS	0x8(%RSP),%XMM0;
+0x401caf;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:93;CVTSS2SD	%XMM0,%XMM0;
+0x401cb3;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:92;MOV	$0x4020f9,%EDI;
+0x401cb8;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:92;MOV	%R14,%RSI;
+0x401cbb;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:92;MOV	$0x1,%AL;
+0x401cbd;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:92;CALL	401050 <printf@plt>;
+0x401cc2;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:94;SUB	%RBX,%R14;
+0x401cc5;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:94;MOV	%R14,%RAX;
+0x401cc8;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:94;SHR	$0x1,%RAX;
+0x401ccb;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:94;MOV	%R14D,%ECX;
+0x401cce;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:94;AND	$0x1,%ECX;
+0x401cd1;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:94;OR	%RAX,%RCX;
+0x401cd4;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:94;XORPS	%XMM0,%XMM0;
+0x401cd7;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:94;CVTSI2SS	%RCX,%XMM0;
+0x401cdc;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:94;ADDSS	%XMM0,%XMM0;
+0x401ce0;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:94;XORPS	%XMM1,%XMM1;
+0x401ce3;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:94;CVTSI2SS	%R14,%XMM1;
+0x401ce8;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:94;TEST	%R14,%R14;
+0x401ceb;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:94;JS	401cf0 <main+0x580>;
+0x401ced;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:94;MOVAPS	%XMM1,%XMM0;
+0x401cf0;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:94;MULSS	0x31c(%RIP),%XMM0;
+0x401cf8;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:94;DIVSS	0x10(%RSP),%XMM0;
+0x401cfe;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:95;UCOMISS	0x313(%RIP),%XMM0;
+0x401d05;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:95;JAE	401d1b <main+0x5ab>;
+0x401d07;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:97;UCOMISS	0x30e(%RIP),%XMM0;
+0x401d0e;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:97;CVTSS2SD	%XMM0,%XMM0;
+0x401d12;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:97;JAE	401d26 <main+0x5b6>;
+0x401d14;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:100;MOV	$0x402159,%EDI;
+0x401d19;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:100;JMP	401d2b <main+0x5bb>;
+0x401d1b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:96;CVTSS2SD	%XMM0,%XMM0;
+0x401d1f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:96;MOV	$0x402125,%EDI;
+0x401d24;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:96;JMP	401d2b <main+0x5bb>;
+0x401d26;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:98;MOV	$0x40213d,%EDI;
+0x401d2b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:98;MOV	$0x1,%AL;
+0x401d2d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:98;CALL	401050 <printf@plt>;
+0x401d32;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:98;XOR	%EAX,%EAX;
+0x401d34;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:103;ADD	$0x178,%RSP;
+0x401d3b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:103;POP	%RBX;
+0x401d3c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:103;POP	%R12;
+0x401d3e;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:103;POP	%R13;
+0x401d40;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:103;POP	%R14;
+0x401d42;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:103;POP	%R15;
+0x401d44;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:103;POP	%RBP;
+0x401d45;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:103;RET;
+0x401d46;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:38;MOV	0x2313(%RIP),%RDI;
+0x401d4d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:38;MOV	(%R15),%RDX;
+0x401d50;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:38;MOV	$0x402048,%ESI;
+0x401d55;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:38;XOR	%EAX,%EAX;
+0x401d57;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:38;CALL	401070 <fprintf@plt>;
+0x401d5c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:38;MOV	$0x1,%EAX;
+0x401d61;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:39;JMP	401d34 <main+0x5c4>;
+0x401d63;:0;NOPW	%CS:(%RAX,%RAX,1);

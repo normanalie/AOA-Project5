@@ -1,0 +1,121 @@
+address;source_location;insn;indent
+0x4011b0;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:45;PUSH	%RBP;
+0x4011b1;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:45;MOV	%RSP,%RBP;
+0x4011b4;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:45;MOV	%EDI,%EAX;
+0x4011b6;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:50;MOV	%RSP,%RCX;
+0x4011b9;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:50;LEA	0xf(,%RAX,4),%R8;
+0x4011c1;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:50;AND	$-0x10,%R8;
+0x4011c5;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:50;SUB	%R8,%RCX;
+0x4011c8;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:50;MOV	%RCX,%RSP;
+0x4011cb;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;TEST	%EDI,%EDI;
+0x4011cd;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;JE	401253 <kernel+0xa3>;
+0x4011d3;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;MOV	%EAX,%EDI;
+0x4011d5;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;AND	$-0x4,%EDI;
+0x4011d8;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;MOVQ	%RDI,%XMM0;
+0x4011dd;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;PSHUFD	$0x44,%XMM0,%XMM0;
+0x4011e2;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;JE	40125b <kernel+0xab>;
+0x4011e4;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;XOR	%R8D,%R8D;
+0x4011e7;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;MOVAPS	0xe32(%RIP),%XMM1;
+0x4011ee;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;MOVAPS	0xe3b(%RIP),%XMM2;
+0x4011f5;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;NOPW	%CS:(%RAX,%RAX,1);
+0x401200;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MOVUPS	(%RDX,%R8,4),%XMM3;(4) 
+0x401205;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;RSQRTPS	%XMM3,%XMM4;(4) 
+0x401208;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MULPS	%XMM4,%XMM3;(4) 
+0x40120b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MULPS	%XMM4,%XMM3;(4) 
+0x40120e;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;ADDPS	%XMM1,%XMM3;(4) 
+0x401211;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MULPS	%XMM2,%XMM4;(4) 
+0x401214;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MULPS	%XMM3,%XMM4;(4) 
+0x401217;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MOVAPS	%XMM4,(%RCX,%R8,4);(4) 
+0x40121c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;ADD	$0x4,%R8;(4) 
+0x401220;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;CMP	%RDI,%R8;(4) 
+0x401223;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;JB	401200 <kernel+0x50>;(4) 
+0x401225;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;MOVD	%EAX,%XMM1;
+0x401229;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;PSHUFD	$0x44,%XMM1,%XMM1;
+0x40122e;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;MOVDQA	%XMM1,%XMM2;
+0x401232;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;PCMPEQD	%XMM0,%XMM2;
+0x401236;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;PSHUFD	$-0x4f,%XMM2,%XMM3;
+0x40123b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;PAND	%XMM2,%XMM3;
+0x40123f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;MOVD	%XMM3,%R8D;
+0x401244;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;MOV	%RDI,%R9;
+0x401247;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;TEST	$0x1,%R8B;
+0x40124b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;JE	40125e <kernel+0xae>;
+0x40124d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;LEA	-0x1(%RAX),%R8;
+0x401251;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;JMP	4012b8 <kernel+0x108>;
+0x401253;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;XORPS	%XMM0,%XMM0;
+0x401256;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:62;MOV	%RBP,%RSP;
+0x401259;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:62;POP	%RBP;
+0x40125a;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:62;RET;
+0x40125b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:62;XOR	%R9D,%R9D;
+0x40125e;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:62;LEA	-0x1(%RAX),%R8;
+0x401262;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:62;MOVSS	0xd9a(%RIP),%XMM1;
+0x40126a;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:62;MOVSS	0xd96(%RIP),%XMM2;
+0x401272;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:62;NOPW	%CS:(%RAX,%RAX,1);
+0x401280;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MOVSS	(%RDX,%R9,4),%XMM3;(0) 
+0x401286;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;XORPS	%XMM4,%XMM4;(0) 
+0x401289;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;RSQRTSS	%XMM3,%XMM4;(0) 
+0x40128d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MULSS	%XMM4,%XMM3;(0) 
+0x401291;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MULSS	%XMM4,%XMM3;(0) 
+0x401295;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;ADDSS	%XMM1,%XMM3;(0) 
+0x401299;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MULSS	%XMM2,%XMM4;(0) 
+0x40129d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MULSS	%XMM3,%XMM4;(0) 
+0x4012a1;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MOVSS	%XMM4,(%RCX,%R9,4);(0) 
+0x4012a7;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;INC	%R9;(0) 
+0x4012aa;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;CMP	%R9,%RAX;(0) 
+0x4012ad;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;JNE	401280 <kernel+0xd0>;(0) 
+0x4012af;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;MOVD	%EAX,%XMM1;
+0x4012b3;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;PSHUFD	$0x44,%XMM1,%XMM1;
+0x4012b8;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;PCMPEQD	%XMM0,%XMM1;
+0x4012bc;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;PSHUFD	$-0x4f,%XMM1,%XMM0;
+0x4012c1;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;PAND	%XMM1,%XMM0;
+0x4012c5;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;MOVD	%XMM0,%EDX;
+0x4012c9;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;LEA	(,%RAX,8),%R9;
+0x4012d1;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;PXOR	%XMM0,%XMM0;
+0x4012d5;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;XOR	%R10D,%R10D;
+0x4012d8;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;JMP	4012f3 <kernel+0x143>;
+0x4012da;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;NOPW	(%RAX,%RAX,1);
+0x4012e0;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:56;LEA	0x1(%R10),%R11;(2) 
+0x4012e4;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:56;ADD	%R9,%RSI;(2) 
+0x4012e7;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:56;CMP	%R8,%R10;(2) 
+0x4012ea;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:56;MOV	%R11,%R10;(2) 
+0x4012ed;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:56;JE	401256 <kernel+0xa6>;(2) 
+0x4012f3;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;MOVSS	(%RCX,%R10,4),%XMM1;(2) 
+0x4012f9;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;TEST	%RDI,%RDI;(2) 
+0x4012fc;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;JE	401360 <kernel+0x1b0>;(2) 
+0x4012fe;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;MOVAPS	%XMM1,%XMM3;(2) 
+0x401301;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;SHUFPS	$0,%XMM1,%XMM3;(2) 
+0x401305;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;PXOR	%XMM2,%XMM2;(2) 
+0x401309;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;XOR	%R11D,%R11D;(2) 
+0x40130c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;NOPL	(%RAX);(2) 
+0x401310;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;MOVUPD	0x10(%RSI,%R11,8),%XMM4;  (3) 
+0x401317;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;CVTPD2PS	%XMM4,%XMM4;  (3) 
+0x40131b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;MOVUPD	(%RSI,%R11,8),%XMM5;  (3) 
+0x401321;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;CVTPD2PS	%XMM5,%XMM5;  (3) 
+0x401325;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;UNPCKLPD	%XMM4,%XMM5;  (3) 
+0x401329;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;MULPS	%XMM3,%XMM5;  (3) 
+0x40132c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;ADDPS	%XMM5,%XMM2;  (3) 
+0x40132f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;ADD	$0x4,%R11;  (3) 
+0x401333;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;CMP	%RDI,%R11;  (3) 
+0x401336;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;JB	401310 <kernel+0x160>;  (3) 
+0x401338;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;MOVAPS	%XMM2,%XMM3;(2) 
+0x40133b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;UNPCKHPD	%XMM2,%XMM3;(2) 
+0x40133f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;ADDPS	%XMM2,%XMM3;(2) 
+0x401342;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;MOVAPS	%XMM3,%XMM2;(2) 
+0x401345;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;SHUFPS	$0x55,%XMM3,%XMM2;(2) 
+0x401349;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;ADDSS	%XMM3,%XMM2;(2) 
+0x40134d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;ADDSS	%XMM2,%XMM0;(2) 
+0x401351;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;MOV	%RDI,%R11;(2) 
+0x401354;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;TEST	$0x1,%DL;(2) 
+0x401357;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;JE	401370 <kernel+0x1c0>;(2) 
+0x401359;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;JMP	4012e0 <kernel+0x130>;(2) 
+0x40135b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;NOPL	(%RAX,%RAX,1);
+0x401360;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;XOR	%R11D,%R11D;(2) 
+0x401363;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;NOPW	%CS:(%RAX,%RAX,1);(2) 
+0x401370;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;MOVSD	(%RSI,%R11,8),%XMM2;  (1) 
+0x401376;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;CVTSD2SS	%XMM2,%XMM2;  (1) 
+0x40137a;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;MULSS	%XMM1,%XMM2;  (1) 
+0x40137e;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:58;ADDSS	%XMM2,%XMM0;  (1) 
+0x401382;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;INC	%R11;  (1) 
+0x401385;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;CMP	%R11,%RAX;  (1) 
+0x401388;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;JNE	401370 <kernel+0x1c0>;  (1) 
+0x40138a;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:57;JMP	4012e0 <kernel+0x130>;(2) 
+0x40138f;:0;NOP;

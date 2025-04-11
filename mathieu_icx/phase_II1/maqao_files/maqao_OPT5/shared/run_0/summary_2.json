@@ -1,0 +1,232 @@
+{
+  "report": [
+    {
+      "id_str": "Loop 4 - measure",
+      "module": "measure",
+      "id": 4,
+      "analysis": "Execution Time: 91 % - Vectorization Ratio: 33.33 % - Vector Length Use: 15.49 %",
+      "coverage": 91.154769897461,
+      "issues": [
+        {
+          "id_str": "Loop Computation Issues",
+          "score": 6,
+          "issues": [
+            {
+              "code": "L2_LC_4",
+              "analysis": "[SA] Less than 10% of the FP ADD/SUB/MUL arithmetic operations are performed using FMA - Reorganize arithmetic expressions to exhibit potential for FMA. This issue costs 4 points.",
+              "score": 4,
+            },
+            {
+              "code": "L2_LC_6",
+              "analysis": "[SA] Presence of a large number of scalar integer instructions - Simplify loop structure, perform loop splitting or perform unroll and jam. This issue costs 2 points.",
+              "score": 2,
+            }
+          ]
+        },
+        {
+          "id_str": "Control Flow Issues",
+          "score": 33,
+          "issues": [
+            {
+              "code": "L2_CF_3",
+              "analysis": "[SA] Too many paths (27 paths) - Simplify control structure. There are 27 issues ( = paths) costing 1 point each with a malus of 4 points.",
+              "score": 31,
+            },
+            {
+              "code": "L2_CF_4",
+              "analysis": "[SA] Non innermost loop (Outermost) - Collapse loop with innermost ones. This issue costs 2 points.",
+              "score": 2,
+            }
+          ]
+        },
+        {
+          "id_str": "Data Access Issues",
+          "score": 7,
+          "issues": [
+            {
+              "code": "L2_DA_3",
+              "analysis": "[SA] Inefficient vectorization: more than 10% of the vector loads instructions are unaligned - When allocating arrays, don’t forget to align them. There are 0 issues ( = arrays) costing 2 points each",
+              "score": 0,
+            },
+            {
+              "code": "L2_DA_5",
+              "analysis": "[SA] Presence of special instructions executing on a single port (BLEND/MERGE, SHUFFLE/PERM) - Simplify data access and try to get stride 1 access. There are 5 issues (= instructions) costing 1 point each.",
+              "score": 5,
+            },
+            {
+              "code": "L2_DA_6",
+              "analysis": "[SA] More than 20% of the loads are accessing the stack - Perform loop splitting to decrease pressure on registers. This issue costs 2 points.",
+              "score": 2,
+            }
+          ]
+        },
+        {
+          "id_str": "Vectorization Roadblocks",
+          "score": 33,
+          "issues": [
+            {
+              "code": "L2_CF_3",
+              "analysis": "[SA] Too many paths (27 paths) - Simplify control structure. There are 27 issues ( = paths) costing 1 point each with a malus of 4 points.",
+              "score": 31,
+            },
+            {
+              "code": "L2_CF_4",
+              "analysis": "[SA] Non innermost loop (Outermost) - Collapse loop with innermost ones. This issue costs 2 points.",
+              "score": 2,
+            }
+          ]
+        },
+        {
+          "id_str": "Inefficient Vectorization",
+          "score": 5,
+          "issues": [
+            {
+              "code": "L2_DA_5",
+              "analysis": "[SA] Presence of special instructions executing on a single port (BLEND/MERGE, SHUFFLE/PERM) - Simplify data access and try to get stride 1 access. There are 5 issues (= instructions) costing 1 point each.",
+              "score": 5,
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_str": "Loop 5 - measure",
+      "module": "measure",
+      "id": 5,
+      "analysis": "Execution Time: 3 % - Vectorization Ratio: 100.00 % - Vector Length Use: 22.50 %",
+      "coverage": 3.1941025257111,
+      "issues": [
+        {
+          "id_str": "Loop Computation Issues",
+          "score": 4,
+          "issues": [
+            {
+              "code": "L2_LC_4",
+              "analysis": "[SA] Less than 10% of the FP ADD/SUB/MUL arithmetic operations are performed using FMA - Reorganize arithmetic expressions to exhibit potential for FMA. This issue costs 4 points.",
+              "score": 4,
+            }
+          ]
+        },
+        {
+          "id_str": "Data Access Issues",
+          "score": 0,
+          "issues": [
+            {
+              "code": "L2_DA_3",
+              "analysis": "[SA] Inefficient vectorization: more than 10% of the vector loads instructions are unaligned - When allocating arrays, don’t forget to align them. There are 0 issues ( = arrays) costing 2 points each",
+              "score": 0,
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_str": "Loop 0 - measure",
+      "module": "measure",
+      "id": 0,
+      "analysis": "Execution Time: 0 % - Vectorization Ratio: 11.11 % - Vector Length Use: 8.33 %",
+      "coverage": 0.98280084133148,
+      "issues": [
+        {
+          "id_str": "Loop Computation Issues",
+          "score": 13,
+          "issues": [
+            {
+              "code": "L2_LC_2",
+              "analysis": "[SA] Presence of expensive FP instructions - Perform hoisting, change algorithm, use SVML or proper numerical library or perform value profiling (count the number of distinct input values). There are 1 issues (= instructions) costing 4 points each.",
+              "score": 4,
+            },
+            {
+              "code": "L2_LC_4",
+              "analysis": "[SA] Less than 10% of the FP ADD/SUB/MUL arithmetic operations are performed using FMA - Reorganize arithmetic expressions to exhibit potential for FMA. This issue costs 4 points.",
+              "score": 4,
+            },
+            {
+              "code": "L2_LC_8",
+              "analysis": "[SA] Peel/tail loop, considered having a low iteration count - Perform full unroll. Force compiler to use masked instructions. This issue costs 5 points.",
+              "score": 5,
+            }
+          ]
+        },
+        {
+          "id_str": "Control Flow Issues",
+          "score": 5,
+          "issues": [
+            {
+              "code": "L2_LC_8",
+              "analysis": "[SA] Peel/tail loop, considered having a low iteration count - Perform full unroll. Force compiler to use masked instructions. This issue costs 5 points.",
+              "score": 5,
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_str": "Loop 9 - measure",
+      "module": "measure",
+      "id": 9,
+      "analysis": "Execution Time: 0 % - Vectorization Ratio: 0.00 % - Vector Length Use: 10.42 %",
+      "coverage": 0.73710060119629,
+      "issues": [
+        {
+          "id_str": "Control Flow Issues",
+          "score": 1,
+          "issues": [
+            {
+              "code": "L2_CF_1",
+              "analysis": "[SA] Presence of calls - Inline either by compiler or by hand and use SVML for libm calls. There are 1 issues (= calls) costing 1 point each.",
+              "score": 1,
+            }
+          ]
+        },
+        {
+          "id_str": "Vectorization Roadblocks",
+          "score": 1,
+          "issues": [
+            {
+              "code": "L2_CF_1",
+              "analysis": "[SA] Presence of calls - Inline either by compiler or by hand and use SVML for libm calls. There are 1 issues (= calls) costing 1 point each.",
+              "score": 1,
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_str": "Loop 7 - measure",
+      "module": "measure",
+      "id": 7,
+      "analysis": "Execution Time: 0 % - Vectorization Ratio: 100.00 % - Vector Length Use: 25.00 %",
+      "coverage": 0.49140042066574,
+      "issues": [
+        {
+          "id_str": "Loop Computation Issues",
+          "score": 20,
+          "issues": [
+            {
+              "code": "L2_LC_2",
+              "analysis": "[SA] Presence of expensive FP instructions - Perform hoisting, change algorithm, use SVML or proper numerical library or perform value profiling (count the number of distinct input values). There are 4 issues (= instructions) costing 4 points each.",
+              "score": 16,
+            },
+            {
+              "code": "L2_LC_4",
+              "analysis": "[SA] Less than 10% of the FP ADD/SUB/MUL arithmetic operations are performed using FMA - Reorganize arithmetic expressions to exhibit potential for FMA. This issue costs 4 points.",
+              "score": 4,
+            }
+          ]
+        },
+        {
+          "id_str": "Data Access Issues",
+          "score": 0,
+          "issues": [
+            {
+              "code": "L2_DA_3",
+              "analysis": "[SA] Inefficient vectorization: more than 10% of the vector loads instructions are unaligned - When allocating arrays, don’t forget to align them. There are 0 issues ( = arrays) costing 2 points each",
+              "score": 0,
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c: 113 - 114
+--------------------------------------------------------------------------------
+
+113:         for (int j_remain = (n / 4) * 4; j_remain < n; j_remain++) {
+114:             s += a[i][j_remain] * K;

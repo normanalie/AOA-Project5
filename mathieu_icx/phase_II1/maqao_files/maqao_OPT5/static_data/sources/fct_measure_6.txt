@@ -1,0 +1,29 @@
+/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c: 93 - 118
+--------------------------------------------------------------------------------
+
+93: float kernel(unsigned n, const double a[n][n], const float b[n]) {
+94:     unsigned i, j;
+95:     float s = 0.0, K;
+96: 
+97:     // Pré-calcul de 1 / sqrt(b[i]) pour éviter les divisions
+98:     float inv_sqrt_b[n];
+99:     for (i = 0; i < n; i++) {
+100:         inv_sqrt_b[i] = 1.0f / sqrtf(b[i]); //calcul en float
+101:     }
+102: 
+103:     // Calcul de la somme avec unrolling pour réduire les accès mémoire
+104:     for (int i = 0; i < n; i++) {
+105:         K = inv_sqrt_b[i];
+106:         for (int j = 0; j + 3 < n; j += 4) { // Déroulage de boucle par 4 colonnes
+107:             s += a[i][j] * K
+108:                + a[i][j + 1] * K
+109:                + a[i][j + 2] * K
+110:                + a[i][j + 3] * K;
+111:         }
+112:         // Traitement des colonnes restantes
+113:         for (int j_remain = (n / 4) * 4; j_remain < n; j_remain++) {
+114:             s += a[i][j_remain] * K;
+115:         }
+116:     }    
+117:     return s;
+118: }

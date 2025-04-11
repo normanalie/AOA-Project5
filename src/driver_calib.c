@@ -16,13 +16,13 @@ static void init_array (int n, double a[n][n]) {
 
    for (i=0; i<n; i++)
       for (j=0; j<n; j++)
-         a[i][j] = (double) rand() / RAND_MAX;
+         a[i][j] = (double) rand() / (double)RAND_MAX;
 }
 
 static void init_array_float (int n, float *a) {
    int i;
    for (i = 0; i < n; i++)
-       a[i] = (float) rand() / RAND_MAX;
+       a[i] = (float) rand() / (float)RAND_MAX;
 }
 
 static int cmp_uint64 (const void *a, const void *b) {

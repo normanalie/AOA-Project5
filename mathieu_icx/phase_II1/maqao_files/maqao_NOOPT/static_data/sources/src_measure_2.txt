@@ -1,0 +1,5 @@
+/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c: 166 - 167
+--------------------------------------------------------------------------------
+
+166:         for (i=0; i<n; i++)
+167:             s += a[i][j] / sqrt(b[i]);

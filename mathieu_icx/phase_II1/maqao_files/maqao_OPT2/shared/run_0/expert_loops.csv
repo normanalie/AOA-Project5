@@ -1,0 +1,7 @@
+ID;Module;Source Location;Source Function;Level;Max Time Over Threads (s);Time w.r.t. Wall Time (s);Coverage (% app. time);Speedup if no scalar integer;Speedup if FP arith vectorized;Speedup if fully vectorized;Speedup if FP only;Number of paths;Vectorization Ratio (%);Vectorization Efficiency (%);CQA cycles;CQA cycles if no scalar integer;CQA cycles if FP arith vectorized;CQA cycles if fully vectorized;CQA cycles if FP only
+Loop 1;measure;kernel.c:34-35;kernel;Innermost;0.55499994754791;0.55499988794327;37.883953094482;1.00;3.03;12.44;1.00;1;0.00;9.38;4.00;4.00;1.32;0.32;4.00
+Loop 2;measure;kernel.c:29-29,kernel.c:33-35;kernel;Outermost;0.40499997138977;0.40500000119209;27.645050048828;1.00;3.12;10.57;1.00;3;27.45;13.46;8.00;8.00;2.56;0.76;8.00
+Loop 3;measure;kernel.c:34-35;kernel;Innermost;0.33499997854233;0.33499997854233;22.866891860962;1.00;1.33;5.00;1.00;1;85.71;23.21;4.00;4.00;3.00;0.80;4.00
+Loop 0;measure;kernel.c:29-30;kernel;Single;0.074999995529652;0.074999995529652;5.1194539070129;1.00;4.00;4.00;1.00;1;33.33;12.50;3.00;3.00;0.75;0.75;3.00
+Loop 4;measure;kernel.c:29-30;kernel;Single;0.029999995604157;0.029999995604157;2.0477812290192;1.00;1.00;1.00;1.00;1;100.00;25.00;3.00;3.00;3.00;3.00;3.00
+Loop 6;measure;driver.c:76-77;main;Innermost;0.0099999997764826;0.00999999884516;0.6825937628746;1.00;1.00;16.00;1.25;1;0.00;10.42;1.25;1.25;1.25;0.08;1.00

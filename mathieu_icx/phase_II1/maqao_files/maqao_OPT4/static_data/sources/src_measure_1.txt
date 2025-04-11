@@ -1,0 +1,5 @@
+/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c: 81 - 82
+--------------------------------------------------------------------------------
+
+81:         for (j = 0; j < n; j++) {
+82:             s += (float)a[i][j] * K;

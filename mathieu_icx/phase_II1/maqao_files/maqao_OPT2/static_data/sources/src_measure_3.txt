@@ -1,0 +1,5 @@
+/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c: 34 - 35
+--------------------------------------------------------------------------------
+
+34:         for (j = 0; j < n; j++) {
+35:             s += (float)a[i][j] * sqrtf(inv_b[i]); //je crois qu'il y a deux conversions inutiles a cause du a en double => cast en float 

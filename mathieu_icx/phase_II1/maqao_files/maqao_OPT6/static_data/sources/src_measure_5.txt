@@ -1,0 +1,5 @@
+/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c: 145 - 146
+--------------------------------------------------------------------------------
+
+145:                 for (unsigned j = jj; j < j_max; j++) {
+146:                     s += a[i][j] * K;

@@ -1,0 +1,7 @@
+address;source_location;insn;indent
+0x401800;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:77;MOV	%EBX,%EDI;
+0x401802;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:77;MOV	%R12,%RSI;
+0x401805;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:77;MOV	%R13,%RDX;
+0x401808;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:77;CALL	4011b0 <kernel>;
+0x40180d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:76;DEC	%EBP;
+0x40180f;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/driver.c:76;JNE	401800 <main+0x460>;

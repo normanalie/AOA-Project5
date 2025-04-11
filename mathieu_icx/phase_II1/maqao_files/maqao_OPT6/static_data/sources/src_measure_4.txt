@@ -1,0 +1,7 @@
+/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c: 143 - 146
+--------------------------------------------------------------------------------
+
+143:             for (unsigned i = ii; i < i_max; i++) {
+144:                 float K = inv_sqrt_b[i];
+145:                 for (unsigned j = jj; j < j_max; j++) {
+146:                     s += a[i][j] * K;

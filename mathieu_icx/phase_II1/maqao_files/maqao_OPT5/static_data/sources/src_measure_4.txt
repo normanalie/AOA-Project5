@@ -1,0 +1,14 @@
+/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c: 104 - 114
+--------------------------------------------------------------------------------
+
+104:     for (int i = 0; i < n; i++) {
+105:         K = inv_sqrt_b[i];
+106:         for (int j = 0; j + 3 < n; j += 4) { // Déroulage de boucle par 4 colonnes
+107:             s += a[i][j] * K
+108:                + a[i][j + 1] * K
+109:                + a[i][j + 2] * K
+110:                + a[i][j + 3] * K;
+111:         }
+112:         // Traitement des colonnes restantes
+113:         for (int j_remain = (n / 4) * 4; j_remain < n; j_remain++) {
+114:             s += a[i][j_remain] * K;

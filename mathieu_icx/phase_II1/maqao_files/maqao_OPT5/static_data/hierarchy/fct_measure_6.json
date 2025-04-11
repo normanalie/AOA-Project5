@@ -1,0 +1,144 @@
+{
+  "__fct":
+    {
+      "loops":
+        {
+          "_0":
+            {
+              "src_regions":
+                [
+                  {
+                    "path": "/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c",
+                    "regions":
+                      [
+                        [
+                        99,
+                        100
+                        ]
+                      ]
+                  }
+                ],
+              "src": "kernel.c:99-100"
+            },
+          "_4":
+            {
+              "_6":
+                {
+                  "src_regions":
+                    [
+                      {
+                        "path": "/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c",
+                        "regions":
+                          [
+                            [
+                            106,
+                            110
+                            ]
+                          ]
+                      }
+                    ],
+                  "src": "kernel.c:106-110"
+                },
+              "_5":
+                {
+                  "src_regions":
+                    [
+                      {
+                        "path": "/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c",
+                        "regions":
+                          [
+                            [
+                            113,
+                            114
+                            ]
+                          ]
+                      }
+                    ],
+                  "src": "kernel.c:113-114"
+                },
+              "_3":
+                {
+                  "src_regions":
+                    [
+                      {
+                        "path": "/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c",
+                        "regions":
+                          [
+                            [
+                            113,
+                            114
+                            ]
+                          ]
+                      }
+                    ],
+                  "src": "kernel.c:113-114"
+                },
+              "src_regions":
+                [
+                  {
+                    "path": "/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c",
+                    "regions":
+                      [
+                        [
+                        104,
+                        114
+                        ]
+                      ]
+                  }
+                ],
+              "src": "kernel.c:104-114"
+            },
+          "_1":
+            {
+              "_2":
+                {
+                  "src_regions":
+                    [
+                      {
+                        "path": "/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c",
+                        "regions":
+                          [
+                            [
+                            106,
+                            110
+                            ]
+                          ]
+                      }
+                    ],
+                  "src": "kernel.c:106-110"
+                },
+              "src_regions":
+                [
+                  {
+                    "path": "/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c",
+                    "regions":
+                      [
+                        [
+                        104,
+                        110
+                        ]
+                      ]
+                  }
+                ],
+              "src": "kernel.c:104-110"
+            },
+          "_7":
+            {
+              "src_regions":
+                [
+                  {
+                    "path": "/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c",
+                    "regions":
+                      [
+                        [
+                        99,
+                        100
+                        ]
+                      ]
+                  }
+                ],
+              "src": "kernel.c:99-100"
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+address;source_location;insn;indent
+0x401220;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:12;MOVUPD	(%RSI,%R10,8),%XMM5;
+0x401226;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:12;MULPD	%XMM4,%XMM5;
+0x40122a;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:12;CVTPS2PD	%XMM3,%XMM3;
+0x40122d;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:12;ADDPD	%XMM5,%XMM3;
+0x401231;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:12;CVTPD2PS	%XMM3,%XMM3;
+0x401235;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:11;ADD	$0x2,%R10;
+0x401239;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:11;CMP	%RDI,%R10;
+0x40123c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:11;JB	401220 <kernel+0x70>;

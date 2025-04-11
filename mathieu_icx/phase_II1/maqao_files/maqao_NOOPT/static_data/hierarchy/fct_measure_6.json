@@ -1,0 +1,59 @@
+{
+  "__fct":
+    {
+      "loops":
+        {
+          "_1":
+            {
+              "_0":
+                {
+                  "src_regions":
+                    [
+                      {
+                        "path": "/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c",
+                        "regions":
+                          [
+                            [
+                            166,
+                            167
+                            ]
+                          ]
+                      }
+                    ],
+                  "src": "kernel.c:166-167"
+                },
+              "_2":
+                {
+                  "src_regions":
+                    [
+                      {
+                        "path": "/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c",
+                        "regions":
+                          [
+                            [
+                            166,
+                            167
+                            ]
+                          ]
+                      }
+                    ],
+                  "src": "kernel.c:166-167"
+                },
+              "src_regions":
+                [
+                  {
+                    "path": "/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c",
+                    "regions":
+                      [
+                        [
+                        165,
+                        167
+                        ]
+                      ]
+                  }
+                ],
+              "src": "kernel.c:165-167"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c: 127 - 153
+--------------------------------------------------------------------------------
+
+127: float kernel(unsigned n, const double a[n][n], const float b[n]) {
+128: 
+129:     float s = 0.0f, K;
+130:     float inv_sqrt_b[n];
+131: 
+132:     // Calcul de l'inverse de la racine carrée pour chaque élément du vecteur b
+133:     for (unsigned i = 0; i < n; i++) {
+134:         inv_sqrt_b[i] = 1.0f / sqrtf(b[i]);
+135:     }
+136: 
+137:     // Boucle de tiling sur la matrice
+138:     for (unsigned ii = 0; ii < n; ii += TILE_SIZE) {
+139:         // Calcul de la limite du bloc, pour gérer les blocs partiels
+140:         unsigned i_max = (ii + TILE_SIZE < n) ? (ii + TILE_SIZE) : n;
+141:         for (unsigned jj = 0; jj < n; jj += TILE_SIZE) {
+142:             unsigned j_max = (jj + TILE_SIZE < n) ? (jj + TILE_SIZE) : n;
+143:             for (unsigned i = ii; i < i_max; i++) {
+144:                 float K = inv_sqrt_b[i];
+145:                 for (unsigned j = jj; j < j_max; j++) {
+146:                     s += a[i][j] * K;
+[...]
+153: }

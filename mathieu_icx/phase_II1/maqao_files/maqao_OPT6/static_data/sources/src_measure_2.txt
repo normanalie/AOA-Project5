@@ -1,0 +1,11 @@
+/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c: 133 - 146
+--------------------------------------------------------------------------------
+
+133:     for (unsigned i = 0; i < n; i++) {
+[...]
+141:         for (unsigned jj = 0; jj < n; jj += TILE_SIZE) {
+142:             unsigned j_max = (jj + TILE_SIZE < n) ? (jj + TILE_SIZE) : n;
+143:             for (unsigned i = ii; i < i_max; i++) {
+144:                 float K = inv_sqrt_b[i];
+145:                 for (unsigned j = jj; j < j_max; j++) {
+146:                     s += a[i][j] * K;

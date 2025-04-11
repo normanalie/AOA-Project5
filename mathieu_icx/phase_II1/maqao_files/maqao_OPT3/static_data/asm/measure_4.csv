@@ -1,0 +1,12 @@
+address;source_location;insn;indent
+0x401200;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MOVUPS	(%RDX,%R8,4),%XMM3;
+0x401205;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;RSQRTPS	%XMM3,%XMM4;
+0x401208;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MULPS	%XMM4,%XMM3;
+0x40120b;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MULPS	%XMM4,%XMM3;
+0x40120e;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;ADDPS	%XMM1,%XMM3;
+0x401211;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MULPS	%XMM2,%XMM4;
+0x401214;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MULPS	%XMM3,%XMM4;
+0x401217;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:52;MOVAPS	%XMM4,(%RCX,%R8,4);
+0x40121c;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;ADD	$0x4,%R8;
+0x401220;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;CMP	%RDI,%R8;
+0x401223;/home/mathieu/Downloads/AOA-Project5/mathieu_icx/../src/kernel.c:51;JB	401200 <kernel+0x50>;
