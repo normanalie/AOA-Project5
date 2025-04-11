@@ -1,0 +1,5 @@
+/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/kernel.c: 69 - 70
+--------------------------------------------------------------------------------
+
+69:         for (i=0; i<n; i++)
+70:             s += a[i][j] / sqrt(b[i]);

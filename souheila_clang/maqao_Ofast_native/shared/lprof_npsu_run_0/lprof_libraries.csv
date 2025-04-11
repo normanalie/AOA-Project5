@@ -1,0 +1,6 @@
+name;
+/usr/lib/x86_64-linux-gnu/libm.so.6;
+/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2;
+[vsyscall];
+[vdso];
+/usr/lib/x86_64-linux-gnu/libc.so.6;

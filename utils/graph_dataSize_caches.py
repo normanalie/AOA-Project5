@@ -14,7 +14,7 @@ def extract_n_from_filename(filename):
     return None
 
 # Récupération des valeurs de n depuis les fichiers du dossier measures_O2
-folder = "measures_O2"
+folder = "/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/souheila_clang/measured_values/measures_O2"
 n_values = []
 for filename in os.listdir(folder):
     if filename.endswith(".txt"):
@@ -28,9 +28,9 @@ n_values = sorted(set(n_values))
 data_sizes = [8*(n**2) + 4*n for n in n_values]
 
 # Limites de cache en octets
-l1_limit = 64 * 1024       # 64 KiB
-l2_limit = 512 * 1024      # 512 KiB
-l3_limit = 3 * 1024 * 1024 # 3 MiB
+l1_limit = 192 * 1024       # 192 KiB
+l2_limit = 3 * 1024 * 1024  # 3 MiB
+l3_limit = 16 * 1024 * 1024 # 16 MiB
 
 def intersection_n(cache_size):
     """
@@ -62,9 +62,9 @@ plt.figure(figsize=(10, 6))
 plt.plot(n_values, data_sizes, label=r"$T(n)=8\,n^2+4\,n$", color='blue', marker='o')
 
 # Lignes horizontales pour les limites de cache
-plt.axhline(y=l1_limit, color='red', linestyle='--', label="L1 Cache (64 KiB)")
-plt.axhline(y=l2_limit, color='green', linestyle='--', label="L2 Cache (512 KiB)")
-plt.axhline(y=l3_limit, color='orange', linestyle='--', label="L3 Cache (3 MiB)")
+plt.axhline(y=l1_limit, color='red', linestyle='--', label="L1 Cache (192 KiB)")
+plt.axhline(y=l2_limit, color='green', linestyle='--', label="L2 Cache (3 MiB)")
+plt.axhline(y=l3_limit, color='orange', linestyle='--', label="L3 Cache (16 MiB)")
 
 # Marqueurs aux intersections (valeurs entières qui dépassent)
 plt.scatter([n_intersect_l1], [T_l1], color='red', s=100, zorder=5, label="Intersection L1")
@@ -82,11 +82,11 @@ plt.annotate(f"n = {n_intersect_l3}", (n_intersect_l3, T_l3),
 plt.xlabel("n")
 plt.ylabel("T(n) (octets)")
 plt.title("Taille des données en fonction de n et limites de cache\n"
-          "CPU: Intel(R) Core(TM) i3-4160T @ 3.10GHz\n"
-          "L1: 64 KiB, L2: 512 KiB, L3: 3 MiB")
+          "CPU: AMD Ryzen 5 PRO 5650U with Radeon Graphics\n"
+          "L1: 192 KiB, L2: 3 MiB, L3: 16 MiB")
 plt.legend(loc='best')
 plt.grid(True)
 
 # Enregistrement du graphique en PNG
-plt.savefig("cpu_cache_summary.png", format="png", dpi=300)
+plt.savefig("/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/souheila_clang/cpu_cache_summary.png", format="png", dpi=300)
 plt.show()

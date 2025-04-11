@@ -1,0 +1,86 @@
+/usr/include/stdlib.h: 364 - 364
+--------------------------------------------------------------------------------
+
+364:   return (int) strtol (__nptr, (char **) NULL, 10);
+/home/benabid-guendouzi/Documents/GitHub/AOA-Project5/driver.c: 16 - 103
+--------------------------------------------------------------------------------
+
+16:    for (i=0; i<n; i++)
+17:       for (j=0; j<n; j++)
+18:          a[i][j] = (double) rand() / RAND_MAX;
+19: }
+20: 
+21: static void init_array_float (int n, float *a) {
+22:    int i;
+23:    for (i = 0; i < n; i++)
+24:        a[i] = (float) rand() / RAND_MAX;
+[...]
+35: int main (int argc, char *argv[]) {
+36:    /* check command line arguments */
+37:    if (argc != 4) {
+38:       fprintf (stderr, "Usage: %s <size> <nb warmup repets> <nb measure repets>\n", argv[0]);
+39:       return 1;
+40:    }
+41: 
+42:    /* get command line arguments */
+43:    const unsigned size = atoi (argv[1]); /* problem size */
+44:    const unsigned repw = atoi (argv[2]); /* number of warmup repetitions */
+45:    const unsigned repm = atoi (argv[3]); /* number of repetitions during measurement */
+46: 
+47:    uint64_t tdiff [NB_METAS];
+48: 
+49:    unsigned m;
+50:    for (m=0; m<NB_METAS; m++) {
+51:       printf ("Metarepetition %u/%d: running %u warmup instances and %u measure instances\n", m+1, NB_METAS,
+52:               m == 0 ? repw : 1, repm);
+53: 
+54:       unsigned i;
+55: 
+56:       /* allocate arrays. TODO: adjust for each kernel */
+57:       double (*a)[size] = malloc (size * size * sizeof a[0][0]);
+58:       float (*b) = malloc (size * sizeof(float));
+59:       //float (*c)[size] = malloc (size * size * sizeof c[0][0]);
+60: 
+61:       /* init arrays */
+62:       srand(0);
+63:       init_array (size, a);
+64:       init_array_float (size, b);
+65: 
+66:       /* warmup (repw repetitions in first meta, 1 repet in next metas) */
+67:       if (m == 0) {
+68:          for (i=0; i<repw; i++)
+69:             kernel (size, a, b);
+70:       } else {
+71:          kernel (size, a, b);
+72:       }
+73: 
+74:       /* measure repm repetitions */
+75:       const uint64_t t1 = rdtsc();
+76:       for (i=0; i<repm; i++) {
+77:          kernel (size, a, b);
+78:       }
+79:       const uint64_t t2 = rdtsc();
+80:       tdiff[m] = t2 - t1;
+81: 
+82:       /* free arrays. TODO: adjust for each kernel */
+83:       free (a);
+84:       free (b);
+85:       //free (c);
+86:    }
+87: 
+88:    const uint64_t nb_inner_iters = size * size * repm; // TODO adjust for each kernel
+89:    qsort (tdiff, NB_METAS, sizeof tdiff[0], cmp_uint64);
+90:    printf ("MIN %lu RDTSC-cycles (%.2f per inner-iter)\n",
+91:            tdiff[0], (float) tdiff[0] / nb_inner_iters);
+92:    printf ("MED %lu RDTSC-cycles (%.2f per inner-iter)\n",
+93:            tdiff[m/2], (float) tdiff[m/2] / nb_inner_iters);
+94:    const float stab = (tdiff[m/2] - tdiff[0]) * 100.0f / tdiff[0];
+95:    if (stab >= 10)
+96:       printf ("BAD STABILITY: %.2f %%\n", stab);
+97:    else if (stab >= 5)
+98:       printf ("AVERAGE STABILITY: %.2f %%\n", stab);
+99:    else
+100:       printf ("GOOD STABILITY: %.2f %%\n", stab);
+101: 
+102:    return EXIT_SUCCESS;
+103: }

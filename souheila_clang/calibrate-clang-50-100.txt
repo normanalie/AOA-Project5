@@ -30,402 +30,402 @@ Metarepetition 29/31: running 100 instances
 Metarepetition 30/31: running 100 instances
 Metarepetition 31/31: running 100 instances
 Instance 1/100
-MIN 34178 RDTSC-cycles (13.67 per inner-iter)
-MED 56304 RDTSC-cycles (22.52 per inner-iter)
-BAD STABILITY: 64.74 %
+MIN 34040 RDTSC-cycles (13.62 per inner-iter)
+MED 55936 RDTSC-cycles (22.37 per inner-iter)
+BAD STABILITY: 64.32 %
 Instance 2/100
-MIN 33902 RDTSC-cycles (13.56 per inner-iter)
-MED 55752 RDTSC-cycles (22.30 per inner-iter)
-BAD STABILITY: 64.45 %
-Instance 3/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 55752 RDTSC-cycles (22.30 per inner-iter)
-BAD STABILITY: 64.56 %
-Instance 4/100
-MIN 33902 RDTSC-cycles (13.56 per inner-iter)
-MED 55706 RDTSC-cycles (22.28 per inner-iter)
-BAD STABILITY: 64.31 %
-Instance 5/100
-MIN 33948 RDTSC-cycles (13.58 per inner-iter)
-MED 55821 RDTSC-cycles (22.33 per inner-iter)
-BAD STABILITY: 64.43 %
-Instance 6/100
-MIN 33902 RDTSC-cycles (13.56 per inner-iter)
-MED 55775 RDTSC-cycles (22.31 per inner-iter)
-BAD STABILITY: 64.52 %
-Instance 7/100
-MIN 33948 RDTSC-cycles (13.58 per inner-iter)
-MED 55752 RDTSC-cycles (22.30 per inner-iter)
-BAD STABILITY: 64.23 %
-Instance 8/100
-MIN 33948 RDTSC-cycles (13.58 per inner-iter)
-MED 55752 RDTSC-cycles (22.30 per inner-iter)
-BAD STABILITY: 64.23 %
-Instance 9/100
-MIN 33925 RDTSC-cycles (13.57 per inner-iter)
-MED 55729 RDTSC-cycles (22.29 per inner-iter)
-BAD STABILITY: 64.27 %
-Instance 10/100
-MIN 33833 RDTSC-cycles (13.53 per inner-iter)
-MED 55752 RDTSC-cycles (22.30 per inner-iter)
-BAD STABILITY: 64.79 %
-Instance 11/100
-MIN 33948 RDTSC-cycles (13.58 per inner-iter)
-MED 55775 RDTSC-cycles (22.31 per inner-iter)
-BAD STABILITY: 64.30 %
-Instance 12/100
-MIN 33925 RDTSC-cycles (13.57 per inner-iter)
-MED 55729 RDTSC-cycles (22.29 per inner-iter)
-BAD STABILITY: 64.27 %
-Instance 13/100
-MIN 33925 RDTSC-cycles (13.57 per inner-iter)
-MED 55706 RDTSC-cycles (22.28 per inner-iter)
-BAD STABILITY: 64.20 %
-Instance 14/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 55729 RDTSC-cycles (22.29 per inner-iter)
-BAD STABILITY: 64.49 %
-Instance 15/100
-MIN 33902 RDTSC-cycles (13.56 per inner-iter)
-MED 55798 RDTSC-cycles (22.32 per inner-iter)
-BAD STABILITY: 64.59 %
-Instance 16/100
-MIN 33810 RDTSC-cycles (13.52 per inner-iter)
-MED 55752 RDTSC-cycles (22.30 per inner-iter)
-BAD STABILITY: 64.90 %
-Instance 17/100
-MIN 33948 RDTSC-cycles (13.58 per inner-iter)
-MED 55729 RDTSC-cycles (22.29 per inner-iter)
-BAD STABILITY: 64.16 %
-Instance 18/100
-MIN 33925 RDTSC-cycles (13.57 per inner-iter)
-MED 55752 RDTSC-cycles (22.30 per inner-iter)
-BAD STABILITY: 64.34 %
-Instance 19/100
 MIN 33902 RDTSC-cycles (13.56 per inner-iter)
 MED 55729 RDTSC-cycles (22.29 per inner-iter)
 BAD STABILITY: 64.38 %
-Instance 20/100
-MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+Instance 3/100
+MIN 33971 RDTSC-cycles (13.59 per inner-iter)
 MED 55706 RDTSC-cycles (22.28 per inner-iter)
-BAD STABILITY: 64.31 %
-Instance 21/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
+BAD STABILITY: 63.98 %
+Instance 4/100
+MIN 33994 RDTSC-cycles (13.60 per inner-iter)
 MED 55729 RDTSC-cycles (22.29 per inner-iter)
-BAD STABILITY: 64.49 %
-Instance 22/100
+BAD STABILITY: 63.94 %
+Instance 5/100
+MIN 33948 RDTSC-cycles (13.58 per inner-iter)
+MED 55775 RDTSC-cycles (22.31 per inner-iter)
+BAD STABILITY: 64.30 %
+Instance 6/100
+MIN 33948 RDTSC-cycles (13.58 per inner-iter)
+MED 55729 RDTSC-cycles (22.29 per inner-iter)
+BAD STABILITY: 64.16 %
+Instance 7/100
 MIN 33902 RDTSC-cycles (13.56 per inner-iter)
-MED 55683 RDTSC-cycles (22.27 per inner-iter)
-BAD STABILITY: 64.25 %
-Instance 23/100
+MED 55775 RDTSC-cycles (22.31 per inner-iter)
+BAD STABILITY: 64.52 %
+Instance 8/100
+MIN 33925 RDTSC-cycles (13.57 per inner-iter)
+MED 55798 RDTSC-cycles (22.32 per inner-iter)
+BAD STABILITY: 64.47 %
+Instance 9/100
+MIN 33879 RDTSC-cycles (13.55 per inner-iter)
+MED 55798 RDTSC-cycles (22.32 per inner-iter)
+BAD STABILITY: 64.70 %
+Instance 10/100
+MIN 34017 RDTSC-cycles (13.61 per inner-iter)
+MED 55775 RDTSC-cycles (22.31 per inner-iter)
+BAD STABILITY: 63.96 %
+Instance 11/100
+MIN 33856 RDTSC-cycles (13.54 per inner-iter)
+MED 55775 RDTSC-cycles (22.31 per inner-iter)
+BAD STABILITY: 64.74 %
+Instance 12/100
+MIN 33971 RDTSC-cycles (13.59 per inner-iter)
+MED 55775 RDTSC-cycles (22.31 per inner-iter)
+BAD STABILITY: 64.18 %
+Instance 13/100
+MIN 33971 RDTSC-cycles (13.59 per inner-iter)
+MED 55729 RDTSC-cycles (22.29 per inner-iter)
+BAD STABILITY: 64.05 %
+Instance 14/100
+MIN 33925 RDTSC-cycles (13.57 per inner-iter)
+MED 55752 RDTSC-cycles (22.30 per inner-iter)
+BAD STABILITY: 64.34 %
+Instance 15/100
 MIN 33902 RDTSC-cycles (13.56 per inner-iter)
-MED 55614 RDTSC-cycles (22.25 per inner-iter)
-BAD STABILITY: 64.04 %
-Instance 24/100
+MED 55752 RDTSC-cycles (22.30 per inner-iter)
+BAD STABILITY: 64.45 %
+Instance 16/100
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 55752 RDTSC-cycles (22.30 per inner-iter)
+BAD STABILITY: 64.45 %
+Instance 17/100
+MIN 33879 RDTSC-cycles (13.55 per inner-iter)
+MED 55775 RDTSC-cycles (22.31 per inner-iter)
+BAD STABILITY: 64.63 %
+Instance 18/100
+MIN 33971 RDTSC-cycles (13.59 per inner-iter)
+MED 55775 RDTSC-cycles (22.31 per inner-iter)
+BAD STABILITY: 64.18 %
+Instance 19/100
+MIN 33948 RDTSC-cycles (13.58 per inner-iter)
+MED 55706 RDTSC-cycles (22.28 per inner-iter)
+BAD STABILITY: 64.09 %
+Instance 20/100
 MIN 33925 RDTSC-cycles (13.57 per inner-iter)
 MED 55729 RDTSC-cycles (22.29 per inner-iter)
 BAD STABILITY: 64.27 %
-Instance 25/100
-MIN 33902 RDTSC-cycles (13.56 per inner-iter)
-MED 55683 RDTSC-cycles (22.27 per inner-iter)
-BAD STABILITY: 64.25 %
-Instance 26/100
+Instance 21/100
 MIN 33925 RDTSC-cycles (13.57 per inner-iter)
-MED 46253 RDTSC-cycles (18.50 per inner-iter)
-BAD STABILITY: 36.34 %
+MED 55752 RDTSC-cycles (22.30 per inner-iter)
+BAD STABILITY: 64.34 %
+Instance 22/100
+MIN 33948 RDTSC-cycles (13.58 per inner-iter)
+MED 55752 RDTSC-cycles (22.30 per inner-iter)
+BAD STABILITY: 64.23 %
+Instance 23/100
+MIN 33971 RDTSC-cycles (13.59 per inner-iter)
+MED 55775 RDTSC-cycles (22.31 per inner-iter)
+BAD STABILITY: 64.18 %
+Instance 24/100
+MIN 33925 RDTSC-cycles (13.57 per inner-iter)
+MED 55775 RDTSC-cycles (22.31 per inner-iter)
+BAD STABILITY: 64.41 %
+Instance 25/100
+MIN 33879 RDTSC-cycles (13.55 per inner-iter)
+MED 55729 RDTSC-cycles (22.29 per inner-iter)
+BAD STABILITY: 64.49 %
+Instance 26/100
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 49312 RDTSC-cycles (19.72 per inner-iter)
+BAD STABILITY: 45.45 %
 Instance 27/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 42504 RDTSC-cycles (17.00 per inner-iter)
-BAD STABILITY: 25.46 %
+MIN 33971 RDTSC-cycles (13.59 per inner-iter)
+MED 44873 RDTSC-cycles (17.95 per inner-iter)
+BAD STABILITY: 32.09 %
 Instance 28/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 42504 RDTSC-cycles (17.00 per inner-iter)
-BAD STABILITY: 25.46 %
+MIN 33925 RDTSC-cycles (13.57 per inner-iter)
+MED 42757 RDTSC-cycles (17.10 per inner-iter)
+BAD STABILITY: 26.03 %
 Instance 29/100
-MIN 33833 RDTSC-cycles (13.53 per inner-iter)
+MIN 33925 RDTSC-cycles (13.57 per inner-iter)
 MED 42573 RDTSC-cycles (17.03 per inner-iter)
-BAD STABILITY: 25.83 %
+BAD STABILITY: 25.49 %
 Instance 30/100
 MIN 33902 RDTSC-cycles (13.56 per inner-iter)
-MED 42458 RDTSC-cycles (16.98 per inner-iter)
-BAD STABILITY: 25.24 %
+MED 42642 RDTSC-cycles (17.06 per inner-iter)
+BAD STABILITY: 25.78 %
 Instance 31/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 41860 RDTSC-cycles (16.74 per inner-iter)
-BAD STABILITY: 23.64 %
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 42504 RDTSC-cycles (17.00 per inner-iter)
+BAD STABILITY: 25.37 %
 Instance 32/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 34293 RDTSC-cycles (13.72 per inner-iter)
-GOOD STABILITY: 1.22 %
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 42504 RDTSC-cycles (17.00 per inner-iter)
+BAD STABILITY: 25.37 %
 Instance 33/100
 MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 34017 RDTSC-cycles (13.61 per inner-iter)
-GOOD STABILITY: 0.41 %
+MED 42504 RDTSC-cycles (17.00 per inner-iter)
+BAD STABILITY: 25.46 %
 Instance 34/100
-MIN 33833 RDTSC-cycles (13.53 per inner-iter)
-MED 34132 RDTSC-cycles (13.65 per inner-iter)
-GOOD STABILITY: 0.88 %
+MIN 33925 RDTSC-cycles (13.57 per inner-iter)
+MED 42573 RDTSC-cycles (17.03 per inner-iter)
+BAD STABILITY: 25.49 %
 Instance 35/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
-GOOD STABILITY: 0.34 %
+MIN 33925 RDTSC-cycles (13.57 per inner-iter)
+MED 42458 RDTSC-cycles (16.98 per inner-iter)
+BAD STABILITY: 25.15 %
 Instance 36/100
-MIN 33902 RDTSC-cycles (13.56 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
-GOOD STABILITY: 0.27 %
+MIN 33971 RDTSC-cycles (13.59 per inner-iter)
+MED 42366 RDTSC-cycles (16.95 per inner-iter)
+BAD STABILITY: 24.71 %
 Instance 37/100
 MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 34063 RDTSC-cycles (13.63 per inner-iter)
-GOOD STABILITY: 0.54 %
+MED 42435 RDTSC-cycles (16.97 per inner-iter)
+BAD STABILITY: 25.25 %
 Instance 38/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
-GOOD STABILITY: 0.41 %
+MIN 33879 RDTSC-cycles (13.55 per inner-iter)
+MED 42366 RDTSC-cycles (16.95 per inner-iter)
+BAD STABILITY: 25.05 %
 Instance 39/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.34 %
+MIN 33925 RDTSC-cycles (13.57 per inner-iter)
+MED 36754 RDTSC-cycles (14.70 per inner-iter)
+AVERAGE STABILITY: 8.34 %
 Instance 40/100
+MIN 33833 RDTSC-cycles (13.53 per inner-iter)
+MED 37444 RDTSC-cycles (14.98 per inner-iter)
+BAD STABILITY: 10.67 %
+Instance 41/100
+MIN 33925 RDTSC-cycles (13.57 per inner-iter)
+MED 36823 RDTSC-cycles (14.73 per inner-iter)
+AVERAGE STABILITY: 8.54 %
+Instance 42/100
+MIN 33879 RDTSC-cycles (13.55 per inner-iter)
+MED 36363 RDTSC-cycles (14.55 per inner-iter)
+AVERAGE STABILITY: 7.33 %
+Instance 43/100
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 36294 RDTSC-cycles (14.52 per inner-iter)
+AVERAGE STABILITY: 7.06 %
+Instance 44/100
+MIN 33879 RDTSC-cycles (13.55 per inner-iter)
+MED 36685 RDTSC-cycles (14.67 per inner-iter)
+AVERAGE STABILITY: 8.28 %
+Instance 45/100
+MIN 33925 RDTSC-cycles (13.57 per inner-iter)
+MED 36133 RDTSC-cycles (14.45 per inner-iter)
+AVERAGE STABILITY: 6.51 %
+Instance 46/100
+MIN 33879 RDTSC-cycles (13.55 per inner-iter)
+MED 34569 RDTSC-cycles (13.83 per inner-iter)
+GOOD STABILITY: 2.04 %
+Instance 47/100
+MIN 33925 RDTSC-cycles (13.57 per inner-iter)
+MED 34224 RDTSC-cycles (13.69 per inner-iter)
+GOOD STABILITY: 0.88 %
+Instance 48/100
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 34132 RDTSC-cycles (13.65 per inner-iter)
+GOOD STABILITY: 0.68 %
+Instance 49/100
 MIN 33879 RDTSC-cycles (13.55 per inner-iter)
 MED 34017 RDTSC-cycles (13.61 per inner-iter)
 GOOD STABILITY: 0.41 %
-Instance 41/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
-GOOD STABILITY: 0.34 %
-Instance 42/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
-GOOD STABILITY: 0.41 %
-Instance 43/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
-GOOD STABILITY: 0.34 %
-Instance 44/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
-GOOD STABILITY: 0.41 %
-Instance 45/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
-GOOD STABILITY: 0.41 %
-Instance 46/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
-GOOD STABILITY: 0.34 %
-Instance 47/100
-MIN 33902 RDTSC-cycles (13.56 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.20 %
-Instance 48/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
-GOOD STABILITY: 0.41 %
-Instance 49/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33948 RDTSC-cycles (13.58 per inner-iter)
-GOOD STABILITY: 0.20 %
 Instance 50/100
 MIN 33902 RDTSC-cycles (13.56 per inner-iter)
 MED 33994 RDTSC-cycles (13.60 per inner-iter)
 GOOD STABILITY: 0.27 %
 Instance 51/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
-GOOD STABILITY: 0.41 %
-Instance 52/100
 MIN 33902 RDTSC-cycles (13.56 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.20 %
+MED 34086 RDTSC-cycles (13.63 per inner-iter)
+GOOD STABILITY: 0.54 %
+Instance 52/100
+MIN 33925 RDTSC-cycles (13.57 per inner-iter)
+MED 34063 RDTSC-cycles (13.63 per inner-iter)
+GOOD STABILITY: 0.41 %
 Instance 53/100
 MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.27 %
-Instance 54/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
 MED 33994 RDTSC-cycles (13.60 per inner-iter)
+GOOD STABILITY: 0.34 %
+Instance 54/100
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 34040 RDTSC-cycles (13.62 per inner-iter)
 GOOD STABILITY: 0.41 %
 Instance 55/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 33994 RDTSC-cycles (13.60 per inner-iter)
 GOOD STABILITY: 0.27 %
 Instance 56/100
 MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33948 RDTSC-cycles (13.58 per inner-iter)
-GOOD STABILITY: 0.20 %
+MED 34017 RDTSC-cycles (13.61 per inner-iter)
+GOOD STABILITY: 0.41 %
 Instance 57/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
+MIN 33925 RDTSC-cycles (13.57 per inner-iter)
+MED 34040 RDTSC-cycles (13.62 per inner-iter)
 GOOD STABILITY: 0.34 %
 Instance 58/100
 MIN 33902 RDTSC-cycles (13.56 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
-GOOD STABILITY: 0.27 %
+MED 34017 RDTSC-cycles (13.61 per inner-iter)
+GOOD STABILITY: 0.34 %
 Instance 59/100
-MIN 33810 RDTSC-cycles (13.52 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.48 %
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 34017 RDTSC-cycles (13.61 per inner-iter)
+GOOD STABILITY: 0.34 %
 Instance 60/100
 MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.34 %
+MED 34017 RDTSC-cycles (13.61 per inner-iter)
+GOOD STABILITY: 0.48 %
 Instance 61/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 33994 RDTSC-cycles (13.60 per inner-iter)
 GOOD STABILITY: 0.27 %
 Instance 62/100
 MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33948 RDTSC-cycles (13.58 per inner-iter)
-GOOD STABILITY: 0.27 %
-Instance 63/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
 MED 33994 RDTSC-cycles (13.60 per inner-iter)
+GOOD STABILITY: 0.41 %
+Instance 63/100
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 34017 RDTSC-cycles (13.61 per inner-iter)
 GOOD STABILITY: 0.34 %
 Instance 64/100
-MIN 33833 RDTSC-cycles (13.53 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
+MIN 33879 RDTSC-cycles (13.55 per inner-iter)
+MED 34017 RDTSC-cycles (13.61 per inner-iter)
 GOOD STABILITY: 0.41 %
 Instance 65/100
 MIN 33879 RDTSC-cycles (13.55 per inner-iter)
 MED 33971 RDTSC-cycles (13.59 per inner-iter)
 GOOD STABILITY: 0.27 %
 Instance 66/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
-GOOD STABILITY: 0.41 %
-Instance 67/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33948 RDTSC-cycles (13.58 per inner-iter)
-GOOD STABILITY: 0.27 %
-Instance 68/100
 MIN 33879 RDTSC-cycles (13.55 per inner-iter)
 MED 33971 RDTSC-cycles (13.59 per inner-iter)
+GOOD STABILITY: 0.27 %
+Instance 67/100
+MIN 33879 RDTSC-cycles (13.55 per inner-iter)
+MED 33994 RDTSC-cycles (13.60 per inner-iter)
+GOOD STABILITY: 0.34 %
+Instance 68/100
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 33994 RDTSC-cycles (13.60 per inner-iter)
 GOOD STABILITY: 0.27 %
 Instance 69/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.27 %
+MIN 33856 RDTSC-cycles (13.54 per inner-iter)
+MED 34017 RDTSC-cycles (13.61 per inner-iter)
+GOOD STABILITY: 0.48 %
 Instance 70/100
-MIN 33902 RDTSC-cycles (13.56 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.20 %
-Instance 71/100
 MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
+MED 34017 RDTSC-cycles (13.61 per inner-iter)
+GOOD STABILITY: 0.41 %
+Instance 71/100
+MIN 33856 RDTSC-cycles (13.54 per inner-iter)
+MED 33971 RDTSC-cycles (13.59 per inner-iter)
 GOOD STABILITY: 0.34 %
 Instance 72/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33948 RDTSC-cycles (13.58 per inner-iter)
-GOOD STABILITY: 0.20 %
-Instance 73/100
 MIN 33902 RDTSC-cycles (13.56 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.20 %
-Instance 74/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33948 RDTSC-cycles (13.58 per inner-iter)
+MED 33994 RDTSC-cycles (13.60 per inner-iter)
 GOOD STABILITY: 0.27 %
-Instance 75/100
+Instance 73/100
 MIN 33856 RDTSC-cycles (13.54 per inner-iter)
 MED 33971 RDTSC-cycles (13.59 per inner-iter)
 GOOD STABILITY: 0.34 %
-Instance 76/100
+Instance 74/100
 MIN 33879 RDTSC-cycles (13.55 per inner-iter)
 MED 33994 RDTSC-cycles (13.60 per inner-iter)
 GOOD STABILITY: 0.34 %
+Instance 75/100
+MIN 33856 RDTSC-cycles (13.54 per inner-iter)
+MED 34017 RDTSC-cycles (13.61 per inner-iter)
+GOOD STABILITY: 0.48 %
+Instance 76/100
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 33994 RDTSC-cycles (13.60 per inner-iter)
+GOOD STABILITY: 0.27 %
 Instance 77/100
 MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.27 %
+MED 33994 RDTSC-cycles (13.60 per inner-iter)
+GOOD STABILITY: 0.34 %
 Instance 78/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.27 %
-Instance 79/100
 MIN 33856 RDTSC-cycles (13.54 per inner-iter)
 MED 33971 RDTSC-cycles (13.59 per inner-iter)
 GOOD STABILITY: 0.34 %
-Instance 80/100
-MIN 33810 RDTSC-cycles (13.52 per inner-iter)
+Instance 79/100
+MIN 33879 RDTSC-cycles (13.55 per inner-iter)
 MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.48 %
+GOOD STABILITY: 0.27 %
+Instance 80/100
+MIN 33856 RDTSC-cycles (13.54 per inner-iter)
+MED 34040 RDTSC-cycles (13.62 per inner-iter)
+GOOD STABILITY: 0.54 %
 Instance 81/100
 MIN 33833 RDTSC-cycles (13.53 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.41 %
+MED 33994 RDTSC-cycles (13.60 per inner-iter)
+GOOD STABILITY: 0.48 %
 Instance 82/100
 MIN 33925 RDTSC-cycles (13.57 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.14 %
+MED 34017 RDTSC-cycles (13.61 per inner-iter)
+GOOD STABILITY: 0.27 %
 Instance 83/100
-MIN 33902 RDTSC-cycles (13.56 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.20 %
+MIN 33879 RDTSC-cycles (13.55 per inner-iter)
+MED 33994 RDTSC-cycles (13.60 per inner-iter)
+GOOD STABILITY: 0.34 %
 Instance 84/100
 MIN 33879 RDTSC-cycles (13.55 per inner-iter)
 MED 33971 RDTSC-cycles (13.59 per inner-iter)
 GOOD STABILITY: 0.27 %
 Instance 85/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33948 RDTSC-cycles (13.58 per inner-iter)
-GOOD STABILITY: 0.27 %
-Instance 86/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.27 %
-Instance 87/100
 MIN 33833 RDTSC-cycles (13.53 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
-GOOD STABILITY: 0.48 %
-Instance 88/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
 MED 33971 RDTSC-cycles (13.59 per inner-iter)
+GOOD STABILITY: 0.41 %
+Instance 86/100
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 34017 RDTSC-cycles (13.61 per inner-iter)
 GOOD STABILITY: 0.34 %
-Instance 89/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33948 RDTSC-cycles (13.58 per inner-iter)
+Instance 87/100
+MIN 33810 RDTSC-cycles (13.52 per inner-iter)
+MED 34017 RDTSC-cycles (13.61 per inner-iter)
+GOOD STABILITY: 0.61 %
+Instance 88/100
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 33994 RDTSC-cycles (13.60 per inner-iter)
 GOOD STABILITY: 0.27 %
+Instance 89/100
+MIN 33879 RDTSC-cycles (13.55 per inner-iter)
+MED 33994 RDTSC-cycles (13.60 per inner-iter)
+GOOD STABILITY: 0.34 %
 Instance 90/100
 MIN 33902 RDTSC-cycles (13.56 per inner-iter)
 MED 33994 RDTSC-cycles (13.60 per inner-iter)
 GOOD STABILITY: 0.27 %
 Instance 91/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.34 %
-Instance 92/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.34 %
-Instance 93/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
-GOOD STABILITY: 0.41 %
-Instance 94/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
-GOOD STABILITY: 0.34 %
-Instance 95/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.34 %
-Instance 96/100
-MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
-GOOD STABILITY: 0.34 %
-Instance 97/100
-MIN 33833 RDTSC-cycles (13.53 per inner-iter)
-MED 33971 RDTSC-cycles (13.59 per inner-iter)
-GOOD STABILITY: 0.41 %
-Instance 98/100
 MIN 33879 RDTSC-cycles (13.55 per inner-iter)
 MED 33971 RDTSC-cycles (13.59 per inner-iter)
 GOOD STABILITY: 0.27 %
-Instance 99/100
-MIN 33856 RDTSC-cycles (13.54 per inner-iter)
-MED 33994 RDTSC-cycles (13.60 per inner-iter)
+Instance 92/100
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 34040 RDTSC-cycles (13.62 per inner-iter)
 GOOD STABILITY: 0.41 %
+Instance 93/100
+MIN 33925 RDTSC-cycles (13.57 per inner-iter)
+MED 33994 RDTSC-cycles (13.60 per inner-iter)
+GOOD STABILITY: 0.20 %
+Instance 94/100
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 33994 RDTSC-cycles (13.60 per inner-iter)
+GOOD STABILITY: 0.27 %
+Instance 95/100
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 33994 RDTSC-cycles (13.60 per inner-iter)
+GOOD STABILITY: 0.27 %
+Instance 96/100
+MIN 33879 RDTSC-cycles (13.55 per inner-iter)
+MED 33971 RDTSC-cycles (13.59 per inner-iter)
+GOOD STABILITY: 0.27 %
+Instance 97/100
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 33994 RDTSC-cycles (13.60 per inner-iter)
+GOOD STABILITY: 0.27 %
+Instance 98/100
+MIN 33879 RDTSC-cycles (13.55 per inner-iter)
+MED 33994 RDTSC-cycles (13.60 per inner-iter)
+GOOD STABILITY: 0.34 %
+Instance 99/100
+MIN 33902 RDTSC-cycles (13.56 per inner-iter)
+MED 34017 RDTSC-cycles (13.61 per inner-iter)
+GOOD STABILITY: 0.34 %
 Instance 100/100
 MIN 33879 RDTSC-cycles (13.55 per inner-iter)
-MED 33948 RDTSC-cycles (13.58 per inner-iter)
-GOOD STABILITY: 0.20 %
+MED 33994 RDTSC-cycles (13.60 per inner-iter)
+GOOD STABILITY: 0.34 %
